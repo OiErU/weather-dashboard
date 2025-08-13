@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Weather Dashboard</title>
+
+    <!-- PWA: manifest + iOS install meta + icon -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" href="/icons/ios-192.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: white;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 40px; animation: fadeInDown 1s ease-out; }
+        .header h1 { font-size: 3rem; font-weight: 300; margin-bottom: 10px; text-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        .header p { font-size: 1.2rem; opacity: 0.9; }
+        .stations-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 30px; }
+        .station-card {
+            background: #ffffff; border-radius: 0; padding: 20px 20px 60px 20px; border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInUp 1s ease-out; width: 320px; transform: rotate(-2deg); position: relative;
+        }
+        .station-card:nth-child(even) { transform: rotate(2deg); }
+        .station-card:hover { transform: rotate(0deg) scale(1.05); box-shadow: 0 20px 40px rgba(0,0,0,0.4); z-index: 10; }
+        .polaroid-image { width: 100%; height: 200px; background-size: cover; background-position: center; background-repeat: no-repeat; margin-bottom: 15px; border-radius: 2px; }
+        .station-title { color: #333; font-size: 1.2rem; font-weight: 600; margin-bottom: 5px; text-align: center; font-family: 'Courier New', monospace; }
+        .station-id-polaroid { color: #666; font-size: 0.8rem; text-align: center; margin-bottom: 15px; font-family: 'Courier New', monospace; }
+        .quick-stats { display: flex; justify-content: space-around; margin-bottom: 15px; }
+        .quick-stat { text-align: center; color: #333; }
+        .quick-stat-value { font-size: 1.4rem; font-weight: bold; color: #2c3e50; }
+        .quick-stat-label { font-size: 0.7rem; color: #666; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+        .more-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 20px;
+            padding: 8px 16px; font-size: 0.8rem; cursor: pointer; transition: all 0.3s ease; display: block; margin: 0 auto; font-weight: 500;
+        }
+        .more-button:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4); }
+        .detailed-stats { display: none; margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; }
+        .detailed-stats.show { display: block; }
+        .detailed-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .detailed-item { text-align: center; padding: 8px; background: #f8f9fa; border-radius: 8px; }
+        .detailed-value { font-size: 0.9rem; font-weight: bold; color: #2c3e50; margin-bottom: 2px; }
+        .detailed-label { font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.3px; }
+        .surf-cam-container { grid-column: 1 / -1; margin-top: 10px; }
+        .surf-cam-image { width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-height: 150px; object-fit: cover; }
+        .surf-cam-label { text-align: center; font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.3px; margin-bottom: 5px; }
+        .surf-cam-timestamp { text-align: center; font-size: 0.6rem; color: #999; margin-top: 5px; }
+        .polaroid-caption { position: absolute; bottom: 10px; left: 20px; right: 20px; text-align: center; color: #666; font-size: 0.9rem; font-family: 'Courier New', monospace; }
+        .loading { text-align: center; font-size: 1.2rem; padding: 40px; opacity: 0.8; }
+        .error { background: rgba(255, 99, 99, 0.2); border: 1px solid rgba(255, 99, 99, 0.3); color: #ffcccc; padding: 20px; border-radius: 15px; margin: 20px 0; text-align: center; }
+        .refresh-btn { position: fixed; bottom: 30px; right: 30px; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3); color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease; font-size: 20px; }
+        .refresh-btn:hover { background: rgba(255, 255, 255, 0.3); transform: rotate(180deg); }
+        .last-updated { text-align: center; opacity: 0.7; font-size: 0.9rem; margin-top: 20px; }
+        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .spinning { animation: spin 1s linear infinite; }
+        @media (max-width: 768px) {
+            .stations-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 2rem; }
+            .weather-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+
+        <div class="stations-grid" id="stationsGrid">
+            <div class="loading">Loading weather data...</div>
+        </div>
+
+        <div class="last-updated" id="lastUpdated"></div>
+    </div>
+
+    <button class="refresh-btn" id="refreshBtn" onclick="loadWeatherData()">🔄</button>
+
+    <script>
+        // Register service worker for PWA (UI shell only; API remains live)
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        }
+
+        const stations = [
+            { id: 'IVAU4',   name: 'MASTRO 48', location: 'Vau, Portugal',      image: 'https://www.passarokite.com/wp-content/uploads/2024/06/Spot-ok-1.jpg' },
+            { id: 'IFERRE12',name: 'LAGIDE',    location: 'Ferrel, Portugal',   image: 'https://i.ytimg.com/vi/S_1JdcZ-N6A/maxresdefault.jpg', surfCam: 'https://camstills.cdn-surfline.com/eu-west-1/pt-lagide/latest_small.jpg' },
+            { id: 'ICOURT97',name: 'COW ROCK',  location: 'West Cork, Ireland', image: 'https://i.ibb.co/xtj3LphS/house01.jpg' }
+        ];
+
+        async function fetchAllStationsData() {
+            try {
+                const response = await fetch('/api/weather-all');
+                const result = await response.json();
+                if (result.success) return result.results;
+                throw new Error(result.error);
+            } catch (error) {
+                console.error('❌ Error fetching all stations data:', error);
+                return null;
+            }
+        }
+
+        function formatValue(value, unit = '') {
+            if (value === null || value === undefined) return 'N/A';
+            if (typeof value === 'number') return Math.round(value * 10) / 10 + unit;
+            return value + unit;
+        }
+
+        function getWindDirection(degrees) {
+            if (degrees === null || degrees === undefined) return 'N/A';
+            const dirs = [
+                { n: 'N',   min: 348.75, max: 360 }, { n: 'N',   min: 0,     max: 11.25 },
+                { n: 'NNE', min: 11.25,  max: 33.75 }, { n: 'NE',  min: 33.75,  max: 56.25 },
+                { n: 'ENE', min: 56.25,  max: 78.75 }, { n: 'E',   min: 78.75,  max: 101.25 },
+                { n: 'ESE', min: 101.25, max: 123.75 },{ n: 'SE',  min: 123.75, max: 146.25 },
+                { n: 'SSE', min: 146.25, max: 168.75 },{ n: 'S',   min: 168.75, max: 191.25 },
+                { n: 'SSW', min: 191.25, max: 213.75 },{ n: 'SW',  min: 213.75, max: 236.25 },
+                { n: 'WSW', min: 236.25, max: 258.75 },{ n: 'W',   min: 258.75, max: 281.25 },
+                { n: 'WNW', min: 281.25, max: 303.75 },{ n: 'NW',  min: 303.75, max: 326.25 },
+                { n: 'NNW', min: 326.25, max: 348.75 }
+            ];
+            for (let d of dirs) if (degrees >= d.min && degrees < d.max) return `${d.n} (${degrees}°)`;
+            return `${degrees}°`;
+        }
+
+        function getPressureStatus(p) {
+            if (p === null || p === undefined) return '';
+            if (p > 1020) return '📈 High';
+            if (p < 1000) return '📉 Low';
+            return '➡️ Normal';
+        }
+
+        function getDewPointStatus(dp) {
+            if (dp === null || dp === undefined) return '';
+            if (dp < 10) return '🌵 Dry';
+            if (dp < 16) return '😊 Pleasant';
+            if (dp < 20) return '😓 Muggy';
+            return '🥵 Very Humid';
+        }
+
+        function createStationCard(station, data) {
+            if (!data) {
+                return `
+                    <div class="station-card">
+                        <div class="polaroid-image" style="background-image: url('${station.image}'); opacity: 0.5;"></div>
+                        <div class="station-title">${station.name}</div>
+                        <div class="station-id-polaroid">${station.location}</div>
+                        <div class="error">Unable to load weather data</div>
+                        <div class="polaroid-caption">Weather data unavailable</div>
+                    </div>
+                `;
+            }
+
+            const metric = data.metric || {};
+            const cardId = `card-${station.id}`;
+            let quickStatsHtml = '';
+            let detailedStatsHtml = '';
+
+            if (station.id === 'IVAU4') {
+                quickStatsHtml = `
+                    <div class="quick-stats">
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(metric.temp, '°')}</div><div class="quick-stat-label">Temperature</div></div>
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(data.humidity, '%')}</div><div class="quick-stat-label">Humidity</div></div>
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(data.uv, '')}</div><div class="quick-stat-label">UV Index</div></div>
+                    </div>`;
+                detailedStatsHtml = `
+                    <div class="detailed-grid">
+                        <div class="detailed-item"><div class="detailed-value">${getWindDirection(data.winddir)}</div><div class="detailed-label">Wind Direction</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.pressure, ' mb')}</div><div class="detailed-label">Pressure ${getPressureStatus(metric.pressure)}</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.dewpt, '°C')}</div><div class="detailed-label">Dew Point ${getDewPointStatus(metric.dewpt)}</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.precipRate, ' mm/h')}</div><div class="detailed-label">Rain Rate</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.precipTotal, ' mm')}</div><div class="detailed-label">Rain Total</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.windSpeed, ' km/h')}</div><div class="detailed-label">Wind Speed</div></div>
+                    </div>`;
+            } else if (station.id === 'IFERRE12') {
+                quickStatsHtml = `
+                    <div class="quick-stats">
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(metric.temp, '°')}</div><div class="quick-stat-label">Temperature</div></div>
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(data.humidity, '%')}</div><div class="quick-stat-label">Humidity</div></div>
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(metric.windSpeed, '')}</div><div class="quick-stat-label">Wind km/h</div></div>
+                    </div>`;
+                detailedStatsHtml = `
+                    <div class="detailed-grid">
+                        <div class="detailed-item"><div class="detailed-value">${getWindDirection(data.winddir)}</div><div class="detailed-label">Wind Direction</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.pressure, ' mb')}</div><div class="detailed-label">Pressure ${getPressureStatus(metric.pressure)}</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.dewpt, '°C')}</div><div class="detailed-label">Dew Point ${getDewPointStatus(metric.dewpt)}</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.precipRate, ' mm/h')}</div><div class="detailed-label">Rain Rate</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.precipTotal, ' mm')}</div><div class="detailed-label">Rain Total</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(data.uv, '')}</div><div class="detailed-label">UV Index</div></div>
+                        ${station.surfCam ? `
+                        <div class="detailed-item surf-cam-container">
+                            <div class="surf-cam-label">🌊 Live Surf Conditions</div>
+                            <img src="${station.surfCam}?t=${Date.now()}" alt="Live surf cam" class="surf-cam-image" onerror="this.style.display='none'">
+                            <div class="surf-cam-timestamp">Updated: ${new Date().toLocaleTimeString()}</div>
+                        </div>` : ''}
+                    </div>`;
+            } else if (station.id === 'ICOURT97') {
+                quickStatsHtml = `
+                    <div class="quick-stats">
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(metric.temp, '°')}</div><div class="quick-stat-label">Temperature</div></div>
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(metric.windSpeed, '')}</div><div class="quick-stat-label">Wind km/h</div></div>
+                        <div class="quick-stat"><div class="quick-stat-value">${formatValue(metric.precipTotal, ' mm')}</div><div class="quick-stat-label">Rain Total</div></div>
+                    </div>`;
+                detailedStatsHtml = `
+                    <div class="detailed-grid">
+                        <div class="detailed-item"><div class="detailed-value">${getWindDirection(data.winddir)}</div><div class="detailed-label">Wind Direction</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(data.humidity, '%')}</div><div class="detailed-label">Humidity</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.pressure, ' mb')}</div><div class="detailed-label">Pressure ${getPressureStatus(metric.pressure)}</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.dewpt, '°C')}</div><div class="detailed-label">Dew Point ${getDewPointStatus(metric.dewpt)}</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(metric.precipRate, ' mm/h')}</div><div class="detailed-label">Rain Rate</div></div>
+                        <div class="detailed-item"><div class="detailed-value">${formatValue(data.uv, '')}</div><div class="detailed-label">UV Index</div></div>
+                    </div>`;
+            }
+
+            return `
+                <div class="station-card" id="${cardId}">
+                    <div class="polaroid-image" style="background-image: url('${station.image}');"></div>
+                    <div class="station-title">${station.name}</div>
+                    <div class="station-id-polaroid">${station.location}</div>
+                    ${quickStatsHtml}
+                    <button class="more-button" onclick="toggleDetails('${cardId}')">More Details</button>
+                    <div class="detailed-stats" id="details-${cardId}">
+                        ${detailedStatsHtml}
+                    </div>
+                    <div class="polaroid-caption">${new Date(data.obsTimeLocal).toLocaleString()}</div>
+                </div>
+            `;
+        }
+
+        function toggleDetails(cardId) {
+            const details = document.getElementById(`details-${cardId}`);
+            const button = document.querySelector(`#${cardId} .more-button`);
+            const show = !details.classList.contains('show');
+            details.classList.toggle('show', show);
+            button.textContent = show ? 'Less Details' : 'More Details';
+        }
+
+        async function loadWeatherData() {
+            const refreshBtn = document.getElementById('refreshBtn');
+            const stationsGrid = document.getElementById('stationsGrid');
+            const lastUpdated = document.getElementById('lastUpdated');
+
+            refreshBtn.classList.add('spinning');
+            stationsGrid.innerHTML = '<div class="loading">Loading weather data...</div>';
+
+            try {
+                const results = await fetchAllStationsData();
+                if (!results) throw new Error('Failed to fetch weather data from server');
+
+                const stationResults = stations.map(station => {
+                    const result = results.find(r => r.stationId === station.id);
+                    return { station, data: result && result.success ? result.data : null };
+                });
+
+                stationsGrid.innerHTML = stationResults.map(result =>
+                    createStationCard(result.station, result.data)
+                ).join('');
+
+                lastUpdated.textContent = `Last updated: ${new Date().toLocaleString()}`;
+            } catch (error) {
+                stationsGrid.innerHTML = `<div class="error">
+                    <h3>Connection Error</h3>
+                    <p>${error.message}</p>
+                    <p>Make sure your server URL is correct and reachable.</p>
+                </div>`;
+            } finally {
+                refreshBtn.classList.remove('spinning');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadWeatherData);
+        setInterval(loadWeatherData, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
