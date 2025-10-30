@@ -77,7 +77,7 @@ app.get('/api/weather/:stationId', async (req, res) => {
 
 // All-stations fetch (with special wind source for IVAU4)
 app.get('/api/weather-all', async (_req, res) => {
-  const stations = ['IVAU4', 'IFERRE12', 'ICOURT97'];
+  const stations = ['IVAU4', 'IATOUG14', 'IABBEY4'];
   const windStation = 'INADAD1'; // wind data source for IVAU4
 
   console.log('🌍 Fetching all stations:', stations.join(', '));
