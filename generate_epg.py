@@ -30,26 +30,46 @@ except Exception as e:
     print(f"⚠️ AI Client failed: {e}")
 
 SPOTS_CONFIG = {
-    "ericeira":   {"lat": 38.97, "lon": -9.42, "name": "Ericeira", "facing": 290},
-    "supertubos": {"lat": 39.34, "lon": -9.36, "name": "Supertubos", "facing": 240},
-    "molheleste": {"lat": 39.34, "lon": -9.36, "name": "Molhe Leste", "facing": 270},
-    "baleal_s":   {"lat": 39.37, "lon": -9.34, "name": "Baleal South", "facing": 180},
-    "baleal_n":   {"lat": 39.37, "lon": -9.34, "name": "Baleal North", "facing": 10},
+    # ERICEIRA
+    "ribeira":    {"lat": 38.988, "lon": -9.419, "name": "Ribeira d'Ilhas", "facing": 290},
+    
+    # PENICHE - SOUTH SIDE (Praia dos Supertubos)
+    "supertubos": {"lat": 39.345, "lon": -9.363, "name": "Supertubos", "facing": 240},
+    "molheleste": {"lat": 39.349, "lon": -9.370, "name": "Molhe Leste", "facing": 270}, # Precise Jetty location
+    "meio_baia":  {"lat": 39.358, "lon": -9.351, "name": "Meio da Baia", "facing": 300}, 
+    "cantinho":   {"lat": 39.368, "lon": -9.340, "name": "Cantinho da Baia", "facing": 320}, 
+    
+    # PENICHE - NORTH SIDE (Baleal)
+    "baleal_n":   {"lat": 39.373, "lon": -9.338, "name": "Baleal Norte", "facing": 10},  
+    "lagide":     {"lat": 39.376, "lon": -9.336, "name": "Lagide", "facing": 350},       
 }
 
 CHANNELS = [
-    {"id": "ericeira-surfline", "spot": "ericeira", "name": "Surfline Ericeira", "logo": "ericeira.png", "poster": "ericeira_poster.jpg"},
-    {"id": "ericeira-meo", "spot": "ericeira", "name": "MEO Ericeira", "logo": "ericeira.png", "poster": "ericeira_poster.jpg"},
-    {"id": "supertubos-surfline", "spot": "supertubos", "name": "Surfline Supertubos", "logo": "supertubos.png", "poster": "supertubos_poster.jpg"},
-    {"id": "supertubos-meo", "spot": "supertubos", "name": "MEO Supertubos", "logo": "supertubos.png", "poster": "supertubos_poster.jpg"},
-    {"id": "molheleste-surfline", "spot": "molheleste", "name": "Surfline Molhe Leste", "logo": "molheleste.png", "poster": "molheleste_poster.jpg"},
-    {"id": "molheleste-meo", "spot": "molheleste", "name": "MEO Molhe Leste", "logo": "molheleste.png", "poster": "molheleste_poster.jpg"},
-    {"id": "baia-meo", "spot": "baleal_s", "name": "MEO Baia", "logo": "baleal.png", "poster": "baleal_poster.jpg"},
-    {"id": "cantinho-surfline", "spot": "baleal_s", "name": "Surfline Cantinho", "logo": "cantinho.png", "poster": "cantinho_poster.jpg"},
-    {"id": "cantinho-meo", "spot": "baleal_s", "name": "MEO Cantinho", "logo": "cantinho.png", "poster": "cantinho_poster.jpg"},
-    {"id": "baleal-surfline", "spot": "baleal_n", "name": "Surfline Baleal", "logo": "baleal.png", "poster": "baleal_poster.jpg"},
-    {"id": "lagide-surfline", "spot": "baleal_n", "name": "Surfline Lagide", "logo": "lagide.png", "poster": "lagide_poster.jpg"},
-    {"id": "lagide-meo", "spot": "baleal_n", "name": "MEO Lagide", "logo": "lagide.png", "poster": "lagide_poster.jpg"},
+    # Ericeira -> Ribeira Data
+    {"id": "ericeira-surfline", "spot": "ribeira", "name": "Surfline Ericeira", "logo": "ericeira.png?v=2", "poster": "ericeira_poster.jpg"},
+    {"id": "ericeira-meo", "spot": "ribeira", "name": "MEO Ericeira", "logo": "ericeira.png?v=2", "poster": "ericeira_poster.jpg"},
+
+    # Supertubos -> Supertubos Data
+    {"id": "supertubos-surfline", "spot": "supertubos", "name": "Surfline Supertubos", "logo": "supertubos.png?v=2", "poster": "supertubos_poster.jpg"},
+    {"id": "supertubos-meo", "spot": "supertubos", "name": "MEO Supertubos", "logo": "supertubos.png?v=2", "poster": "supertubos_poster.jpg"},
+
+    # Molhe Leste -> Molhe Leste Data
+    {"id": "molheleste-surfline", "spot": "molheleste", "name": "Surfline Molhe Leste", "logo": "molheleste.png?v=2", "poster": "molheleste_poster.jpg"},
+    {"id": "molheleste-meo", "spot": "molheleste", "name": "MEO Molhe Leste", "logo": "molheleste.png?v=2", "poster": "molheleste_poster.jpg"},
+
+    # Baia -> Meio da Baia Data
+    {"id": "baia-meo", "spot": "meio_baia", "name": "MEO Baia", "logo": "baleal.png?v=2", "poster": "baleal_poster.jpg"},
+
+    # Cantinho -> Cantinho Data
+    {"id": "cantinho-surfline", "spot": "cantinho", "name": "Surfline Cantinho", "logo": "cantinho.png?v=2", "poster": "cantinho_poster.jpg"},
+    {"id": "cantinho-meo", "spot": "cantinho", "name": "MEO Cantinho", "logo": "cantinho.png?v=2", "poster": "cantinho_poster.jpg"},
+
+    # Baleal -> Baleal Norte Data
+    {"id": "baleal-surfline", "spot": "baleal_n", "name": "Surfline Baleal", "logo": "baleal.png?v=2", "poster": "baleal_poster.jpg"},
+
+    # Lagide -> Lagide Data
+    {"id": "lagide-surfline", "spot": "lagide", "name": "Surfline Lagide", "logo": "lagide.png?v=2", "poster": "lagide_poster.jpg"},
+    {"id": "lagide-meo", "spot": "lagide", "name": "MEO Lagide", "logo": "lagide.png?v=2", "poster": "lagide_poster.jpg"},
 ]
 
 def get_stormglass_data(lat, lon):
