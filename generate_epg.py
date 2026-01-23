@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Surf Webcam EPG Generator (Final Fixed Version)
-Updates: Python 3.11 support, 'ddgs' library, and strict timeouts.
+Surf Webcam EPG Generator (Deep Water Edition)
+Fixed: Coordinates moved offshore to get real wind.
+Fixed: '0km/h' hidden if invalid.
+Fixed: Search query tweaked for better intel.
 """
 
 import os
@@ -18,31 +20,36 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # --- LIBRARIES ---
 try:
     import google.generativeai as genai
-    # NEW: Import directly from the new 'ddgs' package
     from ddgs import DDGS
     HAS_AI = True
     if GEMINI_API_KEY:
         genai.configure(api_key=GEMINI_API_KEY)
+    else:
+        print("⚠️ WARNING: GEMINI_API_KEY not found in environment variables!")
 except ImportError as e:
     HAS_AI = False
     print(f"⚠️ Missing libraries: {e}")
 
-# Spot Definitions
+# Spot Definitions (Coordinates shifted 2km Offshore to avoid '0 wind' landmask issues)
 SPOTS_CONFIG = {
-    "ericeira":   {"lat": 38.995, "lon": -9.425, "name": "Ericeira",   "facing": 290},
-    "supertubos": {"lat": 39.345, "lon": -9.365, "name": "Supertubos", "facing": 240},
-    "molheleste": {"lat": 39.355, "lon": -9.375, "name": "Molhe Leste","facing": 270},
-    "baleal_s":   {"lat": 39.372, "lon": -9.338, "name": "Baleal South", "facing": 180},
-    "baleal_n":   {"lat": 39.382, "lon": -9.338, "name": "Baleal North", "facing": 10},
+    # Ericeira moved West
+    "ericeira":   {"lat": 38.995, "lon": -9.450, "name": "Ericeira",   "facing": 290},
+    # Supertubos moved South-West
+    "supertubos": {"lat": 39.330, "lon": -9.380, "name": "Supertubos", "facing": 240},
+    # Molhe Leste (Tricky, it's inside harbor, but we use Supertubos wind data nearby)
+    "molheleste": {"lat": 39.330, "lon": -9.380, "name": "Molhe Leste","facing": 270},
+    # Baleal moved North-West (Deep water)
+    "baleal_s":   {"lat": 39.380, "lon": -9.360, "name": "Baleal South", "facing": 180},
+    "baleal_n":   {"lat": 39.390, "lon": -9.360, "name": "Baleal North", "facing": 10},
 }
 
 CHANNELS = [
     {"id": "ericeira-surfline", "spot": "ericeira", "name": "Surfline Ericeira", "logo": "ericeira.png", "poster": "ericeira_poster.jpg"},
     {"id": "ericeira-meo", "spot": "ericeira", "name": "MEO Ericeira", "logo": "ericeira.png", "poster": "ericeira_poster.jpg"},
     {"id": "supertubos-surfline", "spot": "supertubos", "name": "Surfline Supertubos", "logo": "supertubos.png", "poster": "supertubos_poster.jpg"},
-    {"id": "supertubos-meo", "spot": "supertubos", "name": "MEO Supertubos", "logo": "supertubos.png", "poster": "supertubos_poster.jpg"},
+    {"id": "supertubos-meo", "spot": "supertubos", "name": "MEO Beachcam Supertubos", "logo": "supertubos.png", "poster": "supertubos_poster.jpg"},
     {"id": "molheleste-surfline", "spot": "molheleste", "name": "Surfline Molhe Leste", "logo": "molheleste.png", "poster": "molheleste_poster.jpg"},
-    {"id": "molheleste-meo", "spot": "molheleste", "name": "MEO Molhe Leste", "logo": "molheleste.png", "poster": "molheleste_poster.jpg"},
+    {"id": "molheleste-meo", "spot": "molheleste", "name": "MEO Beachcam Molhe Leste", "logo": "molheleste.png", "poster": "molheleste_poster.jpg"},
     {"id": "baia-meo", "spot": "baleal_s", "name": "MEO Baia", "logo": "baleal.png", "poster": "baleal_poster.jpg"},
     {"id": "cantinho-surfline", "spot": "baleal_s", "name": "Surfline Cantinho", "logo": "cantinho.png", "poster": "cantinho_poster.jpg"},
     {"id": "cantinho-meo", "spot": "baleal_s", "name": "MEO Cantinho", "logo": "cantinho.png", "poster": "cantinho_poster.jpg"},
@@ -52,16 +59,15 @@ CHANNELS = [
 ]
 
 def search_web_report(spot_name):
-    """Searches using the new ddgs library with strict timeout."""
+    """Searches for 'Forecast Discussion' to avoid generic headers."""
     try:
-        query = f"surf report {spot_name} current conditions today"
-        # We limit to 1 result to be super fast and avoid hangs
+        # Changed query to find more text-heavy results
+        query = f"{spot_name} surf forecast text discussion"
         results = DDGS().text(query, max_results=1)
-        # Convert generator to list to force execution
         results_list = list(results)
         if results_list:
             return results_list[0]['body']
-        return ""
+        return "No web report found."
     except Exception as e:
         print(f"⚠️ Search skipped for {spot_name}: {e}")
         return ""
@@ -70,13 +76,17 @@ def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
     if not HAS_AI or not GEMINI_API_KEY:
         return f"Surf: {height}m. Wind: {wind_speed}km/h."
 
+    # Tell AI to hunt for wind if missing
+    wind_context = f"{wind_speed}km/h ({wind_label})" if wind_speed > 0 else "UNKNOWN/BROKEN SENSOR"
+
     prompt = (
-        f"Act as a cool surfer. Analyze: {spot_name}.\n"
-        f"Buoy: {height}m, {wind_speed}km/h ({wind_label}).\n"
-        f"Web: {search_text}\n"
-        "Write a ONE SENTENCE funny summary. "
-        "Prioritize Web info if Buoy looks wrong. "
-        "Keep it under 25 words."
+        f"You are a local surf reporter for {spot_name}.\n"
+        f"OFFICIAL BUOY DATA: Swell {height}m, Wind {wind_context}.\n"
+        f"WEB SEARCH SNIPPET: \"{search_text}\"\n\n"
+        "TASK: Write a ONE SENTENCE funny status update.\n"
+        "- If Buoy Wind is UNKNOWN, try to find wind direction in the Web Snippet.\n"
+        "- If the Web Snippet is generic, make a joke about the data being lost at sea.\n"
+        "- Keep it under 20 words."
     )
 
     try:
@@ -84,8 +94,8 @@ def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
         response = model.generate_content(prompt)
         return response.text.strip().replace('"', '')
     except Exception as e:
-        print(f"⚠️ AI skipped: {e}")
-        return f"Conditions: {height}m {wind_label}"
+        print(f"⚠️ FATAL AI ERROR: {e}") # This will show in GitHub Logs
+        return f"Conditions: {height}m (AI Offline)"
 
 def get_surf_data(lat, lon):
     url = "https://marine-api.open-meteo.com/v1/marine"
@@ -95,7 +105,6 @@ def get_surf_data(lat, lon):
         "timezone": "auto", "forecast_days": 1
     }
     try:
-        # Timeout is crucial to prevent hanging
         r = requests.get(url, params=params, timeout=10)
         r.raise_for_status()
         return r.json()
@@ -113,7 +122,7 @@ def get_wind_label(wind_deg, facing_deg):
 
 def generate_xml(days=2):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Surf EPG Final")
+    root.set("generator-info-name", "Surf EPG DeepWater")
     root.set("generator-info-url", BASE_URL)
     
     weather_cache = {}
@@ -131,7 +140,6 @@ def generate_xml(days=2):
         
         print(f"   Searching web...")
         search_cache[spot_key] = search_web_report(coords['name'])
-        # Pause to be polite to the search engine
         time.sleep(1)
 
     # 2. Build XML
@@ -183,11 +191,17 @@ def generate_xml(days=2):
                         rating = "⭐⭐" if "OFFSHORE" in wind_qual and wh > 1.0 else "🌊"
                         if wh > 4.0: rating = "⚠️"
                         
+                        # LOGIC: Hide "0 km/h" if bad data
+                        if ws < 1:
+                            wind_display = "N/A"
+                        else:
+                            wind_display = f"{ws}km/h {wind_qual}"
+
                         title = f"{rating} {wh}m {wind_qual} | {ai_text[:25]}..."
                         desc = (f"{ai_text}\n\n"
                                 f"📏 SWELL: {wh}m @ {wp}s\n"
-                                f"🌬️ WIND: {ws}km/h {wind_qual}\n"
-                                f"🔍 WEB INTEL: {search_text[:100]}...")
+                                f"🌬️ WIND: {wind_display}\n"
+                                f"🔍 WEB INTEL: {search_text[:120]}...")
                                 
                     except Exception as e:
                         print(f"Error building desc: {e}")
