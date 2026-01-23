@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Surf Webcam EPG Generator (Search & AI Edition)
-Combines Open-Meteo Data + DuckDuckGo Search Results + Gemini Analysis
+Surf Webcam EPG Generator (Anti-Freeze Edition)
+Includes strict timeouts to prevent GitHub Actions from hanging.
 """
 
 import os
@@ -13,7 +13,6 @@ from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
 BASE_URL = "https://raw.githubusercontent.com/OiErU/weather-dashboard/main"
-# Ensure you have set this secret in GitHub Settings!
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 # --- LIBRARIES ---
@@ -21,12 +20,13 @@ try:
     import google.generativeai as genai
     from duckduckgo_search import DDGS
     HAS_AI = True
-    genai.configure(api_key=GEMINI_API_KEY)
+    if GEMINI_API_KEY:
+        genai.configure(api_key=GEMINI_API_KEY)
 except ImportError:
     HAS_AI = False
     print("⚠️ Missing libraries. pip install google-generativeai duckduckgo-search")
 
-# Spot Definitions (I nudged coordinates slightly West/North to hit 'water' for better wind data)
+# Spot Definitions
 SPOTS_CONFIG = {
     "ericeira":   {"lat": 38.995, "lon": -9.425, "name": "Ericeira",   "facing": 290},
     "supertubos": {"lat": 39.345, "lon": -9.365, "name": "Supertubos", "facing": 240},
@@ -51,52 +51,55 @@ CHANNELS = [
 ]
 
 def search_web_report(spot_name):
-    """Searches DuckDuckGo for the latest surf report snippets."""
+    """Searches DuckDuckGo with a strict timeout."""
     try:
         query = f"surf report {spot_name} current conditions today"
-        results = DDGS().text(query, max_results=3)
-        summary = " ".join([r['body'] for r in results])
-        return summary
+        # DDGS doesn't have a simple timeout param, so we wrap it in a try/except for generic errors
+        # If it hangs often, we might swap to a different method, but let's try strict limit first.
+        with DDGS(timeout=15) as ddgs:
+            results = list(ddgs.text(query, max_results=2))
+            summary = " ".join([r['body'] for r in results])
+            return summary
     except Exception as e:
-        print(f"Search failed for {spot_name}: {e}")
+        print(f"⚠️ Search skipped for {spot_name} (Error/Timeout): {e}")
         return ""
 
 def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
-    """Uses Gemini to synthesize raw data + search results into one funny sentence."""
     if not HAS_AI or not GEMINI_API_KEY:
         return f"Surf: {height}m. Wind: {wind_speed}km/h."
 
     prompt = (
-        f"Act as a cool, local surfer. Analyze the conditions for {spot_name}.\n"
-        f"DATA SOURCE 1 (Buoy Readings): Swell {height}m, Wind {wind_speed}km/h ({wind_label}).\n"
-        f"DATA SOURCE 2 (Web Search Snippets): {search_text}\n\n"
-        "TASK: Write a ONE SENTENCE funny summary of the conditions right now.\n"
-        "- Prioritize the Web Search context if the Buoy readings seem wrong (like 0 wind).\n"
-        "- If it's dangerous/stormy, give a serious but witty warning.\n"
-        "- If it's flat, make a joke.\n"
-        "- Keep it under 25 words."
+        f"Act as a cool surfer. Analyze: {spot_name}.\n"
+        f"Buoy: {height}m, {wind_speed}km/h ({wind_label}).\n"
+        f"Web: {search_text}\n"
+        "Write a ONE SENTENCE funny summary. "
+        "Prioritize Web info if Buoy looks wrong. "
+        "Keep it under 25 words."
     )
 
     try:
         model = genai.GenerativeModel('gemini-pro')
+        # Generate with a default timeout handled by the library usually, but we catch errors
         response = model.generate_content(prompt)
         return response.text.strip().replace('"', '')
     except Exception as e:
+        print(f"⚠️ AI skipped: {e}")
         return f"Conditions: {height}m {wind_label}"
 
 def get_surf_data(lat, lon):
-    # Adjusted to marine model best-guess
     url = "https://marine-api.open-meteo.com/v1/marine"
     params = {
         "latitude": lat, "longitude": lon,
         "hourly": "wave_height,wave_period,wind_speed_10m,wind_direction_10m",
-        "timezone": "auto", "forecast_days": 1 # Just get today/tomorrow to save bandwidth
+        "timezone": "auto", "forecast_days": 1
     }
     try:
-        r = requests.get(url, params=params)
+        # ADDED TIMEOUT HERE to prevent hanging
+        r = requests.get(url, params=params, timeout=15)
         r.raise_for_status()
         return r.json()
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Open-Meteo skipped: {e}")
         return None
 
 def get_wind_label(wind_deg, facing_deg):
@@ -109,27 +112,25 @@ def get_wind_label(wind_deg, facing_deg):
 
 def generate_xml(days=2):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Surf EPG Search+AI")
+    root.set("generator-info-name", "Surf EPG AntiFreeze")
     root.set("generator-info-url", BASE_URL)
     
     weather_cache = {}
-    search_cache = {} # Cache search results so we don't spam DDG
-    ai_cache = {}     # Cache AI responses
+    search_cache = {}
+    ai_cache = {}
     
-    # 1. Fetch Data Loops
+    # 1. Fetch Data
     unique_spots = set(ch['spot'] for ch in CHANNELS)
     
     for spot_key in unique_spots:
         coords = SPOTS_CONFIG[spot_key]
         print(f"--- Processing {coords['name']} ---")
         
-        # A. Get Raw Numbers
         weather_cache[spot_key] = get_surf_data(coords['lat'], coords['lon'])
         
-        # B. Get Web Search (Once per spot)
-        print(f"   Searching web for {coords['name']}...")
+        print(f"   Searching web...")
         search_cache[spot_key] = search_web_report(coords['name'])
-        time.sleep(2) # Be polite to Search Engine
+        time.sleep(2) 
 
     # 2. Build XML
     for ch in CHANNELS:
@@ -152,9 +153,6 @@ def generate_xml(days=2):
                 spot_data = weather_cache.get(spot_id)
                 search_text = search_cache.get(spot_id, "")
                 
-                # Cache Key for AI (same report for the whole day to save API calls)
-                # We update the AI report only once per day per spot, otherwise 
-                # we ask Gemini 4x times a day for the same static info.
                 ai_key = f"{day}-{spot_id}"
                 
                 title = f"{ch['name']} - Live"
@@ -172,16 +170,15 @@ def generate_xml(days=2):
                         
                         wind_qual = get_wind_label(wd, spot_info['facing'])
                         
-                        # Get AI Report
                         if ai_key in ai_cache:
                             ai_text = ai_cache[ai_key]
                         else:
-                            print(f"   Asking Gemini about {spot_info['name']} (Day {day})...")
+                            print(f"   Asking Gemini about {spot_info['name']}...")
                             ai_text = get_ai_analysis(spot_info['name'], wh, ws, wind_qual, search_text)
                             ai_cache[ai_key] = ai_text
-                            time.sleep(1)
+                            # No sleep needed here as Gemini is fast, but just in case
+                            time.sleep(0.5)
 
-                        # Formatting
                         rating = "⭐⭐" if "OFFSHORE" in wind_qual and wh > 1.0 else "🌊"
                         if wh > 4.0: rating = "⚠️"
                         
