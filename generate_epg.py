@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Surf Webcam EPG Generator (Deep Water Edition)
-Fixed: Coordinates moved offshore to get real wind.
-Fixed: '0km/h' hidden if invalid.
-Fixed: Search query tweaked for better intel.
+Surf Webcam EPG Generator (ChatGPT Replica Edition)
+Updates:
+- Broader search query to capture "vibe" and descriptions.
+- Fetches 3 search results instead of 1 for better context.
+- New 'Personality' Prompt to match the 'gnarly/funny' style.
 """
 
 import os
@@ -25,20 +26,16 @@ try:
     if GEMINI_API_KEY:
         genai.configure(api_key=GEMINI_API_KEY)
     else:
-        print("⚠️ WARNING: GEMINI_API_KEY not found in environment variables!")
+        print("⚠️ WARNING: GEMINI_API_KEY not found!")
 except ImportError as e:
     HAS_AI = False
     print(f"⚠️ Missing libraries: {e}")
 
-# Spot Definitions (Coordinates shifted 2km Offshore to avoid '0 wind' landmask issues)
+# Spot Definitions (Keep your offshore coordinates)
 SPOTS_CONFIG = {
-    # Ericeira moved West
     "ericeira":   {"lat": 38.995, "lon": -9.450, "name": "Ericeira",   "facing": 290},
-    # Supertubos moved South-West
     "supertubos": {"lat": 39.330, "lon": -9.380, "name": "Supertubos", "facing": 240},
-    # Molhe Leste (Tricky, it's inside harbor, but we use Supertubos wind data nearby)
     "molheleste": {"lat": 39.330, "lon": -9.380, "name": "Molhe Leste","facing": 270},
-    # Baleal moved North-West (Deep water)
     "baleal_s":   {"lat": 39.380, "lon": -9.360, "name": "Baleal South", "facing": 180},
     "baleal_n":   {"lat": 39.390, "lon": -9.360, "name": "Baleal North", "facing": 10},
 }
@@ -59,15 +56,21 @@ CHANNELS = [
 ]
 
 def search_web_report(spot_name):
-    """Searches for 'Forecast Discussion' to avoid generic headers."""
+    """Searches for general surf reports to capture the 'vibe' (rough, glassy, etc)."""
     try:
-        # Changed query to find more text-heavy results
-        query = f"{spot_name} surf forecast text discussion"
-        results = DDGS().text(query, max_results=1)
+        # Broader query = better results from big sites (Surfline, MSW, etc.)
+        query = f"surf report {spot_name} current conditions today"
+        
+        # Fetch 3 results instead of 1 to give Gemini more context to read
+        results = DDGS().text(query, max_results=3)
         results_list = list(results)
+        
+        # Combine all snippets into one block of text
         if results_list:
-            return results_list[0]['body']
-        return "No web report found."
+            combined_text = " ".join([r['body'] for r in results_list])
+            return combined_text
+            
+        return "No web reports found."
     except Exception as e:
         print(f"⚠️ Search skipped for {spot_name}: {e}")
         return ""
@@ -76,17 +79,18 @@ def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
     if not HAS_AI or not GEMINI_API_KEY:
         return f"Surf: {height}m. Wind: {wind_speed}km/h."
 
-    # Tell AI to hunt for wind if missing
-    wind_context = f"{wind_speed}km/h ({wind_label})" if wind_speed > 0 else "UNKNOWN/BROKEN SENSOR"
+    wind_context = f"{wind_speed}km/h ({wind_label})" if wind_speed > 0 else "Wind Unknown"
 
+    # The "Personality" Prompt
     prompt = (
-        f"You are a local surf reporter for {spot_name}.\n"
-        f"OFFICIAL BUOY DATA: Swell {height}m, Wind {wind_context}.\n"
-        f"WEB SEARCH SNIPPET: \"{search_text}\"\n\n"
-        "TASK: Write a ONE SENTENCE funny status update.\n"
-        "- If Buoy Wind is UNKNOWN, try to find wind direction in the Web Snippet.\n"
-        "- If the Web Snippet is generic, make a joke about the data being lost at sea.\n"
-        "- Keep it under 20 words."
+        f"Act as a witty, local surfer giving a quick update for {spot_name}.\n"
+        f"BUOY DATA: Swell {height}m, Wind {wind_context}.\n"
+        f"WEB CHATTER: \"{search_text}\"\n\n"
+        "TASK: Write a funny, ONE-SENTENCE surf report.\n"
+        "- Use the Web Chatter to find adjectives like 'rough', 'glassy', 'gnarly', or 'clean'.\n"
+        "- If it's big/messy (over 3m or onshore), warn them humorously (e.g. 'hold onto your board').\n"
+        "- If it's flat, joke about it.\n"
+        "- INCLUDE the wave height and wind in your sentence naturally."
     )
 
     try:
@@ -94,8 +98,8 @@ def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
         response = model.generate_content(prompt)
         return response.text.strip().replace('"', '')
     except Exception as e:
-        print(f"⚠️ FATAL AI ERROR: {e}") # This will show in GitHub Logs
-        return f"Conditions: {height}m (AI Offline)"
+        print(f"⚠️ AI Error: {e}")
+        return f"Conditions: {height}m {wind_label}"
 
 def get_surf_data(lat, lon):
     url = "https://marine-api.open-meteo.com/v1/marine"
@@ -122,7 +126,7 @@ def get_wind_label(wind_deg, facing_deg):
 
 def generate_xml(days=2):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Surf EPG DeepWater")
+    root.set("generator-info-name", "Surf EPG AI-Chat")
     root.set("generator-info-url", BASE_URL)
     
     weather_cache = {}
@@ -191,17 +195,14 @@ def generate_xml(days=2):
                         rating = "⭐⭐" if "OFFSHORE" in wind_qual and wh > 1.0 else "🌊"
                         if wh > 4.0: rating = "⚠️"
                         
-                        # LOGIC: Hide "0 km/h" if bad data
-                        if ws < 1:
-                            wind_display = "N/A"
-                        else:
-                            wind_display = f"{ws}km/h {wind_qual}"
+                        # Fix wind display
+                        wind_display = "N/A" if ws < 1 else f"{ws}km/h {wind_qual}"
 
-                        title = f"{rating} {wh}m {wind_qual} | {ai_text[:25]}..."
+                        title = f"{rating} {wh}m {wind_qual} | {ai_text[:30]}..."
                         desc = (f"{ai_text}\n\n"
                                 f"📏 SWELL: {wh}m @ {wp}s\n"
                                 f"🌬️ WIND: {wind_display}\n"
-                                f"🔍 WEB INTEL: {search_text[:120]}...")
+                                f"🔍 INTEL: {search_text[:120]}...")
                                 
                     except Exception as e:
                         print(f"Error building desc: {e}")
