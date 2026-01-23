@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Surf Webcam EPG Generator (Anti-Freeze Edition)
-Includes strict timeouts to prevent GitHub Actions from hanging.
+Surf Webcam EPG Generator (Final Fixed Version)
+Updates: Python 3.11 support, 'ddgs' library, and strict timeouts.
 """
 
 import os
@@ -18,13 +18,14 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # --- LIBRARIES ---
 try:
     import google.generativeai as genai
-    from duckduckgo_search import DDGS
+    # NEW: Import directly from the new 'ddgs' package
+    from ddgs import DDGS
     HAS_AI = True
     if GEMINI_API_KEY:
         genai.configure(api_key=GEMINI_API_KEY)
-except ImportError:
+except ImportError as e:
     HAS_AI = False
-    print("⚠️ Missing libraries. pip install google-generativeai duckduckgo-search")
+    print(f"⚠️ Missing libraries: {e}")
 
 # Spot Definitions
 SPOTS_CONFIG = {
@@ -51,17 +52,18 @@ CHANNELS = [
 ]
 
 def search_web_report(spot_name):
-    """Searches DuckDuckGo with a strict timeout."""
+    """Searches using the new ddgs library with strict timeout."""
     try:
         query = f"surf report {spot_name} current conditions today"
-        # DDGS doesn't have a simple timeout param, so we wrap it in a try/except for generic errors
-        # If it hangs often, we might swap to a different method, but let's try strict limit first.
-        with DDGS(timeout=15) as ddgs:
-            results = list(ddgs.text(query, max_results=2))
-            summary = " ".join([r['body'] for r in results])
-            return summary
+        # We limit to 1 result to be super fast and avoid hangs
+        results = DDGS().text(query, max_results=1)
+        # Convert generator to list to force execution
+        results_list = list(results)
+        if results_list:
+            return results_list[0]['body']
+        return ""
     except Exception as e:
-        print(f"⚠️ Search skipped for {spot_name} (Error/Timeout): {e}")
+        print(f"⚠️ Search skipped for {spot_name}: {e}")
         return ""
 
 def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
@@ -79,7 +81,6 @@ def get_ai_analysis(spot_name, height, wind_speed, wind_label, search_text):
 
     try:
         model = genai.GenerativeModel('gemini-pro')
-        # Generate with a default timeout handled by the library usually, but we catch errors
         response = model.generate_content(prompt)
         return response.text.strip().replace('"', '')
     except Exception as e:
@@ -94,8 +95,8 @@ def get_surf_data(lat, lon):
         "timezone": "auto", "forecast_days": 1
     }
     try:
-        # ADDED TIMEOUT HERE to prevent hanging
-        r = requests.get(url, params=params, timeout=15)
+        # Timeout is crucial to prevent hanging
+        r = requests.get(url, params=params, timeout=10)
         r.raise_for_status()
         return r.json()
     except Exception as e:
@@ -112,7 +113,7 @@ def get_wind_label(wind_deg, facing_deg):
 
 def generate_xml(days=2):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Surf EPG AntiFreeze")
+    root.set("generator-info-name", "Surf EPG Final")
     root.set("generator-info-url", BASE_URL)
     
     weather_cache = {}
@@ -130,7 +131,8 @@ def generate_xml(days=2):
         
         print(f"   Searching web...")
         search_cache[spot_key] = search_web_report(coords['name'])
-        time.sleep(2) 
+        # Pause to be polite to the search engine
+        time.sleep(1)
 
     # 2. Build XML
     for ch in CHANNELS:
@@ -176,7 +178,6 @@ def generate_xml(days=2):
                             print(f"   Asking Gemini about {spot_info['name']}...")
                             ai_text = get_ai_analysis(spot_info['name'], wh, ws, wind_qual, search_text)
                             ai_cache[ai_key] = ai_text
-                            # No sleep needed here as Gemini is fast, but just in case
                             time.sleep(0.5)
 
                         rating = "⭐⭐" if "OFFSHORE" in wind_qual and wh > 1.0 else "🌊"
