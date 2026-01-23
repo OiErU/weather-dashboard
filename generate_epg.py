@@ -75,15 +75,15 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
     if not HAS_AI:
         return f"{height}m swell."
 
-    prompt = (
-        f"You are a stoked, funny local surfer at {spot_name}. "
+prompt = (
+        f"You are a stoked, funny local bodyboarder at {spot_name}, riding your Science Pro NRG+. "
         f"OFFICIAL DATA: Swell {height} meters @ {period} seconds. Wind {wind_speed}km/h ({wind_label}).\n"
-        "TASK: Write a 1-sentence surf report (max 20 words).\n"
+        "TASK: Write a 1-sentence bodyboard report (max 20 words).\n"
         "STYLE GUIDE:\n"
-        "- Tone: Easy-going, humorous, and engaging. Use surfer slang naturally.\n"
-        "- If it's messy/huge: Make a joke about the chaos (e.g., 'Bring a helmet', 'Spicy one today', 'Paddle battle ahead').\n"
-        "- If it's good: Get hyped (e.g., 'Dreamland out there', 'Cancel your meetings', 'Pure magic').\n"
-        "- IMPORTANT: Never use the same description twice. Be creative and unpredictable.\n"
+        "- Tone: Easy-going, humorous, and stoked. Use bodyboard slang (boogie, sponge, slab, ramp, pit).\n"
+        "- If it's hollow/heavy: Get hyped! You love barrels and heavy shorebreaks. (e.g., 'Perfect for the Science Pro', 'Pull into a cavern').\n"
+        "- If it's messy/flat: Crack a joke (e.g., 'Even the NRG+ can't save this', 'Time for a coffee').\n"
+        "- IMPORTANT: Never use the same description twice. Be unpredictable.\n"
         "- Include the wave height naturally."
     )
 
