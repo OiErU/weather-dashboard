@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Surf EPG Pro" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
+<tv generator-info-name="Surf EPG Final" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
   <channel id="ericeira-surfline">
     <display-name>Surfline Ericeira</display-name>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
@@ -49,1011 +49,739 @@
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
   </channel>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.84m </title>
-    <desc lang="en">🌊 SWELL: 4.84m @ 10.75s (Too Big)
+    <title lang="en">⚠️ 4.82m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 4.82m @ 10.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.84m </title>
-    <desc lang="en">🌊 SWELL: 4.84m @ 10.75s (Too Big)
+    <title lang="en">⚠️ 4.82m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 4.82m @ 10.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
+    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 4.64m @ 10.6s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
+    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 4.64m @ 10.6s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
+    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 4.64m @ 10.6s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
+    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 4.64m @ 10.6s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
+    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 4.64m @ 10.6s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.56m </title>
-    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s (Too Big)
+    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 4.64m @ 10.6s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.58m </title>
-    <desc lang="en">🌊 SWELL: 5.58m @ 11.45s (Too Big)
+    <title lang="en">⚠️ 5.42m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 5.42m @ 11.1s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.58m </title>
-    <desc lang="en">🌊 SWELL: 5.58m @ 11.45s (Too Big)
+    <title lang="en">⚠️ 5.42m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 5.42m @ 11.1s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
+    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.16m @ 11.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
+    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.16m @ 11.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
+    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.16m @ 11.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
+    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.16m @ 11.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
+    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.16m @ 11.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.36m </title>
-    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s (Too Big)
+    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.16m @ 11.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.26m </title>
-    <desc lang="en">🌊 SWELL: 6.26m @ 12.3s (Too Big)
+    <title lang="en">⚠️ 6.08m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 6.08m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.26m </title>
-    <desc lang="en">🌊 SWELL: 6.26m @ 12.3s (Too Big)
+    <title lang="en">⚠️ 6.08m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 6.08m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
+    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.76m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
+    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.76m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
+    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.76m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
+    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.76m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
+    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.76m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.84m </title>
-    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s (Too Big)
+    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 5.76m @ 12.3s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 11.95s (Too Big)
+    <title lang="en">⚠️ 7.04m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 7.04m @ 12.1s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 11.95s (Too Big)
+    <title lang="en">⚠️ 7.04m  | Conditions: 4.82m ...</title>
+    <desc lang="en">Conditions: 4.82m 
+
+📏 SWELL: 7.04m @ 12.1s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
+    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 6.42m @ 12.25s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
+    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 6.42m @ 12.25s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
+    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 6.42m @ 12.25s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
+    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 6.42m @ 12.25s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
+    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 6.42m @ 12.25s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.3m </title>
-    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s (Too Big)
+    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <desc lang="en">Conditions: 4.64m 
+
+📏 SWELL: 6.42m @ 12.25s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.4m </title>
-    <desc lang="en">🌊 SWELL: 7.4m @ 12.5s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.4m </title>
-    <desc lang="en">🌊 SWELL: 7.4m @ 12.5s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.56m </title>
-    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.88m </title>
-    <desc lang="en">🌊 SWELL: 7.88m @ 12.9s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.88m </title>
-    <desc lang="en">🌊 SWELL: 7.88m @ 12.9s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.0m </title>
-    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 9.18m </title>
-    <desc lang="en">🌊 SWELL: 9.18m @ 14.55s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 9.18m </title>
-    <desc lang="en">🌊 SWELL: 9.18m @ 14.55s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 8.06m </title>
-    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.72m </title>
-    <desc lang="en">🌊 SWELL: 7.72m @ 14.5s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 7.72m </title>
-    <desc lang="en">🌊 SWELL: 7.72m @ 14.5s (Too Big)
+    <title lang="en">⚠️ 7.42m  | Conditions: 7.42m ...</title>
+    <desc lang="en">Conditions: 7.42m 
+
+📏 SWELL: 7.42m @ 12.65s
 🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
+🔍 WEB INTEL: Ericeira surf forecast maps and the latest eyeball surf report from local surfers in the region. Fin...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">Surfline Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
+    <title lang="en">MEO Supertubos - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">Surfline Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
+    <title lang="en">MEO Molhe Leste - Live</title>
+    <desc lang="en">No Data</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
+🔍 WEB INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, ...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.92m </title>
-    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s (Too Big)
+    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <desc lang="en">Conditions: 6.6m 
+
+📏 SWELL: 6.6m @ 12.85s
 🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.54m </title>
-    <desc lang="en">🌊 SWELL: 6.54m @ 13.55s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 6.54m </title>
-    <desc lang="en">🌊 SWELL: 6.54m @ 13.55s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.94m </title>
-    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.76m </title>
-    <desc lang="en">🌊 SWELL: 5.76m @ 12.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.76m </title>
-    <desc lang="en">🌊 SWELL: 5.76m @ 12.65s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.5m </title>
-    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.06m </title>
-    <desc lang="en">🌊 SWELL: 5.06m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 5.06m </title>
-    <desc lang="en">🌊 SWELL: 5.06m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.78m </title>
-    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.52m </title>
-    <desc lang="en">🌊 SWELL: 4.52m @ 11.95s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.52m </title>
-    <desc lang="en">🌊 SWELL: 4.52m @ 11.95s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Ericeira</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Supertubos</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Molhe Leste</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal South</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ STORM / DANGEROUS | 4.28m </title>
-    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s (Too Big)
-🌬️ WIND: 0km/h 
-📍 SPOT: Baleal North</desc>
+🔍 WEB INTEL: Surf report , surf forecast and surf cam for Baleal , Portugal. Including 16-day surf forecast for s...</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
 </tv>
