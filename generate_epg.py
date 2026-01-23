@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 """
-Surf EPG Generator (Stormglass + Gemini Lite)
-Updates:
-- Uses the NEW 'google-genai' library (v1.0+).
-- Targets 'gemini-2.0-flash-lite' to avoid quota errors.
-- Strict Stormglass quota management (3 calls/day).
+Surf EPG Generator (Stormglass + Gemini 2.0 Flash Lite)
+Verified working with 'google-genai' library and 'gemini-2.0-flash-lite'.
 """
 
 import os
@@ -20,15 +17,19 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 STORMGLASS_API_KEY = os.environ.get("STORMGLASS_API_KEY")
 
 # --- LIBRARIES ---
+# We use the NEW library matching your local test
 HAS_AI = False
 try:
     from google import genai
     if GEMINI_API_KEY:
-        # Initialize the new Client
         client = genai.Client(api_key=GEMINI_API_KEY)
         HAS_AI = True
+        print("✅ AI Client connected successfully.")
 except ImportError:
-    print("⚠️ google-genai library not found.")
+    print("⚠️ google-genai library not found. AI features disabled.")
+    HAS_AI = False
+except Exception as e:
+    print(f"⚠️ AI Client connection failed: {e}")
     HAS_AI = False
 
 SPOTS_CONFIG = {
@@ -59,6 +60,7 @@ def get_stormglass_data(lat, lon):
         print("⚠️ No Stormglass Key")
         return None
     url = "https://api.stormglass.io/v2/weather/point"
+    # Fetching SG data once per unique spot
     params = {
         'lat': lat, 'lng': lon,
         'params': 'waveHeight,wavePeriod,windSpeed,windDirection',
@@ -74,7 +76,7 @@ def get_stormglass_data(lat, lon):
         return None
 
 def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
-    """Generates text using the NEW google-genai client."""
+    """Generates text using the verified working code."""
     if not HAS_AI:
         return f"{height}m swell."
 
@@ -89,7 +91,7 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
     )
 
     try:
-        # We use the model that appeared in your list: gemini-2.0-flash-lite
+        # Using the exact model from your local test
         response = client.models.generate_content(
             model='gemini-2.0-flash-lite', 
             contents=prompt
@@ -99,6 +101,9 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
         return f"{height}m swell (AI Silent)"
     except Exception as e:
         print(f"⚠️ AI Error: {e}")
+        # Useful debug print in logs if it fails remotely
+        if "429" in str(e): print("   (Rate Limit Hit)")
+        if "404" in str(e): print("   (Model Not Found)")
         return f"{height}m swell (AI Error)"
 
 def get_wind_label(wind_deg, facing_deg):
@@ -111,10 +116,10 @@ def get_wind_label(wind_deg, facing_deg):
 
 def generate_xml(days=1):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Surf EPG Lite")
+    root.set("generator-info-name", "Surf EPG FlashLite")
     root.set("generator-info-url", BASE_URL)
     
-    # 1. Fetch Data (Smart Grouping)
+    # 1. Fetch Data (Optimized)
     weather_cache = {}
     unique_coords = set()
     for key, spot in SPOTS_CONFIG.items():
@@ -170,7 +175,7 @@ def generate_xml(days=1):
                             print(f"   Asking AI about {spot_info['name']}...")
                             ai_text = get_ai_commentary(spot_info['name'], wh, wp, ws, wind_qual)
                             ai_memory[ai_key] = ai_text
-                            time.sleep(1) # Extra safe delay
+                            time.sleep(1) # Safety delay
 
                         # Clean Title
                         rating = "⭐⭐" if "OFFSHORE" in wind_qual and wh > 1.0 else "🌊"
