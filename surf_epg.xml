@@ -1,5 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Surf EPG FlashLite" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
+<tv generator-info-name="Surf EPG Fixed" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
+  <channel id="ericeira-surfline">
+    <display-name>Surfline Ericeira</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
+  </channel>
+  <channel id="ericeira-meo">
+    <display-name>MEO Ericeira</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
+  </channel>
+  <channel id="supertubos-surfline">
+    <display-name>Surfline Supertubos</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
+  </channel>
+  <channel id="supertubos-meo">
+    <display-name>MEO Supertubos</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
+  </channel>
+  <channel id="molheleste-surfline">
+    <display-name>Surfline Molhe Leste</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
+  </channel>
+  <channel id="molheleste-meo">
+    <display-name>MEO Molhe Leste</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
+  </channel>
+  <channel id="baia-meo">
+    <display-name>MEO Baia</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
+  </channel>
+  <channel id="cantinho-surfline">
+    <display-name>Surfline Cantinho</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
+  </channel>
+  <channel id="cantinho-meo">
+    <display-name>MEO Cantinho</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
+  </channel>
+  <channel id="baleal-surfline">
+    <display-name>Surfline Baleal</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
+  </channel>
+  <channel id="lagide-surfline">
+    <display-name>Surfline Lagide</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
+  </channel>
+  <channel id="lagide-meo">
+    <display-name>MEO Lagide</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
+  </channel>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-surfline">
     <title lang="en">⚠️ 4.9m ONSHORE @ 7.9s</title>
     <desc lang="en">With a 4.9-meter washing machine and onshore 40km/h winds, prepare for a swim, not a surf.
