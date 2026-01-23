@@ -1,819 +1,435 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Surf EPG Google" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
-  <channel id="ericeira-surfline">
-    <display-name>Surfline Ericeira</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
-  </channel>
-  <channel id="ericeira-meo">
-    <display-name>MEO Ericeira</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
-  </channel>
-  <channel id="supertubos-surfline">
-    <display-name>Surfline Supertubos</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
-  </channel>
-  <channel id="supertubos-meo">
-    <display-name>MEO Beachcam Supertubos</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
-  </channel>
-  <channel id="molheleste-surfline">
-    <display-name>Surfline Molhe Leste</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
-  </channel>
-  <channel id="molheleste-meo">
-    <display-name>MEO Beachcam Molhe Leste</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
-  </channel>
-  <channel id="baia-meo">
-    <display-name>MEO Baia</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
-  </channel>
-  <channel id="cantinho-surfline">
-    <display-name>Surfline Cantinho</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
-  </channel>
-  <channel id="cantinho-meo">
-    <display-name>MEO Cantinho</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
-  </channel>
-  <channel id="baleal-surfline">
-    <display-name>Surfline Baleal</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
-  </channel>
-  <channel id="lagide-surfline">
-    <display-name>Surfline Lagide</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
-  </channel>
-  <channel id="lagide-meo">
-    <display-name>MEO Lagide</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
-  </channel>
+<tv generator-info-name="Surf EPG Stormglass" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 4.92m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 4.87m ONSHORE | 4.87m @ 7.93s ONSHORE...</title>
+    <desc lang="en">4.87m @ 7.93s ONSHORE
 
-📏 SWELL: 4.92m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.87m @ 7.93s
+🌬️ WIND: 40km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 4.92m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 4.87m ONSHORE | 4.87m @ 7.93s ONSHORE...</title>
+    <desc lang="en">4.87m @ 7.93s ONSHORE
 
-📏 SWELL: 4.92m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.87m @ 7.93s
+🌬️ WIND: 40km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 4.76m CROSS | 4.76m @ 7.77s CROSS...</title>
+    <desc lang="en">4.76m @ 7.77s CROSS
 
-📏 SWELL: 4.66m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.76m @ 7.77s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 4.76m CROSS | 4.76m @ 7.77s CROSS...</title>
+    <desc lang="en">4.76m @ 7.77s CROSS
 
-📏 SWELL: 4.66m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.76m @ 7.77s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 4.76m ONSHORE | 4.76m @ 7.77s ONSHORE...</title>
+    <desc lang="en">4.76m @ 7.77s ONSHORE
 
-📏 SWELL: 4.66m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.76m @ 7.77s
+🌬️ WIND: 26km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 4.76m ONSHORE | 4.76m @ 7.77s ONSHORE...</title>
+    <desc lang="en">4.76m @ 7.77s ONSHORE
 
-📏 SWELL: 4.66m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.76m @ 7.77s
+🌬️ WIND: 26km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 4.94m CROSS | 4.94m @ 8.13s CROSS...</title>
+    <desc lang="en">4.94m @ 8.13s CROSS
 
-📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.94m @ 8.13s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 4.94m CROSS | 4.94m @ 8.13s CROSS...</title>
+    <desc lang="en">4.94m @ 8.13s CROSS
 
-📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.94m @ 8.13s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 4.94m CROSS | 4.94m @ 8.13s CROSS...</title>
+    <desc lang="en">4.94m @ 8.13s CROSS
 
-📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.94m @ 8.13s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 4.94m CROSS | 4.94m @ 8.13s CROSS...</title>
+    <desc lang="en">4.94m @ 8.13s CROSS
 
-📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.94m @ 8.13s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 4.94m CROSS | 4.94m @ 8.13s CROSS...</title>
+    <desc lang="en">4.94m @ 8.13s CROSS
 
-📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.94m @ 8.13s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 4.94m CROSS | 4.94m @ 8.13s CROSS...</title>
+    <desc lang="en">4.94m @ 8.13s CROSS
 
-📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 4.94m @ 8.13s
+🌬️ WIND: 26km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 5.52m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 5.45m ONSHORE | 5.45m @ 8.49s ONSHORE...</title>
+    <desc lang="en">5.45m @ 8.49s ONSHORE
 
-📏 SWELL: 5.52m @ 11.05s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.45m @ 8.49s
+🌬️ WIND: 42km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 5.52m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 5.45m ONSHORE | 5.45m @ 8.49s ONSHORE...</title>
+    <desc lang="en">5.45m @ 8.49s ONSHORE
 
-📏 SWELL: 5.52m @ 11.05s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.45m @ 8.49s
+🌬️ WIND: 42km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.33m CROSS | 5.33m @ 8.39s CROSS...</title>
+    <desc lang="en">5.33m @ 8.39s CROSS
 
-📏 SWELL: 5.16m @ 11.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.33m @ 8.39s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.33m CROSS | 5.33m @ 8.39s CROSS...</title>
+    <desc lang="en">5.33m @ 8.39s CROSS
 
-📏 SWELL: 5.16m @ 11.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.33m @ 8.39s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.33m ONSHORE | 5.33m @ 8.39s ONSHORE...</title>
+    <desc lang="en">5.33m @ 8.39s ONSHORE
 
-📏 SWELL: 5.16m @ 11.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.33m @ 8.39s
+🌬️ WIND: 23km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.33m ONSHORE | 5.33m @ 8.39s ONSHORE...</title>
+    <desc lang="en">5.33m @ 8.39s ONSHORE
 
-📏 SWELL: 5.16m @ 11.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.33m @ 8.39s
+🌬️ WIND: 23km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 5.72m CROSS | 5.72m @ 8.85s CROSS...</title>
+    <desc lang="en">5.72m @ 8.85s CROSS
 
-📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.72m @ 8.85s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 5.72m CROSS | 5.72m @ 8.85s CROSS...</title>
+    <desc lang="en">5.72m @ 8.85s CROSS
 
-📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.72m @ 8.85s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 5.72m CROSS | 5.72m @ 8.85s CROSS...</title>
+    <desc lang="en">5.72m @ 8.85s CROSS
 
-📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.72m @ 8.85s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 5.72m CROSS | 5.72m @ 8.85s CROSS...</title>
+    <desc lang="en">5.72m @ 8.85s CROSS
 
-📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.72m @ 8.85s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 5.72m CROSS | 5.72m @ 8.85s CROSS...</title>
+    <desc lang="en">5.72m @ 8.85s CROSS
 
-📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.72m @ 8.85s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 5.72m CROSS | 5.72m @ 8.85s CROSS...</title>
+    <desc lang="en">5.72m @ 8.85s CROSS
 
-📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.72m @ 8.85s
+🌬️ WIND: 23km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 6.2m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 5.97m ONSHORE | 5.97m @ 8.91s ONSHORE...</title>
+    <desc lang="en">5.97m @ 8.91s ONSHORE
 
-📏 SWELL: 6.2m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.97m @ 8.91s
+🌬️ WIND: 42km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 6.2m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 5.97m ONSHORE | 5.97m @ 8.91s ONSHORE...</title>
+    <desc lang="en">5.97m @ 8.91s ONSHORE
 
-📏 SWELL: 6.2m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.97m @ 8.91s
+🌬️ WIND: 42km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.85m ONSHORE | 5.85m @ 8.68s ONSHORE...</title>
+    <desc lang="en">5.85m @ 8.68s ONSHORE
 
-📏 SWELL: 5.78m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.85m @ 8.68s
+🌬️ WIND: 32km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.85m ONSHORE | 5.85m @ 8.68s ONSHORE...</title>
+    <desc lang="en">5.85m @ 8.68s ONSHORE
 
-📏 SWELL: 5.78m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.85m @ 8.68s
+🌬️ WIND: 32km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.85m ONSHORE | 5.85m @ 8.68s ONSHORE...</title>
+    <desc lang="en">5.85m @ 8.68s ONSHORE
 
-📏 SWELL: 5.78m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.85m @ 8.68s
+🌬️ WIND: 32km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 5.85m ONSHORE | 5.85m @ 8.68s ONSHORE...</title>
+    <desc lang="en">5.85m @ 8.68s ONSHORE
 
-📏 SWELL: 5.78m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 5.85m @ 8.68s
+🌬️ WIND: 32km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.06m CROSS | 6.06m @ 9.31s CROSS...</title>
+    <desc lang="en">6.06m @ 9.31s CROSS
 
-📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.06m @ 9.31s
+🌬️ WIND: 32km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.06m CROSS | 6.06m @ 9.31s CROSS...</title>
+    <desc lang="en">6.06m @ 9.31s CROSS
 
-📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.06m @ 9.31s
+🌬️ WIND: 32km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.06m CROSS | 6.06m @ 9.31s CROSS...</title>
+    <desc lang="en">6.06m @ 9.31s CROSS
 
-📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.06m @ 9.31s
+🌬️ WIND: 32km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.06m CROSS | 6.06m @ 9.31s CROSS...</title>
+    <desc lang="en">6.06m @ 9.31s CROSS
 
-📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.06m @ 9.31s
+🌬️ WIND: 32km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.06m CROSS | 6.06m @ 9.31s CROSS...</title>
+    <desc lang="en">6.06m @ 9.31s CROSS
 
-📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.06m @ 9.31s
+🌬️ WIND: 32km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.06m CROSS | 6.06m @ 9.31s CROSS...</title>
+    <desc lang="en">6.06m @ 9.31s CROSS
 
-📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.06m @ 9.31s
+🌬️ WIND: 32km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 7.2m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 6.62m ONSHORE | 6.62m @ 9.07s ONSHORE...</title>
+    <desc lang="en">6.62m @ 9.07s ONSHORE
 
-📏 SWELL: 7.2m @ 12.05s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.62m @ 9.07s
+🌬️ WIND: 54km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 7.2m | Conditions: 4.92m ...</title>
-    <desc lang="en">Conditions: 4.92m 
+    <title lang="en">⚠️ 6.62m ONSHORE | 6.62m @ 9.07s ONSHORE...</title>
+    <desc lang="en">6.62m @ 9.07s ONSHORE
 
-📏 SWELL: 7.2m @ 12.05s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.62m @ 9.07s
+🌬️ WIND: 54km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 6.4m CROSS | 6.4m @ 8.94s CROSS...</title>
+    <desc lang="en">6.4m @ 8.94s CROSS
 
-📏 SWELL: 6.48m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.4m @ 8.94s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 6.4m CROSS | 6.4m @ 8.94s CROSS...</title>
+    <desc lang="en">6.4m @ 8.94s CROSS
 
-📏 SWELL: 6.48m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.4m @ 8.94s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 6.4m ONSHORE | 6.4m @ 8.94s ONSHORE...</title>
+    <desc lang="en">6.4m @ 8.94s ONSHORE
 
-📏 SWELL: 6.48m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.4m @ 8.94s
+🌬️ WIND: 34km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
-    <desc lang="en">Conditions: 4.66m 
+    <title lang="en">⚠️ 6.4m ONSHORE | 6.4m @ 8.94s ONSHORE...</title>
+    <desc lang="en">6.4m @ 8.94s ONSHORE
 
-📏 SWELL: 6.48m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.4m @ 8.94s
+🌬️ WIND: 34km/h ONSHORE
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.55m CROSS | 6.55m @ 9.27s CROSS...</title>
+    <desc lang="en">6.55m @ 9.27s CROSS
 
-📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.55m @ 9.27s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.55m CROSS | 6.55m @ 9.27s CROSS...</title>
+    <desc lang="en">6.55m @ 9.27s CROSS
 
-📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.55m @ 9.27s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.55m CROSS | 6.55m @ 9.27s CROSS...</title>
+    <desc lang="en">6.55m @ 9.27s CROSS
 
-📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.55m @ 9.27s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.55m CROSS | 6.55m @ 9.27s CROSS...</title>
+    <desc lang="en">6.55m @ 9.27s CROSS
 
-📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.55m @ 9.27s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.55m CROSS | 6.55m @ 9.27s CROSS...</title>
+    <desc lang="en">6.55m @ 9.27s CROSS
 
-📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.55m @ 9.27s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
-    <desc lang="en">Conditions: 4.64m 
+    <title lang="en">⚠️ 6.55m CROSS | 6.55m @ 9.27s CROSS...</title>
+    <desc lang="en">6.55m @ 9.27s CROSS
 
-📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
-    <desc lang="en">Conditions: 7.56m 
-
-📏 SWELL: 7.56m @ 12.55s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
-    <desc lang="en">Conditions: 6.68m 
-
-📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
-    <desc lang="en">Conditions: 6.6m 
-
-📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A</desc>
+📏 SWELL: 6.55m @ 9.27s
+🌬️ WIND: 34km/h CROSS
+🌊 SOURCE: Stormglass.io</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
 </tv>
