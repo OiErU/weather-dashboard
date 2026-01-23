@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           # UPDATED: 'ddgs' is the new name for the search library
-          pip install requests google-generativeai ddgs
+          pip install requests google-generativeai
 
       - name: Generate EPG
         env:
