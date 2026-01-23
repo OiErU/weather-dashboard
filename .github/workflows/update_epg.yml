@@ -2,8 +2,9 @@ name: Update Surf EPG
 
 on:
   schedule:
+    # Runs at 04:00 UTC every day
     - cron: '0 4 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Allows you to click "Run Now" manually
 
 permissions:
   contents: write
@@ -21,15 +22,20 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests google-generativeai duckduckgo-search
 
       - name: Generate EPG
-        run: python generate_epg.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python generate_epg.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add surf_epg.xml
-          git commit -m "Auto-update EPG" || exit 0
+          # The part below prevents it from crashing if there are no changes
+          git commit -m "Auto-update EPG with AI Analysis" || exit 0
           git push
