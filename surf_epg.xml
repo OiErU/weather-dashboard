@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Surf EPG AI-Chat" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
+<tv generator-info-name="Surf EPG Google" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
   <channel id="ericeira-surfline">
     <display-name>Surfline Ericeira</display-name>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
@@ -49,739 +49,771 @@
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
   </channel>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 4.92m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 4.92m @ 10.6s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 4.92m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 4.92m @ 10.6s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 4.66m @ 10.6s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 4.66m @ 10.6s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 4.66m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 4.66m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 4.66m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 4.66m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 4.66m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.64m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 4.64m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 4.64m @ 10.6s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 5.52m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 5.52m @ 11.05s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 5.52m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 5.52m @ 11.05s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 5.16m @ 11.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 5.16m @ 11.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 5.16m @ 11.25s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 5.16m @ 11.25s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.16m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.16m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.16m @ 11.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.2m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 6.2m @ 12.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.2m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 6.2m @ 12.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 5.78m @ 12.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 5.78m @ 12.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 5.78m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 5.78m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 5.78m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 5.78m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 5.78m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.76m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 5.76m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 5.76m @ 12.3s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.2m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 7.2m @ 12.05s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.2m | Conditions: 4.92m ...</title>
+    <desc lang="en">Conditions: 4.92m 
+
+📏 SWELL: 7.2m @ 12.05s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 6.48m @ 12.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
+    <desc lang="en">Conditions: 4.66m 
+
+📏 SWELL: 6.48m @ 12.25s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.48m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 6.48m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.48m  | Conditions: 4.66m ...</title>
+    <title lang="en">⚠️ 6.48m | Conditions: 4.66m ...</title>
     <desc lang="en">Conditions: 4.66m 
 
 📏 SWELL: 6.48m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.42m  | Conditions: 4.64m ...</title>
+    <title lang="en">⚠️ 6.42m | Conditions: 4.64m ...</title>
     <desc lang="en">Conditions: 4.64m 
 
 📏 SWELL: 6.42m @ 12.25s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-surfline">
-    <title lang="en">Surfline Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-meo">
-    <title lang="en">MEO Ericeira - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 7.56m | Conditions: 7.56m ...</title>
+    <desc lang="en">Conditions: 7.56m 
+
+📏 SWELL: 7.56m @ 12.55s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-surfline">
-    <title lang="en">Surfline Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-meo">
-    <title lang="en">MEO Beachcam Supertubos - Live</title>
-    <desc lang="en">No Data</desc>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
+    <desc lang="en">Conditions: 6.68m 
+
+📏 SWELL: 6.68m @ 12.9s
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.68m  | Conditions: 6.68m ...</title>
+    <title lang="en">⚠️ 6.68m | Conditions: 6.68m ...</title>
     <desc lang="en">Conditions: 6.68m 
 
 📏 SWELL: 6.68m @ 12.9s
-🌬️ WIND: N/A
-🔍 INTEL: Current Surf Conditions. Local time:12:00am, WET (UTC+0). Condition Rating. LOTUS Forecast. POOR TO FAIR. Surf Height. 6...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf Report , Surf Forecast &amp; Surf Cam. Nearby spots. Current Surf Conditions . Local time: 5:21am, WET (UTC+0). Baleal ...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.6m  | Conditions: 6.6m ...</title>
+    <title lang="en">⚠️ 6.6m | Conditions: 6.6m ...</title>
     <desc lang="en">Conditions: 6.6m 
 
 📏 SWELL: 6.6m @ 12.85s
-🌬️ WIND: N/A
-🔍 INTEL: Surf report, surf forecast and surf cam for Baleal, Portugal. Including 16-day surf forecast for surf height, swell, win...</desc>
+🌬️ WIND: N/A</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
 </tv>
