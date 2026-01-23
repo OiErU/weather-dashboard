@@ -1,0 +1,1059 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv generator-info-name="Smart Surf EPG" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
+  <channel id="ericeira-surfline">
+    <display-name>Surfline Ericeira</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
+  </channel>
+  <channel id="ericeira-meo">
+    <display-name>MEO Ericeira</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
+  </channel>
+  <channel id="supertubos-surfline">
+    <display-name>Surfline Supertubos</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
+  </channel>
+  <channel id="supertubos-meo">
+    <display-name>MEO Supertubos</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
+  </channel>
+  <channel id="molheleste-surfline">
+    <display-name>Surfline Molhe Leste</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
+  </channel>
+  <channel id="molheleste-meo">
+    <display-name>MEO Molhe Leste</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
+  </channel>
+  <channel id="baia-meo">
+    <display-name>MEO Baia</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
+  </channel>
+  <channel id="cantinho-surfline">
+    <display-name>Surfline Cantinho</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
+  </channel>
+  <channel id="cantinho-meo">
+    <display-name>MEO Cantinho</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
+  </channel>
+  <channel id="baleal-surfline">
+    <display-name>Surfline Baleal</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
+  </channel>
+  <channel id="lagide-surfline">
+    <display-name>Surfline Lagide</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
+  </channel>
+  <channel id="lagide-meo">
+    <display-name>MEO Lagide</display-name>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
+  </channel>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.84m </title>
+    <desc lang="en">🌊 SWELL: 4.84m @ 10.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.84m </title>
+    <desc lang="en">🌊 SWELL: 4.84m @ 10.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.56m </title>
+    <desc lang="en">🌊 SWELL: 4.56m @ 10.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.58m </title>
+    <desc lang="en">🌊 SWELL: 5.58m @ 11.45s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.58m </title>
+    <desc lang="en">🌊 SWELL: 5.58m @ 11.45s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.36m </title>
+    <desc lang="en">🌊 SWELL: 5.36m @ 11.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.26m </title>
+    <desc lang="en">🌊 SWELL: 6.26m @ 12.3s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.26m </title>
+    <desc lang="en">🌊 SWELL: 6.26m @ 12.3s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.84m </title>
+    <desc lang="en">🌊 SWELL: 5.84m @ 12.4s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 11.95s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 11.95s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.3m </title>
+    <desc lang="en">🌊 SWELL: 6.3m @ 12.15s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.4m </title>
+    <desc lang="en">🌊 SWELL: 7.4m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.4m </title>
+    <desc lang="en">🌊 SWELL: 7.4m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.56m </title>
+    <desc lang="en">🌊 SWELL: 6.56m @ 12.85s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.88m </title>
+    <desc lang="en">🌊 SWELL: 7.88m @ 12.9s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.88m </title>
+    <desc lang="en">🌊 SWELL: 7.88m @ 12.9s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.0m </title>
+    <desc lang="en">🌊 SWELL: 7.0m @ 13.35s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 9.18m </title>
+    <desc lang="en">🌊 SWELL: 9.18m @ 14.55s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 9.18m </title>
+    <desc lang="en">🌊 SWELL: 9.18m @ 14.55s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 8.06m </title>
+    <desc lang="en">🌊 SWELL: 8.06m @ 15.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.72m </title>
+    <desc lang="en">🌊 SWELL: 7.72m @ 14.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 7.72m </title>
+    <desc lang="en">🌊 SWELL: 7.72m @ 14.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.92m </title>
+    <desc lang="en">🌊 SWELL: 6.92m @ 14.8s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.54m </title>
+    <desc lang="en">🌊 SWELL: 6.54m @ 13.55s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 6.54m </title>
+    <desc lang="en">🌊 SWELL: 6.54m @ 13.55s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125000000 +0000" stop="20260125060000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.94m </title>
+    <desc lang="en">🌊 SWELL: 5.94m @ 13.75s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.76m </title>
+    <desc lang="en">🌊 SWELL: 5.76m @ 12.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.76m </title>
+    <desc lang="en">🌊 SWELL: 5.76m @ 12.65s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125060000 +0000" stop="20260125120000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.5m </title>
+    <desc lang="en">🌊 SWELL: 5.5m @ 12.5s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.06m </title>
+    <desc lang="en">🌊 SWELL: 5.06m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 5.06m </title>
+    <desc lang="en">🌊 SWELL: 5.06m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125120000 +0000" stop="20260125180000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.78m </title>
+    <desc lang="en">🌊 SWELL: 4.78m @ 12.05s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="ericeira-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.52m </title>
+    <desc lang="en">🌊 SWELL: 4.52m @ 11.95s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="ericeira-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.52m </title>
+    <desc lang="en">🌊 SWELL: 4.52m @ 11.95s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Ericeira</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="supertubos-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="supertubos-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Supertubos</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="molheleste-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="molheleste-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Molhe Leste</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal South</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260125180000 +0000" stop="20260126000000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐⭐ PUMPING | 4.28m </title>
+    <desc lang="en">🌊 SWELL: 4.28m @ 12.1s
+🌬️ WIND: Nonekm/h 
+📍 SPOT: Baleal North</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+</tv>
