@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Surf Webcam EPG Generator (Smart Version - Wind Aware)
+Surf Webcam EPG Generator (Pro Version)
+Fixes: Handles "Storm" conditions and missing wind data.
 """
 
 import sys
@@ -9,16 +10,15 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
-# UPDATED: Now points to your 'weather-dashboard' repository
 BASE_URL = "https://raw.githubusercontent.com/OiErU/weather-dashboard/main"
 
-# Spot Definitions 
+# Spot Definitions
 SPOTS_CONFIG = {
     "ericeira":   {"lat": 38.99, "lon": -9.42, "name": "Ericeira",   "facing": 290},
     "supertubos": {"lat": 39.34, "lon": -9.36, "name": "Supertubos", "facing": 240},
     "molheleste": {"lat": 39.35, "lon": -9.37, "name": "Molhe Leste","facing": 270},
     "baleal_s":   {"lat": 39.37, "lon": -9.34, "name": "Baleal South", "facing": 180},
-    "baleal_n":   {"lat": 39.38, "lon": -9.34, "name": "Baleal North",   "facing": 10},
+    "baleal_n":   {"lat": 39.38, "lon": -9.34, "name": "Baleal North", "facing": 10},
 }
 
 CHANNELS = [
@@ -47,30 +47,54 @@ def get_surf_data(lat, lon):
         r = requests.get(url, params=params)
         r.raise_for_status()
         return r.json()
-    except Exception:
+    except Exception as e:
+        print(f"API Error: {e}")
         return None
 
 def get_wind_label(wind_deg, facing_deg):
     if wind_deg is None or facing_deg is None: return ""
     diff = abs(wind_deg - facing_deg)
     if diff > 180: diff = 360 - diff
-    if diff < 45: return "ONSHORE 💨"
+    
+    if diff < 45: return "ONSHORE 💨" 
     elif diff > 135: return "OFFSHORE 🟢"
-    else: return "CROSS-SHORE ↔️"
+    else: return "CROSS ↔️"
 
 def judge_surf(height, period, wind_speed, wind_label):
+    # Safety checks for Missing Data
+    if height is None: height = 0
+    if wind_speed is None: wind_speed = 0
+    
     rating = ""
     status = "Choppy"
-    if height < 0.5: status = "Flat"; rating = "😴"
-    elif height > 2.0 and period > 10: status = "PUMPING"; rating = "⭐⭐⭐"
-    elif height > 1.2 and period > 8: status = "Fun"; rating = "⭐"
-    if "ONSHORE" in wind_label: rating = ""; status = "Messy"
-    if "OFFSHORE" in wind_label and height > 1.0: rating += "⭐"
-    return f"{rating} {status}"
+    
+    # --- 1. DANGER CHECK (The Fix) ---
+    if height > 4.0:
+        return "⚠️ STORM / DANGEROUS", "Too Big"
+    if height > 3.0:
+        return "⚠️ XL / EXPERTS ONLY", "Huge"
+    if wind_speed > 35:
+        return "💨 BLOWN OUT", "Windy"
+
+    # --- 2. QUALITY CHECK ---
+    if height < 0.5: 
+        status = "Flat"; rating = "😴"
+    elif height > 2.0 and period > 11: 
+        status = "PUMPING"; rating = "⭐⭐⭐"
+    elif height > 1.2 and period > 9: 
+        status = "Fun"; rating = "⭐"
+    
+    # --- 3. WIND PENALTY ---
+    if "ONSHORE" in wind_label: 
+        rating = ""; status = "Messy"
+    if "OFFSHORE" in wind_label and height > 1.0: 
+        rating += "⭐" # Bonus star for offshore
+        
+    return f"{rating} {status}", status
 
 def generate_xml(days=3):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Smart Surf EPG")
+    root.set("generator-info-name", "Surf EPG Pro")
     root.set("generator-info-url", BASE_URL)
     weather_cache = {}
     
@@ -102,20 +126,32 @@ def generate_xml(days=3):
                 spot_id = ch['spot']
                 spot_info = SPOTS_CONFIG[spot_id]
                 spot_data = weather_cache.get(spot_id)
+                
+                # Default values if fetch fails
                 title = f"{ch['name']} - Live"
-                desc = "No forecast available."
+                desc = "Forecast Unavailable"
                 
                 if spot_data and 'hourly' in spot_data:
                     try:
                         h = spot_data['hourly']
                         idx = min(hour_index, len(h['wave_height']) - 1)
-                        wind_qual = get_wind_label(h['wind_direction_10m'][idx], spot_info['facing'])
-                        condition = judge_surf(h['wave_height'][idx], h['wave_period'][idx], h['wind_speed_10m'][idx], wind_qual)
-                        title = f"{condition} | {h['wave_height'][idx]}m {wind_qual}"
-                        desc = (f"🌊 SWELL: {h['wave_height'][idx]}m @ {h['wave_period'][idx]}s\n"
-                                f"🌬️ WIND: {h['wind_speed_10m'][idx]}km/h {wind_qual}\n"
+                        
+                        # Safe Extraction (Fixes the "None" error)
+                        wh = h['wave_height'][idx] if h['wave_height'][idx] is not None else 0
+                        wp = h['wave_period'][idx] if h['wave_period'][idx] is not None else 0
+                        # Try to get wind, default to 0 if None
+                        ws = h['wind_speed_10m'][idx] if h['wind_speed_10m'][idx] is not None else 0
+                        wd = h['wind_direction_10m'][idx]
+                        
+                        wind_qual = get_wind_label(wd, spot_info['facing'])
+                        condition_str, simple_status = judge_surf(wh, wp, ws, wind_qual)
+                        
+                        title = f"{condition_str} | {wh}m {wind_qual}"
+                        desc = (f"🌊 SWELL: {wh}m @ {wp}s ({simple_status})\n"
+                                f"🌬️ WIND: {ws}km/h {wind_qual}\n"
                                 f"📍 SPOT: {spot_info['name']}")
-                    except Exception: pass
+                    except Exception as e: 
+                        print(f"Calc Error {ch['id']}: {e}")
 
                 prog = ET.SubElement(root, "programme", start=start_fmt, stop=stop_fmt, channel=ch["id"])
                 ET.SubElement(prog, "title", lang="en").text = title
