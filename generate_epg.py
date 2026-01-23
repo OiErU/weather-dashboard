@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Surf EPG Generator (Stormglass + Gemini 2.0 Flash Lite)
-Verified working with 'google-genai' library and 'gemini-2.0-flash-lite'.
+Surf EPG Generator (Stormglass + Gemini Flash Lite)
+FIXED: Added back the missing <channel> definitions so TiviMate works.
 """
 
 import os
@@ -17,20 +17,17 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 STORMGLASS_API_KEY = os.environ.get("STORMGLASS_API_KEY")
 
 # --- LIBRARIES ---
-# We use the NEW library matching your local test
 HAS_AI = False
 try:
     from google import genai
     if GEMINI_API_KEY:
         client = genai.Client(api_key=GEMINI_API_KEY)
         HAS_AI = True
-        print("✅ AI Client connected successfully.")
+        print("✅ AI Client connected.")
 except ImportError:
-    print("⚠️ google-genai library not found. AI features disabled.")
-    HAS_AI = False
+    print("⚠️ google-genai library not found.")
 except Exception as e:
-    print(f"⚠️ AI Client connection failed: {e}")
-    HAS_AI = False
+    print(f"⚠️ AI Client failed: {e}")
 
 SPOTS_CONFIG = {
     "ericeira":   {"lat": 38.97, "lon": -9.42, "name": "Ericeira", "facing": 290},
@@ -60,7 +57,6 @@ def get_stormglass_data(lat, lon):
         print("⚠️ No Stormglass Key")
         return None
     url = "https://api.stormglass.io/v2/weather/point"
-    # Fetching SG data once per unique spot
     params = {
         'lat': lat, 'lng': lon,
         'params': 'waveHeight,wavePeriod,windSpeed,windDirection',
@@ -76,7 +72,6 @@ def get_stormglass_data(lat, lon):
         return None
 
 def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
-    """Generates text using the verified working code."""
     if not HAS_AI:
         return f"{height}m swell."
 
@@ -91,7 +86,6 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
     )
 
     try:
-        # Using the exact model from your local test
         response = client.models.generate_content(
             model='gemini-2.0-flash-lite', 
             contents=prompt
@@ -101,9 +95,6 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
         return f"{height}m swell (AI Silent)"
     except Exception as e:
         print(f"⚠️ AI Error: {e}")
-        # Useful debug print in logs if it fails remotely
-        if "429" in str(e): print("   (Rate Limit Hit)")
-        if "404" in str(e): print("   (Model Not Found)")
         return f"{height}m swell (AI Error)"
 
 def get_wind_label(wind_deg, facing_deg):
@@ -116,10 +107,10 @@ def get_wind_label(wind_deg, facing_deg):
 
 def generate_xml(days=1):
     root = ET.Element("tv")
-    root.set("generator-info-name", "Surf EPG FlashLite")
+    root.set("generator-info-name", "Surf EPG Fixed")
     root.set("generator-info-url", BASE_URL)
     
-    # 1. Fetch Data (Optimized)
+    # 1. Fetch Data
     weather_cache = {}
     unique_coords = set()
     for key, spot in SPOTS_CONFIG.items():
@@ -133,7 +124,15 @@ def generate_xml(days=1):
         weather_cache[coord_key] = data
         time.sleep(1)
 
-    # 2. Build Programs
+    # --- CRITICAL FIX: DEFINE CHANNELS FIRST ---
+    # This was missing in the previous version!
+    for ch in CHANNELS:
+        channel = ET.SubElement(root, "channel", id=ch["id"])
+        ET.SubElement(channel, "display-name").text = ch["name"]
+        ET.SubElement(channel, "icon", src=f"{BASE_URL}/logos/{ch['logo']}")
+    # -------------------------------------------
+
+    # 3. Build Programs
     start_time = datetime.now()
     ai_memory = {}
 
@@ -159,7 +158,6 @@ def generate_xml(days=1):
                         safe_idx = min(target_hour_idx, len(hours_list) - 1)
                         h = hours_list[safe_idx]
 
-                        # Extract Data
                         wh = round(float(h['waveHeight']['sg']), 1)
                         wp = round(float(h['wavePeriod']['sg']), 1)
                         ws = round(float(h['windSpeed']['sg']) * 3.6) 
@@ -167,7 +165,6 @@ def generate_xml(days=1):
                         
                         wind_qual = get_wind_label(wd, spot_info['facing'])
                         
-                        # AI Call (Cached)
                         ai_key = f"{spot_id}-{day}-{block}"
                         if ai_key in ai_memory:
                             ai_text = ai_memory[ai_key]
@@ -175,15 +172,13 @@ def generate_xml(days=1):
                             print(f"   Asking AI about {spot_info['name']}...")
                             ai_text = get_ai_commentary(spot_info['name'], wh, wp, ws, wind_qual)
                             ai_memory[ai_key] = ai_text
-                            time.sleep(1) # Safety delay
+                            time.sleep(1)
 
-                        # Clean Title
                         rating = "⭐⭐" if "OFFSHORE" in wind_qual and wh > 1.0 else "🌊"
                         if wh > 3.5: rating = "⚠️"
                         
                         title = f"{rating} {wh}m {wind_qual} @ {wp}s"
                         
-                        # Description
                         desc = (f"{ai_text}\n\n"
                                 f"🌊 Size: {wh}m @ {wp}s\n"
                                 f"🌬️ Wind: {ws}km/h {wind_qual}")
