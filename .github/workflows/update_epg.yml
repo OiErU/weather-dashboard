@@ -2,7 +2,7 @@ name: Update Surf EPG
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Runs at 4 AM UTC
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -21,8 +21,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
+        # CHANGED: Now installing 'google-genai' instead of 'google-generativeai'
         run: |
-          pip install requests google-generativeai
+          pip install requests google-genai
 
       - name: Generate EPG
         env:
@@ -35,5 +36,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add surf_epg.xml
-          git commit -m "Updated EPG via Stormglass" || exit 0
+          git commit -m "Auto-update EPG" || exit 0
           git push
