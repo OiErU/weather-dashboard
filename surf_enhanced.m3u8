@@ -1,0 +1,37 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/surf_epg.xml" refresh="3600"
+
+#EXTINF:-1 tvg-id="ericeira-surfline" tvg-name="Surfline Ericeira" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" group-title="Ericeira", Surfline Ericeira
+https://hls.cdn-surfline.com/ireland/pt-ribeiradeilhascloseup/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ericeira-meo" tvg-name="MEO Beachcam Ericeira" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" group-title="Ericeira", MEO Beachcam Ericeira
+https://video-auth1.iol.pt/beachcam/bcribeirafixa/playlist.m3u8
+
+#EXTINF:-1 tvg-id="supertubos-surfline" tvg-name="Surfline Supertubos" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" group-title="Peniche", Surfline Supertubos
+https://hls.cdn-surfline.com/ireland/pt-supertubes/playlist.m3u8
+
+#EXTINF:-1 tvg-id="supertubos-meo" tvg-name="MEO Beachcam Supertubos" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" group-title="Peniche", MEO Beachcam Supertubos
+https://video-auth1.iol.pt/beachcam/bcsupertubosfixa/playlist.m3u8
+
+#EXTINF:-1 tvg-id="molheleste-surfline" tvg-name="Surfline Molhe Leste" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" group-title="Peniche", Surfline Molhe Leste
+https://hls.cdn-surfline.com/ireland/pt-molheleste/playlist.m3u8
+
+#EXTINF:-1 tvg-id="molheleste-meo" tvg-name="MEO Beachcam Molhe Leste" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" group-title="Peniche", MEO Beachcam Molhe Leste
+https://video-auth1.iol.pt/beachcam/bcmolheleste/playlist.m3u8
+
+#EXTINF:-1 tvg-id="baia-meo" tvg-name="MEO Beachcam Baia" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" group-title="Baleal", MEO Beachcam Baia
+https://video-auth1.iol.pt/beachcam/bcbalealgeral/playlist.m3u8
+
+#EXTINF:-1 tvg-id="cantinho-surfline" tvg-name="Surfline Cantinho" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" group-title="Baleal", Surfline Cantinho
+https://hls.cdn-surfline.com/ireland/pt-baiacantinho/playlist.m3u8
+
+#EXTINF:-1 tvg-id="cantinho-meo" tvg-name="MEO Beachcam Cantinho" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" group-title="Baleal", MEO Beachcam Cantinho
+https://video-auth1.iol.pt/beachcam/bcbalealcantinho/playlist.m3u8
+
+#EXTINF:-1 tvg-id="baleal-surfline" tvg-name="Surfline Baleal" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" group-title="Baleal", Surfline Baleal
+https://hls.cdn-surfline.com/ireland/pt-baleal/playlist.m3u8
+
+#EXTINF:-1 tvg-id="lagide-surfline" tvg-name="Surfline Lagide" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" group-title="Peniche", Surfline Lagide
+https://hls.cdn-surfline.com/ireland/pt-lagide/playlist.m3u8
+
+#EXTINF:-1 tvg-id="lagide-meo" tvg-name="MEO Beachcam Lagide" tvg-logo="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" group-title="Peniche", MEO Beachcam Lagide
+https://video-auth1.iol.pt/beachcam/bclagidefixa/playlist.m3u8
