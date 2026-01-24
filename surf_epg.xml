@@ -2,434 +2,350 @@
 <tv generator-info-name="Surf EPG Fixed" generator-info-url="https://raw.githubusercontent.com/OiErU/weather-dashboard/main">
   <channel id="ericeira-surfline">
     <display-name>Surfline Ericeira</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png?v=2" />
   </channel>
   <channel id="ericeira-meo">
     <display-name>MEO Ericeira</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/ericeira.png?v=2" />
   </channel>
   <channel id="supertubos-surfline">
     <display-name>Surfline Supertubos</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png?v=2" />
   </channel>
   <channel id="supertubos-meo">
     <display-name>MEO Supertubos</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/supertubos.png?v=2" />
   </channel>
   <channel id="molheleste-surfline">
     <display-name>Surfline Molhe Leste</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png?v=2" />
   </channel>
   <channel id="molheleste-meo">
     <display-name>MEO Molhe Leste</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/molheleste.png?v=2" />
   </channel>
   <channel id="baia-meo">
     <display-name>MEO Baia</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png?v=2" />
   </channel>
   <channel id="cantinho-surfline">
     <display-name>Surfline Cantinho</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png?v=2" />
   </channel>
   <channel id="cantinho-meo">
     <display-name>MEO Cantinho</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/cantinho.png?v=2" />
   </channel>
   <channel id="baleal-surfline">
     <display-name>Surfline Baleal</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/baleal.png?v=2" />
   </channel>
   <channel id="lagide-surfline">
     <display-name>Surfline Lagide</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png?v=2" />
   </channel>
   <channel id="lagide-meo">
     <display-name>MEO Lagide</display-name>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png" />
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png?v=2" />
   </channel>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 4.9m ONSHORE @ 7.9s</title>
-    <desc lang="en">With a 4.9-meter washing machine and onshore 40km/h winds, prepare for a swim, not a surf.
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-surfline">
+    <title lang="en">⚠️ 7.1m ONSHORE @ 9.5s</title>
+    <desc lang="en">Ribeira's 7-meter slabbing barrels are trying to kill me, but my Science Pro NRG+ is loving it!
 
-🌊 Size: 4.9m @ 7.9s
-🌬️ Wind: 40km/h ONSHORE</desc>
+🌊 Size: 7.1m @ 9.5s
+🌬️ Wind: 48km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 4.9m ONSHORE @ 7.9s</title>
-    <desc lang="en">With a 4.9-meter washing machine and onshore 40km/h winds, prepare for a swim, not a surf.
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="ericeira-meo">
+    <title lang="en">⚠️ 7.1m ONSHORE @ 9.5s</title>
+    <desc lang="en">Ribeira's 7-meter slabbing barrels are trying to kill me, but my Science Pro NRG+ is loving it!
 
-🌊 Size: 4.9m @ 7.9s
-🌬️ Wind: 40km/h ONSHORE</desc>
+🌊 Size: 7.1m @ 9.5s
+🌬️ Wind: 48km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 4.8m CROSS @ 7.8s</title>
-    <desc lang="en">With 4.8 meters of swell and a crosswind, Supertubos is gonna be a washing machine of epic proportions, good luck!
-
-🌊 Size: 4.8m @ 7.8s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-surfline">
+    <title lang="en">Surfline Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 4.8m CROSS @ 7.8s</title>
-    <desc lang="en">With 4.8 meters of swell and a crosswind, Supertubos is gonna be a washing machine of epic proportions, good luck!
-
-🌊 Size: 4.8m @ 7.8s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="supertubos-meo">
+    <title lang="en">MEO Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 4.8m ONSHORE @ 7.8s</title>
-    <desc lang="en">With 4.8 meters of swell and onshore winds, Molhe Leste is officially a washing machine, good luck out there!
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-surfline">
+    <title lang="en">⚠️ 6.8m ONSHORE @ 9.4s</title>
+    <desc lang="en">6.8 meters of onshore chaos, brah! My Pro NRG+ nearly launched me into Aveiro, gonna need a bigger leash!
 
-🌊 Size: 4.8m @ 7.8s
-🌬️ Wind: 26km/h ONSHORE</desc>
+🌊 Size: 6.8m @ 9.4s
+🌬️ Wind: 27km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 4.8m ONSHORE @ 7.8s</title>
-    <desc lang="en">With 4.8 meters of swell and onshore winds, Molhe Leste is officially a washing machine, good luck out there!
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="molheleste-meo">
+    <title lang="en">⚠️ 6.8m ONSHORE @ 9.4s</title>
+    <desc lang="en">6.8 meters of onshore chaos, brah! My Pro NRG+ nearly launched me into Aveiro, gonna need a bigger leash!
 
-🌊 Size: 4.8m @ 7.8s
-🌬️ Wind: 26km/h ONSHORE</desc>
+🌊 Size: 6.8m @ 9.4s
+🌬️ Wind: 27km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.9m CROSS @ 8.1s</title>
-    <desc lang="en">With a 4.9-meter washing machine and a crosswind, Baleal South is serving up another day of pure, unfiltered chaos.
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baia-meo">
+    <title lang="en">⚠️ 6.9m ONSHORE @ 9.6s</title>
+    <desc lang="en">6.9 meters of onshore madness! My Science Pro stuck a gnarly ramp, but mostly, it was survival boogie!
 
-🌊 Size: 4.9m @ 8.1s
-🌬️ Wind: 26km/h CROSS</desc>
+🌊 Size: 6.9m @ 9.6s
+🌬️ Wind: 27km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.9m CROSS @ 8.1s</title>
-    <desc lang="en">With a 4.9-meter washing machine and a crosswind, Baleal South is serving up another day of pure, unfiltered chaos.
-
-🌊 Size: 4.9m @ 8.1s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-surfline">
+    <title lang="en">Surfline Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.9m CROSS @ 8.1s</title>
-    <desc lang="en">With a 4.9-meter washing machine and a crosswind, Baleal South is serving up another day of pure, unfiltered chaos.
-
-🌊 Size: 4.9m @ 8.1s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="cantinho-meo">
+    <title lang="en">MEO Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.9m CROSS @ 8.1s</title>
-    <desc lang="en">With a 4.9-meter washing machine and a gusty crosswind, Baleal North is serving up a delightful dose of chaos.
-
-🌊 Size: 4.9m @ 8.1s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="baleal-surfline">
+    <title lang="en">Surfline Baleal</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.9m CROSS @ 8.1s</title>
-    <desc lang="en">With a 4.9-meter washing machine and a gusty crosswind, Baleal North is serving up a delightful dose of chaos.
-
-🌊 Size: 4.9m @ 8.1s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-surfline">
+    <title lang="en">Surfline Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123000000 +0000" stop="20260123060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.9m CROSS @ 8.1s</title>
-    <desc lang="en">With a 4.9-meter washing machine and a gusty crosswind, Baleal North is serving up a delightful dose of chaos.
-
-🌊 Size: 4.9m @ 8.1s
-🌬️ Wind: 26km/h CROSS</desc>
+  <programme start="20260124000000 +0000" stop="20260124060000 +0000" channel="lagide-meo">
+    <title lang="en">MEO Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 5.5m ONSHORE @ 8.5s</title>
-    <desc lang="en">With 5.5-meter washing machine waves and onshore wind, today's surf is perfect for a swim, not a shred.
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-surfline">
+    <title lang="en">⚠️ 7.7m ONSHORE @ 10.0s</title>
+    <desc lang="en">7.7 meters of onshore slop, more like Ribeira d'Ishhhs! Time for some sponge launching, brahs!
 
-🌊 Size: 5.5m @ 8.5s
-🌬️ Wind: 42km/h ONSHORE</desc>
+🌊 Size: 7.7m @ 10.0s
+🌬️ Wind: 65km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 5.5m ONSHORE @ 8.5s</title>
-    <desc lang="en">With 5.5-meter washing machine waves and onshore wind, today's surf is perfect for a swim, not a shred.
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="ericeira-meo">
+    <title lang="en">⚠️ 7.7m ONSHORE @ 10.0s</title>
+    <desc lang="en">7.7 meters of onshore slop, more like Ribeira d'Ishhhs! Time for some sponge launching, brahs!
 
-🌊 Size: 5.5m @ 8.5s
-🌬️ Wind: 42km/h ONSHORE</desc>
+🌊 Size: 7.7m @ 10.0s
+🌬️ Wind: 65km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 5.3m CROSS @ 8.4s</title>
-    <desc lang="en">With a 5.3-meter washing machine and that crosswind, you're better off in the pub than Supertubos today.
-
-🌊 Size: 5.3m @ 8.4s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-surfline">
+    <title lang="en">Surfline Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 5.3m CROSS @ 8.4s</title>
-    <desc lang="en">With a 5.3-meter washing machine and that crosswind, you're better off in the pub than Supertubos today.
-
-🌊 Size: 5.3m @ 8.4s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="supertubos-meo">
+    <title lang="en">MEO Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 5.3m ONSHORE @ 8.4s</title>
-    <desc lang="en">With a 5.3-meter washing machine and onshore wind, Molhe Leste is serving up a classic stay home and watch Netflix kind of day.
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-surfline">
+    <title lang="en">⚠️ 7.4m ONSHORE @ 9.8s</title>
+    <desc lang="en">Seven-meter closeouts at Molhe, brah! My Science Pro NRG+ and I got pitted... then rinsed!
 
-🌊 Size: 5.3m @ 8.4s
-🌬️ Wind: 23km/h ONSHORE</desc>
+🌊 Size: 7.4m @ 9.8s
+🌬️ Wind: 28km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 5.3m ONSHORE @ 8.4s</title>
-    <desc lang="en">With a 5.3-meter washing machine and onshore wind, Molhe Leste is serving up a classic stay home and watch Netflix kind of day.
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="molheleste-meo">
+    <title lang="en">⚠️ 7.4m ONSHORE @ 9.8s</title>
+    <desc lang="en">Seven-meter closeouts at Molhe, brah! My Science Pro NRG+ and I got pitted... then rinsed!
 
-🌊 Size: 5.3m @ 8.4s
-🌬️ Wind: 23km/h ONSHORE</desc>
+🌊 Size: 7.4m @ 9.8s
+🌬️ Wind: 28km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 5.7m CROSS @ 8.8s</title>
-    <desc lang="en">With a 5.7-meter washing machine and a gusting crosswind, Baleal South is offering a truly 'memorable' experience.
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baia-meo">
+    <title lang="en">⚠️ 7.2m CROSS @ 10.2s</title>
+    <desc lang="en">Seven-meter Meio da Baia? Send it! The Science Pro was built to launch slabs and hunt pits today!
 
-🌊 Size: 5.7m @ 8.8s
-🌬️ Wind: 23km/h CROSS</desc>
+🌊 Size: 7.2m @ 10.2s
+🌬️ Wind: 28km/h CROSS</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 5.7m CROSS @ 8.8s</title>
-    <desc lang="en">With a 5.7-meter washing machine and a gusting crosswind, Baleal South is offering a truly 'memorable' experience.
-
-🌊 Size: 5.7m @ 8.8s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-surfline">
+    <title lang="en">Surfline Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 5.7m CROSS @ 8.8s</title>
-    <desc lang="en">With a 5.7-meter washing machine and a gusting crosswind, Baleal South is offering a truly 'memorable' experience.
-
-🌊 Size: 5.7m @ 8.8s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="cantinho-meo">
+    <title lang="en">MEO Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.7m CROSS @ 8.8s</title>
-    <desc lang="en">With a 5.7-meter washing machine and a gusty crosswind, Baleal North is officially a battleground today.
-
-🌊 Size: 5.7m @ 8.8s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="baleal-surfline">
+    <title lang="en">Surfline Baleal</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.7m CROSS @ 8.8s</title>
-    <desc lang="en">With a 5.7-meter washing machine and a gusty crosswind, Baleal North is officially a battleground today.
-
-🌊 Size: 5.7m @ 8.8s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-surfline">
+    <title lang="en">Surfline Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123060000 +0000" stop="20260123120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.7m CROSS @ 8.8s</title>
-    <desc lang="en">With a 5.7-meter washing machine and a gusty crosswind, Baleal North is officially a battleground today.
-
-🌊 Size: 5.7m @ 8.8s
-🌬️ Wind: 23km/h CROSS</desc>
+  <programme start="20260124060000 +0000" stop="20260124120000 +0000" channel="lagide-meo">
+    <title lang="en">MEO Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 6.0m ONSHORE @ 8.9s</title>
-    <desc lang="en">With a 6-meter washing machine and onshore winds, today's surf at Ericeira is officially a masochist's delight.
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-surfline">
+    <title lang="en">⚠️ 8.3m ONSHORE @ 11.1s</title>
+    <desc lang="en">Dude, Ribeira's a chaotic 8-meter ramp fest today, perfect for launching into orbit on my trusty Science Pro! 🤙
 
-🌊 Size: 6.0m @ 8.9s
-🌬️ Wind: 42km/h ONSHORE</desc>
+🌊 Size: 8.3m @ 11.1s
+🌬️ Wind: 38km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 6.0m ONSHORE @ 8.9s</title>
-    <desc lang="en">With a 6-meter washing machine and onshore winds, today's surf at Ericeira is officially a masochist's delight.
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="ericeira-meo">
+    <title lang="en">⚠️ 8.3m ONSHORE @ 11.1s</title>
+    <desc lang="en">Dude, Ribeira's a chaotic 8-meter ramp fest today, perfect for launching into orbit on my trusty Science Pro! 🤙
 
-🌊 Size: 6.0m @ 8.9s
-🌬️ Wind: 42km/h ONSHORE</desc>
+🌊 Size: 8.3m @ 11.1s
+🌬️ Wind: 38km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 5.8m ONSHORE @ 8.7s</title>
-    <desc lang="en">With a 5.8-meter washing machine and onshore winds, Supertubos is offering a truly 'memorable' experience.
-
-🌊 Size: 5.8m @ 8.7s
-🌬️ Wind: 32km/h ONSHORE</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-surfline">
+    <title lang="en">Surfline Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 5.8m ONSHORE @ 8.7s</title>
-    <desc lang="en">With a 5.8-meter washing machine and onshore winds, Supertubos is offering a truly 'memorable' experience.
-
-🌊 Size: 5.8m @ 8.7s
-🌬️ Wind: 32km/h ONSHORE</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="supertubos-meo">
+    <title lang="en">MEO Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 5.8m ONSHORE @ 8.7s</title>
-    <desc lang="en">With a 5.8-meter washing machine churning onshore, today's surf at Molhe Leste is officially a no-go.
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-surfline">
+    <title lang="en">⚠️ 7.8m CROSS @ 10.9s</title>
+    <desc lang="en">Molhe Leste's a 7-meter closeout factory today; I'm just boosting airs on my sponge!
 
-🌊 Size: 5.8m @ 8.7s
-🌬️ Wind: 32km/h ONSHORE</desc>
+🌊 Size: 7.8m @ 10.9s
+🌬️ Wind: 29km/h CROSS</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 5.8m ONSHORE @ 8.7s</title>
-    <desc lang="en">With a 5.8-meter washing machine churning onshore, today's surf at Molhe Leste is officially a no-go.
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="molheleste-meo">
+    <title lang="en">⚠️ 7.8m CROSS @ 10.9s</title>
+    <desc lang="en">Molhe Leste's a 7-meter closeout factory today; I'm just boosting airs on my sponge!
 
-🌊 Size: 5.8m @ 8.7s
-🌬️ Wind: 32km/h ONSHORE</desc>
+🌊 Size: 7.8m @ 10.9s
+🌬️ Wind: 29km/h CROSS</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.1m CROSS @ 9.3s</title>
-    <desc lang="en">With 6.1 meters of washing machine and a howling crosswind, Baleal South is officially a demolition derby today.
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baia-meo">
+    <title lang="en">⚠️ 8.0m ONSHORE @ 11.4s</title>
+    <desc lang="en">Gnarly 8-meter monsters at Meio, perfect ramps for launching off this boogie!
 
-🌊 Size: 6.1m @ 9.3s
-🌬️ Wind: 32km/h CROSS</desc>
+🌊 Size: 8.0m @ 11.4s
+🌬️ Wind: 29km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.1m CROSS @ 9.3s</title>
-    <desc lang="en">With 6.1 meters of washing machine and a howling crosswind, Baleal South is officially a demolition derby today.
-
-🌊 Size: 6.1m @ 9.3s
-🌬️ Wind: 32km/h CROSS</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-surfline">
+    <title lang="en">Surfline Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.1m CROSS @ 9.3s</title>
-    <desc lang="en">With 6.1 meters of washing machine and a howling crosswind, Baleal South is officially a demolition derby today.
-
-🌊 Size: 6.1m @ 9.3s
-🌬️ Wind: 32km/h CROSS</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="cantinho-meo">
+    <title lang="en">MEO Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.1m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.1-meter washing machine and 32km/h crosswinds, Baleal North is serving up another delightful mess.
-
-🌊 Size: 6.1m @ 9.3s
-🌬️ Wind: 32km/h CROSS</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="baleal-surfline">
+    <title lang="en">Surfline Baleal</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.1m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.1-meter washing machine and 32km/h crosswinds, Baleal North is serving up another delightful mess.
-
-🌊 Size: 6.1m @ 9.3s
-🌬️ Wind: 32km/h CROSS</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-surfline">
+    <title lang="en">Surfline Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123120000 +0000" stop="20260123180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.1m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.1-meter washing machine and 32km/h crosswinds, Baleal North is serving up another delightful mess.
-
-🌊 Size: 6.1m @ 9.3s
-🌬️ Wind: 32km/h CROSS</desc>
+  <programme start="20260124120000 +0000" stop="20260124180000 +0000" channel="lagide-meo">
+    <title lang="en">MEO Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 6.6m ONSHORE @ 9.1s</title>
-    <desc lang="en">With 6.6-meter faces and onshore winds, today's Ericeira surf looks like a washing machine fueled by pure frustration.
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-surfline">
+    <title lang="en">⚠️ 7.4m ONSHORE @ 10.6s</title>
+    <desc lang="en">7-meter monsters at Ribeira! This onshore slop is a boogie bone-breaker... but the Science Pro can still find a ramp!
 
-🌊 Size: 6.6m @ 9.1s
-🌬️ Wind: 54km/h ONSHORE</desc>
+🌊 Size: 7.4m @ 10.6s
+🌬️ Wind: 31km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 6.6m ONSHORE @ 9.1s</title>
-    <desc lang="en">With 6.6-meter faces and onshore winds, today's Ericeira surf looks like a washing machine fueled by pure frustration.
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="ericeira-meo">
+    <title lang="en">⚠️ 7.4m ONSHORE @ 10.6s</title>
+    <desc lang="en">7-meter monsters at Ribeira! This onshore slop is a boogie bone-breaker... but the Science Pro can still find a ramp!
 
-🌊 Size: 6.6m @ 9.1s
-🌬️ Wind: 54km/h ONSHORE</desc>
+🌊 Size: 7.4m @ 10.6s
+🌬️ Wind: 31km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 6.4m CROSS @ 8.9s</title>
-    <desc lang="en">With a 6.4-meter washing machine and a crosswind, Supertubos is officially a survival of the fittest kind of day.
-
-🌊 Size: 6.4m @ 8.9s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-surfline">
+    <title lang="en">Surfline Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 6.4m CROSS @ 8.9s</title>
-    <desc lang="en">With a 6.4-meter washing machine and a crosswind, Supertubos is officially a survival of the fittest kind of day.
-
-🌊 Size: 6.4m @ 8.9s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="supertubos-meo">
+    <title lang="en">MEO Supertubos</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 6.4m ONSHORE @ 8.9s</title>
-    <desc lang="en">With a 6.4-meter washing machine and onshore winds, Molhe Leste is officially a kook's nightmare today.
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-surfline">
+    <title lang="en">⚠️ 7.1m ONSHORE @ 10.4s</title>
+    <desc lang="en">7-meter onshore slabs at Molhe? My Science Pro NRG+ and I got pitted beyond belief, brah!
 
-🌊 Size: 6.4m @ 8.9s
-🌬️ Wind: 34km/h ONSHORE</desc>
+🌊 Size: 7.1m @ 10.4s
+🌬️ Wind: 20km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 6.4m ONSHORE @ 8.9s</title>
-    <desc lang="en">With a 6.4-meter washing machine and onshore winds, Molhe Leste is officially a kook's nightmare today.
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="molheleste-meo">
+    <title lang="en">⚠️ 7.1m ONSHORE @ 10.4s</title>
+    <desc lang="en">7-meter onshore slabs at Molhe? My Science Pro NRG+ and I got pitted beyond belief, brah!
 
-🌊 Size: 6.4m @ 8.9s
-🌬️ Wind: 34km/h ONSHORE</desc>
+🌊 Size: 7.1m @ 10.4s
+🌬️ Wind: 20km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 6.5m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.5-meter washing machine and a howling crosswind, Baleal South is officially a disaster today.
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baia-meo">
+    <title lang="en">⚠️ 7.4m ONSHORE @ 10.7s</title>
+    <desc lang="en">Gnarly 7-meter Meio da Baia is serving up some meaty ramps today, perfect for launching off my Science Pro and getting pitted!
 
-🌊 Size: 6.5m @ 9.3s
-🌬️ Wind: 34km/h CROSS</desc>
+🌊 Size: 7.4m @ 10.7s
+🌬️ Wind: 20km/h ONSHORE</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 6.5m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.5-meter washing machine and a howling crosswind, Baleal South is officially a disaster today.
-
-🌊 Size: 6.5m @ 9.3s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-surfline">
+    <title lang="en">Surfline Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 6.5m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.5-meter washing machine and a howling crosswind, Baleal South is officially a disaster today.
-
-🌊 Size: 6.5m @ 9.3s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="cantinho-meo">
+    <title lang="en">MEO Cantinho</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 6.5m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.5-meter washing machine and 34km/h crosswinds, Baleal North is serving up a delightful dose of chaos.
-
-🌊 Size: 6.5m @ 9.3s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="baleal-surfline">
+    <title lang="en">Surfline Baleal</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 6.5m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.5-meter washing machine and 34km/h crosswinds, Baleal North is serving up a delightful dose of chaos.
-
-🌊 Size: 6.5m @ 9.3s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-surfline">
+    <title lang="en">Surfline Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260123180000 +0000" stop="20260124000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 6.5m CROSS @ 9.3s</title>
-    <desc lang="en">With a 6.5-meter washing machine and 34km/h crosswinds, Baleal North is serving up a delightful dose of chaos.
-
-🌊 Size: 6.5m @ 9.3s
-🌬️ Wind: 34km/h CROSS</desc>
+  <programme start="20260124180000 +0000" stop="20260125000000 +0000" channel="lagide-meo">
+    <title lang="en">MEO Lagide</title>
+    <desc lang="en">No Data Available</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
 </tv>
