@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Surf EPG Generator (Stormglass + Gemini Flash Lite)
-FIXED: Added back the missing <channel> definitions so TiviMate works.
+Surf EPG Generator (Stormglass + Gemini Flash)
+FIXED: Indentation errors, precise coordinates, and 7-spot split.
 """
 
 import os
@@ -29,6 +29,7 @@ except ImportError:
 except Exception as e:
     print(f"⚠️ AI Client failed: {e}")
 
+# --- SPOTS CONFIGURATION (7 Unique Spots) ---
 SPOTS_CONFIG = {
     # ERICEIRA
     "ribeira":    {"lat": 38.988, "lon": -9.419, "name": "Ribeira d'Ilhas", "facing": 290},
@@ -44,6 +45,7 @@ SPOTS_CONFIG = {
     "lagide":     {"lat": 39.376, "lon": -9.336, "name": "Lagide", "facing": 350},       
 }
 
+# --- CHANNELS MAP ---
 CHANNELS = [
     # Ericeira -> Ribeira Data
     {"id": "ericeira-surfline", "spot": "ribeira", "name": "Surfline Ericeira", "logo": "ericeira.png?v=2", "poster": "ericeira_poster.jpg"},
@@ -95,7 +97,8 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
     if not HAS_AI:
         return f"{height}m swell."
 
-prompt = (
+    # CORRECTED INDENTATION BLOCK
+    prompt = (
         f"You are a stoked, funny local bodyboarder at {spot_name}, riding your Science Pro NRG+. "
         f"OFFICIAL DATA: Swell {height} meters @ {period} seconds. Wind {wind_speed}km/h ({wind_label}).\n"
         "TASK: Write a 1-sentence bodyboard report (max 20 words).\n"
@@ -109,7 +112,7 @@ prompt = (
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.0-flash-lite', 
+            model='gemini-2.0-flash', 
             contents=prompt
         )
         if response.text:
@@ -143,16 +146,17 @@ def generate_xml(days=1):
     for lat, lon in unique_coords:
         coord_key = f"{lat},{lon}"
         data = get_stormglass_data(lat, lon)
-        weather_cache[coord_key] = data
-        time.sleep(1)
+        if data:
+            weather_cache[coord_key] = data
+        else:
+            print(f"❌ Failed to fetch data for {lat}, {lon}")
+        time.sleep(1) # Polite delay
 
-    # --- CRITICAL FIX: DEFINE CHANNELS FIRST ---
-    # This was missing in the previous version!
+    # 2. Add Channel Headers
     for ch in CHANNELS:
         channel = ET.SubElement(root, "channel", id=ch["id"])
         ET.SubElement(channel, "display-name").text = ch["name"]
         ET.SubElement(channel, "icon", src=f"{BASE_URL}/logos/{ch['logo']}")
-    # -------------------------------------------
 
     # 3. Build Programs
     start_time = datetime.now()
@@ -172,7 +176,8 @@ def generate_xml(days=1):
                 spot_data = weather_cache.get(coord_key)
                 
                 title = f"{ch['name']}"
-                desc = "No Data"
+                desc = "No Data Available"
+                icon_src = f"{BASE_URL}/posters/{ch['poster']}"
 
                 if spot_data and 'hours' in spot_data:
                     try:
@@ -206,7 +211,7 @@ def generate_xml(days=1):
                                 f"🌬️ Wind: {ws}km/h {wind_qual}")
 
                     except Exception as e:
-                        print(f"Error {spot_id}: {e}")
+                        print(f"Error building program for {spot_id}: {e}")
 
                 start_fmt = program_start.strftime("%Y%m%d%H%M%S +0000")
                 stop_fmt = program_stop.strftime("%Y%m%d%H%M%S +0000")
@@ -214,11 +219,13 @@ def generate_xml(days=1):
                 prog = ET.SubElement(root, "programme", start=start_fmt, stop=stop_fmt, channel=ch["id"])
                 ET.SubElement(prog, "title", lang="en").text = title
                 ET.SubElement(prog, "desc", lang="en").text = desc
-                ET.SubElement(prog, "icon", src=f"{BASE_URL}/posters/{ch['poster']}")
+                ET.SubElement(prog, "icon", src=icon_src)
 
     tree = ET.ElementTree(root)
     ET.indent(tree, space="  ", level=0)
-    tree.write("surf_epg.xml", encoding="utf-8", xml_declaration=True)
+    # Write to file
+    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+    print("✅ EPG Generated successfully: epg.xml")
 
 if __name__ == "__main__":
     generate_xml()
