@@ -97,17 +97,24 @@ def get_ai_commentary(spot_name, height, period, wind_speed, wind_label):
     if not HAS_AI:
         return f"{height}m swell."
 
-    # CORRECTED INDENTATION BLOCK
     prompt = (
-        f"You are a stoked, funny local bodyboarder at {spot_name}, riding your Science Pro NRG+. "
-        f"OFFICIAL DATA: Swell {height} meters @ {period} seconds. Wind {wind_speed}km/h ({wind_label}).\n"
-        "TASK: Write a 1-sentence bodyboard report (max 20 words).\n"
-        "STYLE GUIDE:\n"
-        "- Tone: Easy-going, humorous, and stoked. Use bodyboard slang (boogie, sponge, slab, ramp, pit).\n"
-        "- If it's hollow/heavy: Get hyped! You love barrels and heavy shorebreaks. (e.g., 'Perfect for the Science Pro', 'Pull into a cavern').\n"
-        "- If it's messy/flat: Crack a joke (e.g., 'Even the NRG+ can't save this', 'Time for a coffee').\n"
-        "- IMPORTANT: Never use the same description twice. Be unpredictable.\n"
-        "- Include the wave height naturally."
+        f"You're a beginner/intermediate local bodyboarder at {spot_name}. "
+        f"Current conditions: {height}m swell, {period}s period, {wind_speed}km/h {wind_label} wind.\n\n"
+        
+        "RIDEABILITY ASSESSMENT (apply first):\n"
+        "- Onshore wind over 20km/h with swell over 2m = messy, probably not worth it\n"
+        "- Swell over 5m at a beachbreak = dangerous closeouts, only for tow-ins or watching\n"
+        "- Short periods (<8s) = weak, crumbly waves\n"
+        "- Offshore/light wind + 1-3m + 10s+ period = ideal\n\n"
+        
+        "TASK: Write ONE sentence (max 20 words) describing today's session prospects.\n\n"
+        
+        "TONE: Dry wit, understated. Like a local who's seen it all. "
+        "No forced slang, no 'brah', no exclamation marks. "
+        "If it's dangerous or blown out, say so plainly with a bit of dark humor. "
+        "If it's good, quiet confidence - you don't need to oversell it.\n\n"
+        
+        "Include the wave height naturally in your sentence."
     )
 
     try:
