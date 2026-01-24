@@ -124,8 +124,8 @@ CHANNELS = [
 ]
 
 
-def get_openmeteo_marine_data(lat: float, lon: float, forecast_days: int = 3) -> dict | None:
-    """Fetch marine data from Open-Meteo API."""
+def get_openmeteo_marine_data(lat: float, lon: float, forecast_days: int = 3, max_retries: int = 3) -> dict | None:
+    """Fetch marine data from Open-Meteo API with retry logic."""
     url = "https://marine-api.open-meteo.com/v1/marine"
     params = {
         "latitude": lat,
@@ -144,17 +144,26 @@ def get_openmeteo_marine_data(lat: float, lon: float, forecast_days: int = 3) ->
         "timezone": "Europe/Lisbon",
     }
     
-    try:
-        r = requests.get(url, params=params, timeout=20)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"⚠️ Marine API Error for {lat},{lon}: {e}")
-        return None
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, params=params, timeout=30)
+            r.raise_for_status()
+            return r.json()
+        except requests.exceptions.Timeout:
+            print(f"   ⏱️ Timeout attempt {attempt + 1}/{max_retries} for marine data {lat},{lon}")
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retry
+            continue
+        except Exception as e:
+            print(f"⚠️ Marine API Error for {lat},{lon}: {e}")
+            return None
+    
+    print(f"⚠️ Marine API failed after {max_retries} retries for {lat},{lon}")
+    return None
 
 
-def get_openmeteo_weather_data(lat: float, lon: float, forecast_days: int = 3) -> dict | None:
-    """Fetch wind data from Open-Meteo Weather API."""
+def get_openmeteo_weather_data(lat: float, lon: float, forecast_days: int = 3, max_retries: int = 3) -> dict | None:
+    """Fetch wind data from Open-Meteo Weather API with retry logic."""
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
         "latitude": lat,
@@ -168,13 +177,22 @@ def get_openmeteo_weather_data(lat: float, lon: float, forecast_days: int = 3) -
         "timezone": "Europe/Lisbon",
     }
     
-    try:
-        r = requests.get(url, params=params, timeout=20)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"⚠️ Weather API Error for {lat},{lon}: {e}")
-        return None
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, params=params, timeout=30)
+            r.raise_for_status()
+            return r.json()
+        except requests.exceptions.Timeout:
+            print(f"   ⏱️ Timeout attempt {attempt + 1}/{max_retries} for weather data {lat},{lon}")
+            if attempt < max_retries - 1:
+                time.sleep(2)  # Wait before retry
+            continue
+        except Exception as e:
+            print(f"⚠️ Weather API Error for {lat},{lon}: {e}")
+            return None
+    
+    print(f"⚠️ Weather API failed after {max_retries} retries for {lat},{lon}")
+    return None
 
 
 def get_wind_label(wind_deg: float, spot_config: dict) -> str:
