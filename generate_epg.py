@@ -224,8 +224,8 @@ def generate_xml(days=1):
     tree = ET.ElementTree(root)
     ET.indent(tree, space="  ", level=0)
     # Write to file
-    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("✅ EPG Generated successfully: epg.xml")
+    tree.write("surf_epg.xml", encoding="utf-8", xml_declaration=True)
+    print("✅ EPG Generated successfully: surf_epg.xml")
 
 if __name__ == "__main__":
     generate_xml()
