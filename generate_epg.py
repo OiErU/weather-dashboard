@@ -41,6 +41,7 @@ except Exception as e:
 # --- SPOTS CONFIGURATION ---
 # facing = direction the beach faces (where waves come FROM for ideal conditions)
 # offshore_wind = wind directions that are offshore for this spot
+# NOTE: Coordinates pushed slightly offshore to ensure they hit Open-Meteo sea grid cells
 SPOTS_CONFIG = {
     # ERICEIRA
     "ribeira": {
@@ -79,7 +80,7 @@ SPOTS_CONFIG = {
     },
     "cantinho": {
         "lat": 39.368, 
-        "lon": -9.355,  # Pushed west to hit sea grid cell
+        "lon": -9.355,  # FIXED: pushed west to hit sea grid cell
         "name": "Cantinho da Baia", 
         "facing": 320,
         "offshore_wind": (100, 200),  # E to S winds are offshore
@@ -89,7 +90,7 @@ SPOTS_CONFIG = {
     # PENICHE - NORTH SIDE (Baleal)
     "baleal_n": {
         "lat": 39.385, 
-        "lon": -9.345,  # Pushed north/west to hit sea grid cell
+        "lon": -9.345,  # FIXED: pushed north/west to hit sea grid cell
         "name": "Baleal Norte", 
         "facing": 10,
         "offshore_wind": (135, 225),  # SE to SW winds are offshore
@@ -97,7 +98,7 @@ SPOTS_CONFIG = {
     },
     "lagide": {
         "lat": 39.390, 
-        "lon": -9.350,  # Pushed north/west to hit sea grid cell
+        "lon": -9.350,  # FIXED: pushed north/west to hit sea grid cell
         "name": "Lagide", 
         "facing": 350,
         "offshore_wind": (135, 225),  # SE to SW winds are offshore
@@ -324,12 +325,12 @@ def fetch_all_spot_data(forecast_days: int = 3) -> dict:
     for spot_id, spot in SPOTS_CONFIG.items():
         coord_key = f"{spot['lat']},{spot['lon']}"
         if coord_key not in unique_coords:
-            unique_coords[coord_key] = (spot['lat'], spot['lon'])
+            unique_coords[coord_key] = (spot['lat'], spot['lon'], spot['name'])
     
     print(f"🌊 Fetching data for {len(unique_coords)} unique locations...")
     
-    for coord_key, (lat, lon) in unique_coords.items():
-        print(f"   📍 Fetching {coord_key}...")
+    for coord_key, (lat, lon, name) in unique_coords.items():
+        print(f"   📍 Fetching {name} ({coord_key})...")
         
         marine_data = get_openmeteo_marine_data(lat, lon, forecast_days)
         weather_data = get_openmeteo_weather_data(lat, lon, forecast_days)
@@ -360,7 +361,7 @@ def fetch_all_spot_data(forecast_days: int = 3) -> dict:
             data_cache[coord_key] = {"hours": hours}
             print(f"   ✅ Got {len(hours)} hours of data")
         else:
-            print(f"   ❌ Failed to fetch data for {coord_key}")
+            print(f"   ❌ Failed to fetch data for {name}")
         
         time.sleep(0.5)  # Be polite to the API
     
