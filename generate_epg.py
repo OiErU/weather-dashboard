@@ -88,17 +88,18 @@ SPOTS_CONFIG = {
     },
     
     # PENICHE - NORTH SIDE (Baleal)
+    # These spots need coordinates pushed well into the ocean to hit sea grid cells
     "baleal_n": {
-        "lat": 39.385, 
-        "lon": -9.345,  # FIXED: pushed north/west to hit sea grid cell
+        "lat": 39.400, 
+        "lon": -9.370,  # FIXED: pushed further north/west into open ocean
         "name": "Baleal Norte", 
         "facing": 10,
         "offshore_wind": (135, 225),  # SE to SW winds are offshore
         "description": "North-facing, works when south side is maxed"
     },
     "lagide": {
-        "lat": 39.390, 
-        "lon": -9.350,  # FIXED: pushed north/west to hit sea grid cell
+        "lat": 39.410, 
+        "lon": -9.380,  # FIXED: pushed further north/west into open ocean
         "name": "Lagide", 
         "facing": 350,
         "offshore_wind": (135, 225),  # SE to SW winds are offshore
@@ -328,6 +329,7 @@ def fetch_all_spot_data(forecast_days: int = 3) -> dict:
             unique_coords[coord_key] = (spot['lat'], spot['lon'], spot['name'])
     
     print(f"🌊 Fetching data for {len(unique_coords)} unique locations...")
+    print(f"   Coordinates to fetch: {list(unique_coords.keys())}")
     
     for coord_key, (lat, lon, name) in unique_coords.items():
         print(f"   📍 Fetching {name} ({coord_key})...")
@@ -336,9 +338,16 @@ def fetch_all_spot_data(forecast_days: int = 3) -> dict:
         weather_data = get_openmeteo_weather_data(lat, lon, forecast_days)
         
         if marine_data and weather_data:
+            # Check if marine data actually has values
+            marine_hourly = marine_data.get("hourly", {})
+            swell_heights = marine_hourly.get("swell_wave_height", [])
+            first_swell = swell_heights[0] if swell_heights else None
+            
+            if first_swell is None:
+                print(f"   ⚠️ {name}: Marine API returned but swell_wave_height is None/empty!")
+            
             # Combine hourly data
             hours = []
-            marine_hourly = marine_data.get("hourly", {})
             weather_hourly = weather_data.get("hourly", {})
             
             times = marine_hourly.get("time", [])
@@ -359,11 +368,28 @@ def fetch_all_spot_data(forecast_days: int = 3) -> dict:
                 })
             
             data_cache[coord_key] = {"hours": hours}
-            print(f"   ✅ Got {len(hours)} hours of data")
+            print(f"   ✅ Got {len(hours)} hours of data (first swell: {first_swell}m)")
         else:
             print(f"   ❌ Failed to fetch data for {name}")
+            if not marine_data:
+                print(f"      Marine data: None")
+            if not weather_data:
+                print(f"      Weather data: None")
         
         time.sleep(0.5)  # Be polite to the API
+    
+    # Summary of what we got
+    print(f"\n📊 Data cache summary:")
+    for key in data_cache:
+        print(f"   ✅ {key}")
+    
+    # Check which spots will have data
+    print(f"\n🔍 Spot -> Coordinate mapping:")
+    for spot_id, spot in SPOTS_CONFIG.items():
+        coord_key = f"{spot['lat']},{spot['lon']}"
+        has_data = coord_key in data_cache
+        status = "✅" if has_data else "❌"
+        print(f"   {status} {spot['name']}: {coord_key}")
     
     return data_cache
 
