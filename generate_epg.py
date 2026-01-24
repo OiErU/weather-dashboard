@@ -79,7 +79,7 @@ SPOTS_CONFIG = {
     },
     "cantinho": {
         "lat": 39.368, 
-        "lon": -9.340, 
+        "lon": -9.355,  # Pushed west to hit sea grid cell
         "name": "Cantinho da Baia", 
         "facing": 320,
         "offshore_wind": (100, 200),  # E to S winds are offshore
@@ -88,16 +88,16 @@ SPOTS_CONFIG = {
     
     # PENICHE - NORTH SIDE (Baleal)
     "baleal_n": {
-        "lat": 39.373, 
-        "lon": -9.338, 
+        "lat": 39.385, 
+        "lon": -9.345,  # Pushed north/west to hit sea grid cell
         "name": "Baleal Norte", 
         "facing": 10,
         "offshore_wind": (135, 225),  # SE to SW winds are offshore
         "description": "North-facing, works when south side is maxed"
     },
     "lagide": {
-        "lat": 39.376, 
-        "lon": -9.336, 
+        "lat": 39.390, 
+        "lon": -9.350,  # Pushed north/west to hit sea grid cell
         "name": "Lagide", 
         "facing": 350,
         "offshore_wind": (135, 225),  # SE to SW winds are offshore
