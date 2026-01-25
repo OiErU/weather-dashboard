@@ -1,0 +1,15 @@
+services:
+  # Cron job to regenerate EPG 3 times a day
+  - type: cron
+    name: surf-epg-updater
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    schedule: "0 6,11,15 * * *"  # Runs at 6:00, 11:00, 15:00 UTC
+    startCommand: bash run_and_push.sh
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false  # You'll set this in Render dashboard
+      - key: GITHUB_TOKEN
+        sync: false  # You'll set this in Render dashboard
+      - key: PYTHON_VERSION
+        value: 3.11.0
