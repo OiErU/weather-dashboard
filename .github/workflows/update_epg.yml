@@ -2,11 +2,11 @@ name: Update Surf EPG
 
 on:
   schedule:
-    # Runs 3x daily (times in UTC - Portugal is UTC+0 in winter, UTC+1 in summer)
-    - cron: '0 6 * * *'   # 6:00 AM UTC
-    - cron: '0 11 * * *'  # 11:00 AM UTC
-    - cron: '0 15 * * *'  # 3:00 PM UTC
-  workflow_dispatch:  # Allows manual trigger from GitHub UI
+    - cron: '0 6 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+  # Allows manual trigger from GitHub UI
 
 permissions:
   contents: write
