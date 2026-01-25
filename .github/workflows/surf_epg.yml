@@ -2,7 +2,7 @@ name: Update Surf EPG (SCHEDULE TEST)
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes for testing - REMOVE AFTER CONFIRMED WORKING
+    - cron: '5 11 * * *'  # Runs at 11:05 UTC
   workflow_dispatch:
 
 permissions:
