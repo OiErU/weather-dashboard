@@ -2,11 +2,8 @@ name: Update Surf EPG (SCHEDULE TEST)
 
 on:
   schedule:
-    - cron: '0 6 * * *'
-    - cron: '0 11 * * *'
-    - cron: '0 15 * * *'
+    - cron: '*/15 * * * *'  # Every 15 minutes for testing - REMOVE AFTER CONFIRMED WORKING
   workflow_dispatch:
-  # Allows manual trigger from GitHub UI
 
 permissions:
   contents: write
@@ -30,7 +27,6 @@ jobs:
       - name: Generate EPG
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # STORMGLASS_API_KEY no longer needed!
         run: python generate_epg.py -d 2
 
       - name: Commit and push changes
