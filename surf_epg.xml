@@ -48,1156 +48,1138 @@
     <display-name>MEO Lagide</display-name>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png?v=2" />
   </channel>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 5.9m @ 16s ONSHORE</title>
-    <desc lang="en">At nearly 6m, today will be mostly swimming for your board after the inevitable wipeout.
-
-🌊 Swell: 5.9m @ 16s
-💨 Wind: 19.0km/h WSW (ONSHORE)
-💨 Gusts: 46.0km/h
-🌊 Wind waves: 1.3m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 5.9m @ 16s ONSHORE</title>
-    <desc lang="en">At nearly 6m, today will be mostly swimming for your board after the inevitable wipeout.
-
-🌊 Swell: 5.9m @ 16s
-💨 Wind: 19.0km/h WSW (ONSHORE)
-💨 Gusts: 46.0km/h
-🌊 Wind waves: 1.3m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="supertubos-surfline">
-    <title lang="en">💨 5.3m @ 15s ONSHORE</title>
-    <desc lang="en">Supertubos today is offering five-metre closeouts and a solid chance of internal redecoration.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (ONSHORE)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="supertubos-meo">
-    <title lang="en">💨 5.3m @ 15s ONSHORE</title>
-    <desc lang="en">Supertubos today is offering five-metre closeouts and a solid chance of internal redecoration.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (ONSHORE)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="molheleste-surfline">
-    <title lang="en">💨 5.3m @ 15s ONSHORE</title>
-    <desc lang="en">With 5.3m of swell and onshore wind, Molhe Leste will be a washing machine today, likely best viewed from the cafe.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (ONSHORE)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="molheleste-meo">
-    <title lang="en">💨 5.3m @ 15s ONSHORE</title>
-    <desc lang="en">With 5.3m of swell and onshore wind, Molhe Leste will be a washing machine today, likely best viewed from the cafe.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (ONSHORE)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 5.3m @ 15s CROSS</title>
-    <desc lang="en">At 5.3 meters with this wind, the only thing getting barrelled today will be the shorebreak.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (CROSS)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 5.3m @ 15s CROSS</title>
-    <desc lang="en">Five-meter waves and a stiff crosswind? I'd rather watch the fishing boats from the cafe today.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (CROSS)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 5.3m @ 15s CROSS</title>
-    <desc lang="en">Five-meter waves and a stiff crosswind? I'd rather watch the fishing boats from the cafe today.
-
-🌊 Swell: 5.3m @ 15s
-💨 Wind: 23.0km/h WSW (CROSS)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.3m @ 16s CROSS</title>
-    <desc lang="en">5.3m swell (AI error)
-
-🌊 Swell: 5.3m @ 16s
-💨 Wind: 23.0km/h WSW (CROSS)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.3m @ 16s CROSS</title>
-    <desc lang="en">With that much swell and onshore wind, the 5-meter waves will be closing out hard today.
-
-🌊 Swell: 5.3m @ 16s
-💨 Wind: 23.0km/h WSW (CROSS)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206000000 +0000" stop="20260206060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.3m @ 16s CROSS</title>
-    <desc lang="en">With that much swell and onshore wind, the 5-meter waves will be closing out hard today.
-
-🌊 Swell: 5.3m @ 16s
-💨 Wind: 23.0km/h WSW (CROSS)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 5.2m @ 15s ONSHORE</title>
-    <desc lang="en">With a 5.2m swell and that onshore breeze, today's session will mostly involve getting pummeled.
-
-🌊 Swell: 5.2m @ 15s
-💨 Wind: 16.0km/h WSW (ONSHORE)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.9m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 5.2m @ 15s ONSHORE</title>
-    <desc lang="en">With a 5.2m swell and that onshore breeze, today's session will mostly involve getting pummeled.
-
-🌊 Swell: 5.2m @ 15s
-💨 Wind: 16.0km/h WSW (ONSHORE)
-💨 Gusts: 44.0km/h
-🌊 Wind waves: 1.9m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 4.9m @ 15s ONSHORE</title>
-    <desc lang="en">At nearly 5 meters with onshore wind, today Supertubos will be less tubes, more washing machine.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (ONSHORE)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 4.9m @ 15s ONSHORE</title>
-    <desc lang="en">At nearly 5 meters with onshore wind, today Supertubos will be less tubes, more washing machine.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (ONSHORE)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 4.9m @ 15s ONSHORE</title>
-    <desc lang="en">Five meters and onshore wind? Best enjoyed from the safety of the pier, preferably with binoculars.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (ONSHORE)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 4.9m @ 15s ONSHORE</title>
-    <desc lang="en">Five meters and onshore wind? Best enjoyed from the safety of the pier, preferably with binoculars.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (ONSHORE)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.9m @ 15s CROSS</title>
-    <desc lang="en">That 4.9m swell at Meio da Baia with this wind? Someone's going to need a new bodyboard.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (CROSS)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.9m @ 15s CROSS</title>
-    <desc lang="en">Nearly 5 meters at Cantinho with that wind? Best to watch the show, unless you're particularly fond of closeouts.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (CROSS)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.9m @ 15s CROSS</title>
-    <desc lang="en">Nearly 5 meters at Cantinho with that wind? Best to watch the show, unless you're particularly fond of closeouts.
-
-🌊 Swell: 4.9m @ 15s
-💨 Wind: 18.0km/h SW (CROSS)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.9m @ 16s CROSS</title>
-    <desc lang="en">With a 4.9m swell and onshore wind, today's session promises mostly a close-up view of the sand.
-
-🌊 Swell: 4.9m @ 16s
-💨 Wind: 18.0km/h SW (CROSS)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.9m @ 16s CROSS</title>
-    <desc lang="en">At almost 5 meters with that wind, it's more of a spectator sport today, unless you enjoy being ragdolled to Peniche.
-
-🌊 Swell: 4.9m @ 16s
-💨 Wind: 18.0km/h SW (CROSS)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206060000 +0000" stop="20260206120000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.9m @ 16s CROSS</title>
-    <desc lang="en">At almost 5 meters with that wind, it's more of a spectator sport today, unless you enjoy being ragdolled to Peniche.
-
-🌊 Swell: 4.9m @ 16s
-💨 Wind: 18.0km/h SW (CROSS)
-💨 Gusts: 42.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="ericeira-surfline">
-    <title lang="en">💨 5.2m @ 15s ONSHORE</title>
-    <desc lang="en">With that 5.2m swell and onshore wind, today's entertainment will mostly involve watching boards snap and bodies wash ashore.
-
-🌊 Swell: 5.2m @ 15s
-💨 Wind: 21.0km/h W (ONSHORE)
-💨 Gusts: 56.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="ericeira-meo">
-    <title lang="en">💨 5.2m @ 15s ONSHORE</title>
-    <desc lang="en">With that 5.2m swell and onshore wind, today's entertainment will mostly involve watching boards snap and bodies wash ashore.
-
-🌊 Swell: 5.2m @ 15s
-💨 Wind: 21.0km/h W (ONSHORE)
-💨 Gusts: 56.0km/h
-🌊 Wind waves: 1.4m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="supertubos-surfline">
-    <title lang="en">💨 4.6m @ 15s ONSHORE</title>
-    <desc lang="en">At nearly 5 metres with this wind, Supertubos will likely be a lesson in humility best observed from the dunes.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (ONSHORE)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="supertubos-meo">
-    <title lang="en">💨 4.6m @ 15s ONSHORE</title>
-    <desc lang="en">At nearly 5 metres with this wind, Supertubos will likely be a lesson in humility best observed from the dunes.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (ONSHORE)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="molheleste-surfline">
-    <title lang="en">💨 4.6m @ 15s ONSHORE</title>
-    <desc lang="en">With 4.6 meter waves and that wind, today's Molhe Leste is probably best observed from the cafe.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (ONSHORE)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="molheleste-meo">
-    <title lang="en">💨 4.6m @ 15s ONSHORE</title>
-    <desc lang="en">With 4.6 meter waves and that wind, today's Molhe Leste is probably best observed from the cafe.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (ONSHORE)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.6m @ 15s CROSS</title>
-    <desc lang="en">4.  6 meters and cross-shore? I'd rather watch the surfers get pounded today.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (CROSS)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.6m @ 15s CROSS</title>
-    <desc lang="en">At 4.6 meters, today's waves will likely be closeouts punctuated by brief moments of terror.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (CROSS)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.6m @ 15s CROSS</title>
-    <desc lang="en">At 4.6 meters, today's waves will likely be closeouts punctuated by brief moments of terror.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (CROSS)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.6m @ 15s CROSS</title>
-    <desc lang="en">At nearly 5m and with that wind, today's Baleal Norte is best admired from the cafe, preferably with a bica.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (CROSS)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.6m @ 15s CROSS</title>
-    <desc lang="en">At nearly 5 metres with a stiff crosswind, Lagide's probably better viewed from the café today.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (CROSS)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206120000 +0000" stop="20260206180000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.6m @ 15s CROSS</title>
-    <desc lang="en">At nearly 5 metres with a stiff crosswind, Lagide's probably better viewed from the café today.
-
-🌊 Swell: 4.6m @ 15s
-💨 Wind: 25.0km/h W (CROSS)
-💨 Gusts: 53.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 4.6m @ 14s ONSHORE</title>
-    <desc lang="en">With that swell and onshore wind, today's 4.6m closeouts promise more punishment than pleasure.
-
-🌊 Swell: 4.6m @ 14s
-💨 Wind: 16.0km/h W (ONSHORE)
-💨 Gusts: 43.0km/h
-🌊 Wind waves: 2.1m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 4.6m @ 14s ONSHORE</title>
-    <desc lang="en">With that swell and onshore wind, today's 4.6m closeouts promise more punishment than pleasure.
-
-🌊 Swell: 4.6m @ 14s
-💨 Wind: 16.0km/h W (ONSHORE)
-💨 Gusts: 43.0km/h
-🌊 Wind waves: 2.1m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="supertubos-surfline">
-    <title lang="en">💨 4.3m @ 14s ONSHORE</title>
-    <desc lang="en">With 4.3m and onshore wind, today's probably more entertaining to watch than participate in.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (ONSHORE)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="supertubos-meo">
-    <title lang="en">💨 4.3m @ 14s ONSHORE</title>
-    <desc lang="en">With 4.3m and onshore wind, today's probably more entertaining to watch than participate in.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (ONSHORE)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="molheleste-surfline">
-    <title lang="en">💨 4.3m @ 14s ONSHORE</title>
-    <desc lang="en">At 4.3 metres with this wind, today's Molhe Leste is best observed from a safe distance, preferably with a beer.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (ONSHORE)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="molheleste-meo">
-    <title lang="en">💨 4.3m @ 14s ONSHORE</title>
-    <desc lang="en">At 4.3 metres with this wind, today's Molhe Leste is best observed from a safe distance, preferably with a beer.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (ONSHORE)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.3m @ 14s CROSS</title>
-    <desc lang="en">With 4.3 meters and a stiff crosswind, today's Meio da Baia will likely offer more beatings than barrels.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (CROSS)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.3m @ 14s CROSS</title>
-    <desc lang="en">With 4.3 meters and this wind, today's Cantinho session will offer more punishment than pleasure.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (CROSS)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.3m @ 14s CROSS</title>
-    <desc lang="en">With 4.3 meters and this wind, today's Cantinho session will offer more punishment than pleasure.
-
-🌊 Swell: 4.3m @ 14s
-💨 Wind: 21.0km/h WSW (CROSS)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.3m @ 15s CROSS</title>
-    <desc lang="en">With that swell and wind, today's 4.3m closeouts will mainly be for the seabirds.
-
-🌊 Swell: 4.3m @ 15s
-💨 Wind: 21.0km/h WSW (CROSS)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.3m @ 15s CROSS</title>
-    <desc lang="en">With that swell and wind, Lagide will be offering a masterclass in survival today.
-
-🌊 Swell: 4.3m @ 15s
-💨 Wind: 21.0km/h WSW (CROSS)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260206180000 +0000" stop="20260207000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.3m @ 15s CROSS</title>
-    <desc lang="en">With that swell and wind, Lagide will be offering a masterclass in survival today.
-
-🌊 Swell: 4.3m @ 15s
-💨 Wind: 21.0km/h WSW (CROSS)
-💨 Gusts: 37.0km/h
-🌊 Wind waves: 1.7m
-
-📋 Very large swell - experienced surfers only • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 5.2m @ 14s ONSHORE</title>
-    <desc lang="en">At 5.2m and with that wind, today Ribeira's serving up guaranteed hold-downs and a free washing machine cycle.
+    <title lang="en">⚠️ 4.9m @ 14s ONSHORE</title>
+    <desc lang="en">At nearly 5 meters and with that onshore wind, today will mostly be good for watching closeouts rearrange the beach.
 
-🌊 Swell: 5.2m @ 14s
-💨 Wind: 10.0km/h WSW (ONSHORE)
-💨 Gusts: 42.0km/h
+🌊 Swell: 4.9m @ 14s
+💨 Wind: 16.0km/h W (ONSHORE)
+💨 Gusts: 45.0km/h
 🌊 Wind waves: 1.3m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 5.2m @ 14s ONSHORE</title>
-    <desc lang="en">At 5.2m and with that wind, today Ribeira's serving up guaranteed hold-downs and a free washing machine cycle.
+    <title lang="en">⚠️ 4.9m @ 14s ONSHORE</title>
+    <desc lang="en">At nearly 5 meters and with that onshore wind, today will mostly be good for watching closeouts rearrange the beach.
 
-🌊 Swell: 5.2m @ 14s
-💨 Wind: 10.0km/h WSW (ONSHORE)
-💨 Gusts: 42.0km/h
+🌊 Swell: 4.9m @ 14s
+💨 Wind: 16.0km/h W (ONSHORE)
+💨 Gusts: 45.0km/h
 🌊 Wind waves: 1.3m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 4.7m @ 14s ONSHORE</title>
-    <desc lang="en">At nearly five meters and with that onshore breeze, Supertubos will be a spectacular closeout show today.
+    <title lang="en">⚠️ 4.5m @ 14s ONSHORE</title>
+    <desc lang="en">At 4.5 metres with this wind, Supertubos is offering more of a churning, closeout-delivery system than a rideable wave today.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (ONSHORE)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (ONSHORE)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 4.7m @ 14s ONSHORE</title>
-    <desc lang="en">At nearly five meters and with that onshore breeze, Supertubos will be a spectacular closeout show today.
+    <title lang="en">⚠️ 4.5m @ 14s ONSHORE</title>
+    <desc lang="en">At 4.5 metres with this wind, Supertubos is offering more of a churning, closeout-delivery system than a rideable wave today.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (ONSHORE)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (ONSHORE)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 4.7m @ 14s ONSHORE</title>
-    <desc lang="en">4.  7m and onshore wind? Today’s show will feature some spectacular wipeouts and maybe a broken board or two.
+    <title lang="en">⚠️ 4.5m @ 14s ONSHORE</title>
+    <desc lang="en">At 4.5m with this wind, today's Molhe Leste will likely rearrange your fillings.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (ONSHORE)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (ONSHORE)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 4.7m @ 14s ONSHORE</title>
-    <desc lang="en">4.  7m and onshore wind? Today’s show will feature some spectacular wipeouts and maybe a broken board or two.
+    <title lang="en">⚠️ 4.5m @ 14s ONSHORE</title>
+    <desc lang="en">At 4.5m with this wind, today's Molhe Leste will likely rearrange your fillings.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (ONSHORE)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (ONSHORE)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="baia-meo">
-    <title lang="en">⚠️ 4.7m @ 14s CROSS</title>
-    <desc lang="en">At nearly five meters and with that wind, today's display will be mostly survival practice, not stylish carving.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">4.  5m of whitewater and a stiff crosswind suggests Meio da Baia is best observed from the cafe today.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (CROSS)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (CROSS)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="cantinho-surfline">
-    <title lang="en">⚠️ 4.7m @ 14s CROSS</title>
-    <desc lang="en">With a 4.7m swell and that wind, it'll be a closeout rodeo out there today, if you're into that sort of thing.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5m, today is more about surviving than stylishly trimming across a wave.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (CROSS)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (CROSS)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="cantinho-meo">
-    <title lang="en">⚠️ 4.7m @ 14s CROSS</title>
-    <desc lang="en">With a 4.7m swell and that wind, it'll be a closeout rodeo out there today, if you're into that sort of thing.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5m, today is more about surviving than stylishly trimming across a wave.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (CROSS)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (CROSS)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 4.7m @ 14s CROSS</title>
-    <desc lang="en">With that swell and wind, today's 4.7m waves will likely offer more closeouts than rides, or spectacular wipeouts.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5m, Baleal Norte will be closing out with a side of chop; best viewed from the cafe.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (CROSS)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (CROSS)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 4.7m @ 14s CROSS</title>
-    <desc lang="en">At nearly 5 meters, and with that wind, today's session will mainly involve body whomping, and possibly hospital visits.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5 meters with that wind, Lagide will be mostly closeouts and a good chance of a swim to Peniche.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (CROSS)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (CROSS)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260207000000 +0000" stop="20260207060000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 4.7m @ 14s CROSS</title>
-    <desc lang="en">At nearly 5 meters, and with that wind, today's session will mainly involve body whomping, and possibly hospital visits.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5 meters with that wind, Lagide will be mostly closeouts and a good chance of a swim to Peniche.
 
-🌊 Swell: 4.7m @ 14s
-💨 Wind: 16.0km/h WSW (CROSS)
-💨 Gusts: 41.0km/h
-🌊 Wind waves: 1.5m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 19.0km/h W (CROSS)
+💨 Gusts: 44.0km/h
+🌊 Wind waves: 1.1m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="ericeira-surfline">
-    <title lang="en">⚠️ 5.3m @ 14s CROSS</title>
-    <desc lang="en">Five-meter closeouts and fourteen knots of wind? Today, Ribeira offers world-class spectator surfing.
+    <title lang="en">⚠️ 5.0m @ 14s CROSS</title>
+    <desc lang="en">Five meters at Ribeira with that wind? Best watch the show from the cliffs, unless you fancy a good thrashing.
 
-🌊 Swell: 5.3m @ 14s
-💨 Wind: 14.0km/h SSE (CROSS)
-💨 Gusts: 31.0km/h
-🌊 Wind waves: 1.0m
+🌊 Swell: 5.0m @ 14s
+💨 Wind: 16.0km/h S (CROSS)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.6m
 
-📋 Very large swell - experienced surfers only</desc>
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="ericeira-meo">
-    <title lang="en">⚠️ 5.3m @ 14s CROSS</title>
-    <desc lang="en">Five-meter closeouts and fourteen knots of wind? Today, Ribeira offers world-class spectator surfing.
+    <title lang="en">⚠️ 5.0m @ 14s CROSS</title>
+    <desc lang="en">Five meters at Ribeira with that wind? Best watch the show from the cliffs, unless you fancy a good thrashing.
 
-🌊 Swell: 5.3m @ 14s
-💨 Wind: 14.0km/h SSE (CROSS)
-💨 Gusts: 31.0km/h
-🌊 Wind waves: 1.0m
+🌊 Swell: 5.0m @ 14s
+💨 Wind: 16.0km/h S (CROSS)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.6m
 
-📋 Very large swell - experienced surfers only</desc>
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 4.8m @ 14s CROSS</title>
-    <desc lang="en">At nearly 5m, Supertubos is offering closeouts that would politely decline to hold you.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5 meters with this wind, Supertubos will either rearrange your face or provide spectacular carnage.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (CROSS)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (CROSS)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 4.8m @ 14s CROSS</title>
-    <desc lang="en">At nearly 5m, Supertubos is offering closeouts that would politely decline to hold you.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5 meters with this wind, Supertubos will either rearrange your face or provide spectacular carnage.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (CROSS)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (CROSS)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="molheleste-surfline">
-    <title lang="en">⚠️ 4.8m @ 14s CROSS</title>
-    <desc lang="en">At almost 5m, with that wind, today's Molhe Leste will mostly be a lesson in survival.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5 meters and with this wind, today's viewing will be from the safety of the cafe.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (CROSS)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (CROSS)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="molheleste-meo">
-    <title lang="en">⚠️ 4.8m @ 14s CROSS</title>
-    <desc lang="en">At almost 5m, with that wind, today's Molhe Leste will mostly be a lesson in survival.
+    <title lang="en">⚠️ 4.5m @ 14s CROSS</title>
+    <desc lang="en">At 4.5 meters and with this wind, today's viewing will be from the safety of the cafe.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (CROSS)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (CROSS)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="baia-meo">
-    <title lang="en">⭐⭐ 4.8m @ 14s OFFSHORE</title>
-    <desc lang="en">That's a 4.8m swell; might be better to watch the fireworks from the cafe today.
+    <title lang="en">⭐⭐ 4.5m @ 14s OFFSHORE</title>
+    <desc lang="en">That 4.5m swell and offshore wind is either going to be spectacular, or we'll be dodging rogue sets all day.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (OFFSHORE)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (OFFSHORE)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="cantinho-surfline">
-    <title lang="en">⭐⭐ 4.8m @ 14s OFFSHORE</title>
-    <desc lang="en">Those 4.8 meters might offer some excitement, provided you enjoy getting annihilated close to shore.
+    <title lang="en">⭐⭐ 4.5m @ 14s OFFSHORE</title>
+    <desc lang="en">4.  5 meters with that wind? More like a spectator sport today, unless you fancy a washing machine experience.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (OFFSHORE)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (OFFSHORE)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="cantinho-meo">
-    <title lang="en">⭐⭐ 4.8m @ 14s OFFSHORE</title>
-    <desc lang="en">Those 4.8 meters might offer some excitement, provided you enjoy getting annihilated close to shore.
+    <title lang="en">⭐⭐ 4.5m @ 14s OFFSHORE</title>
+    <desc lang="en">4.  5 meters with that wind? More like a spectator sport today, unless you fancy a washing machine experience.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (OFFSHORE)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (OFFSHORE)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="baleal-surfline">
-    <title lang="en">⭐⭐ 4.8m @ 14s OFFSHORE</title>
-    <desc lang="en">Might be worth watching the 4.8m closeouts from the cafe today.
+    <title lang="en">⭐⭐ 4.5m @ 14s OFFSHORE</title>
+    <desc lang="en">At 4.5m, Baleal Norte today is best left to the gulls and their dramatic closeouts.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (OFFSHORE)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (OFFSHORE)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="lagide-surfline">
-    <title lang="en">⭐⭐ 4.8m @ 14s OFFSHORE</title>
-    <desc lang="en">At nearly 5m, with that period and offshore, Lagide will either kill you or be the ride of your life.
+    <title lang="en">⭐⭐ 4.5m @ 14s OFFSHORE</title>
+    <desc lang="en">At 4.5 meters, with that wind, today at Lagide will be mostly survival practice.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (OFFSHORE)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (OFFSHORE)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260207060000 +0000" stop="20260207120000 +0000" channel="lagide-meo">
-    <title lang="en">⭐⭐ 4.8m @ 14s OFFSHORE</title>
-    <desc lang="en">At nearly 5m, with that period and offshore, Lagide will either kill you or be the ride of your life.
+    <title lang="en">⭐⭐ 4.5m @ 14s OFFSHORE</title>
+    <desc lang="en">At 4.5 meters, with that wind, today at Lagide will be mostly survival practice.
 
-🌊 Swell: 4.8m @ 14s
-💨 Wind: 16.0km/h SSE (OFFSHORE)
-💨 Gusts: 30.0km/h
-🌊 Wind waves: 1.1m
+🌊 Swell: 4.5m @ 14s
+💨 Wind: 20.0km/h SSE (OFFSHORE)
+💨 Gusts: 35.0km/h
+🌊 Wind waves: 1.5m
 
 📋 Very large swell - experienced surfers only • Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="ericeira-surfline">
-    <title lang="en">💨 5.1m @ 14s ONSHORE</title>
-    <desc lang="en">5.1m of onshore closeouts; best enjoyed from the cliffs, preferably with a beverage.
+    <title lang="en">💨 4.6m @ 14s ONSHORE</title>
+    <desc lang="en">At 4.6 meters with that wind, Ribeira's probably just serving up closeouts and broken boards today.
 
-🌊 Swell: 5.1m @ 14s
-💨 Wind: 29.0km/h WSW (ONSHORE)
-💨 Gusts: 70.0km/h
-🌊 Wind waves: 3.2m
+🌊 Swell: 4.6m @ 14s
+💨 Wind: 27.0km/h WSW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 4.2m
 
 📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="ericeira-meo">
-    <title lang="en">💨 5.1m @ 14s ONSHORE</title>
-    <desc lang="en">5.1m of onshore closeouts; best enjoyed from the cliffs, preferably with a beverage.
+    <title lang="en">💨 4.6m @ 14s ONSHORE</title>
+    <desc lang="en">At 4.6 meters with that wind, Ribeira's probably just serving up closeouts and broken boards today.
 
-🌊 Swell: 5.1m @ 14s
-💨 Wind: 29.0km/h WSW (ONSHORE)
-💨 Gusts: 70.0km/h
-🌊 Wind waves: 3.2m
+🌊 Swell: 4.6m @ 14s
+💨 Wind: 27.0km/h WSW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 4.2m
 
 📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="supertubos-surfline">
-    <title lang="en">💨 3.4m @ 14s ONSHORE</title>
-    <desc lang="en">With 3.4 meters and onshore wind, Supertubos will be a washing machine today, best observed from the car.
+    <title lang="en">💨 4.2m @ 14s ONSHORE</title>
+    <desc lang="en">With that much wind on a 4.2m swell, Supertubos is offering a masterclass in closeouts today.
 
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (ONSHORE)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (ONSHORE)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
 
-📋 Onshore wind making it messy • Significant wind chop</desc>
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="supertubos-meo">
-    <title lang="en">💨 3.4m @ 14s ONSHORE</title>
-    <desc lang="en">With 3.4 meters and onshore wind, Supertubos will be a washing machine today, best observed from the car.
+    <title lang="en">💨 4.2m @ 14s ONSHORE</title>
+    <desc lang="en">With that much wind on a 4.2m swell, Supertubos is offering a masterclass in closeouts today.
 
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (ONSHORE)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (ONSHORE)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
 
-📋 Onshore wind making it messy • Significant wind chop</desc>
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="molheleste-surfline">
-    <title lang="en">💨 3.4m @ 14s ONSHORE</title>
-    <desc lang="en">With onshore winds and a 3.4m swell, today's Molhe Leste session is a fine opportunity to practice surviving.
+    <title lang="en">💨 4.2m @ 14s ONSHORE</title>
+    <desc lang="en">Yeah, that 4.2m swell with this wind? Today Molhe Leste will be a washing machine, best viewed from the cafe.
 
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (ONSHORE)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (ONSHORE)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
 
-📋 Onshore wind making it messy • Significant wind chop</desc>
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="molheleste-meo">
-    <title lang="en">💨 3.4m @ 14s ONSHORE</title>
-    <desc lang="en">With onshore winds and a 3.4m swell, today's Molhe Leste session is a fine opportunity to practice surviving.
+    <title lang="en">💨 4.2m @ 14s ONSHORE</title>
+    <desc lang="en">Yeah, that 4.2m swell with this wind? Today Molhe Leste will be a washing machine, best viewed from the cafe.
 
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (ONSHORE)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (ONSHORE)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="baia-meo">
+    <title lang="en">⚠️ 4.2m @ 14s CROSS</title>
+    <desc lang="en">At 4.2m with that wind, today's less a bodyboarding session and more a full-body washing machine experience.
+
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (CROSS)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="cantinho-surfline">
+    <title lang="en">⚠️ 4.2m @ 14s CROSS</title>
+    <desc lang="en">With 4.2 meters and a stiff crosswind, today's waves will mostly be for watching other people get pounded.
+
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (CROSS)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="cantinho-meo">
+    <title lang="en">⚠️ 4.2m @ 14s CROSS</title>
+    <desc lang="en">With 4.2 meters and a stiff crosswind, today's waves will mostly be for watching other people get pounded.
+
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (CROSS)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="baleal-surfline">
+    <title lang="en">⚠️ 4.2m @ 14s CROSS</title>
+    <desc lang="en">4.  2 meters and a stiff crosswind, might be better spent watching the shorebreak swallow tourists.
+
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (CROSS)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="lagide-surfline">
+    <title lang="en">⚠️ 4.2m @ 14s CROSS</title>
+    <desc lang="en">With a 4.2m swell and that wind, today's session will mostly involve getting sandblasted and pounded.
+
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (CROSS)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="lagide-meo">
+    <title lang="en">⚠️ 4.2m @ 14s CROSS</title>
+    <desc lang="en">With a 4.2m swell and that wind, today's session will mostly involve getting sandblasted and pounded.
+
+🌊 Swell: 4.2m @ 14s
+💨 Wind: 34.0km/h WSW (CROSS)
+💨 Gusts: 64.0km/h
+🌊 Wind waves: 3.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="ericeira-surfline">
+    <title lang="en">💨 1.5m @ 14s ONSHORE</title>
+    <desc lang="en">With that onshore wind and 1.5m swell, the shorebreak's likely to rearrange a few faces today.
+
+🌊 Swell: 1.5m @ 14s
+💨 Wind: 32.0km/h WNW (ONSHORE)
+💨 Gusts: 77.0km/h
+🌊 Wind waves: 7.1m
+
+📋 Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="ericeira-meo">
+    <title lang="en">💨 1.5m @ 14s ONSHORE</title>
+    <desc lang="en">With that onshore wind and 1.5m swell, the shorebreak's likely to rearrange a few faces today.
+
+🌊 Swell: 1.5m @ 14s
+💨 Wind: 32.0km/h WNW (ONSHORE)
+💨 Gusts: 77.0km/h
+🌊 Wind waves: 7.1m
+
+📋 Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="supertubos-surfline">
+    <title lang="en">🌊 2.2m @ 12s CROSS</title>
+    <desc lang="en">Supertubos will be offering 2.2m of closeout chaos today; best to watch someone else get hammered.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (CROSS)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="supertubos-meo">
+    <title lang="en">🌊 2.2m @ 12s CROSS</title>
+    <desc lang="en">Supertubos will be offering 2.2m of closeout chaos today; best to watch someone else get hammered.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (CROSS)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="molheleste-surfline">
+    <title lang="en">💨 2.2m @ 12s ONSHORE</title>
+    <desc lang="en">Molhe Leste at 2.2m with that wind? More like a washing machine than a wave machine today.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
 
 📋 Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="baia-meo">
-    <title lang="en">🌊 3.4m @ 14s CROSS</title>
-    <desc lang="en">With 3.4m and that wind, today's session at Meio da Baia promises a humbling experience, if not outright carnage.
-
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (CROSS)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
-
-📋 Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="cantinho-surfline">
-    <title lang="en">🌊 3.4m @ 14s CROSS</title>
-    <desc lang="en">At 3.4m with that wind, today's surfing is best viewed from the cafe, preferably with cake.
-
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (CROSS)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
-
-📋 Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="cantinho-meo">
-    <title lang="en">🌊 3.4m @ 14s CROSS</title>
-    <desc lang="en">At 3.4m with that wind, today's surfing is best viewed from the cafe, preferably with cake.
-
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (CROSS)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
-
-📋 Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 3.4m @ 14s CROSS</title>
-    <desc lang="en">With 3.4m and a stiff crosswind, it'll be more of a washing machine experience than a bodyboarding session out there today.
-
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (CROSS)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
-
-📋 Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 3.4m @ 14s CROSS</title>
-    <desc lang="en">That 3.4m swell and onshore wind suggest a closeout rodeo at Lagide today.
-
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (CROSS)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
-
-📋 Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260207120000 +0000" stop="20260207180000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 3.4m @ 14s CROSS</title>
-    <desc lang="en">That 3.4m swell and onshore wind suggest a closeout rodeo at Lagide today.
-
-🌊 Swell: 3.4m @ 14s
-💨 Wind: 32.0km/h WSW (CROSS)
-💨 Gusts: 61.0km/h
-🌊 Wind waves: 4.0m
-
-📋 Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="ericeira-surfline">
-    <title lang="en">💨 6.1m @ 15s ONSHORE</title>
-    <desc lang="en">That 6-metre swell with onshore wind will mostly close out spectacularly, offering excellent viewing opportunities.
-
-🌊 Swell: 6.1m @ 15s
-💨 Wind: 30.0km/h WNW (ONSHORE)
-💨 Gusts: 88.0km/h
-🌊 Wind waves: 3.2m
-
-📋 Very large swell - experienced surfers only • Potentially dangerous - consider watching from shore • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="ericeira-meo">
-    <title lang="en">💨 6.1m @ 15s ONSHORE</title>
-    <desc lang="en">That 6-metre swell with onshore wind will mostly close out spectacularly, offering excellent viewing opportunities.
-
-🌊 Swell: 6.1m @ 15s
-💨 Wind: 30.0km/h WNW (ONSHORE)
-💨 Gusts: 88.0km/h
-🌊 Wind waves: 3.2m
-
-📋 Very large swell - experienced surfers only • Potentially dangerous - consider watching from shore • Onshore wind making it messy • Long period - powerful waves • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="supertubos-surfline">
-    <title lang="en">⚠️ 5.6m @ 12s CROSS</title>
-    <desc lang="en">With 5.6m swell and that wind, today's more of a spectator sport involving closeouts and maybe a rescue boat.
-
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (CROSS)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="supertubos-meo">
-    <title lang="en">⚠️ 5.6m @ 12s CROSS</title>
-    <desc lang="en">With 5.6m swell and that wind, today's more of a spectator sport involving closeouts and maybe a rescue boat.
-
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (CROSS)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
-
-📋 Very large swell - experienced surfers only • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="molheleste-surfline">
-    <title lang="en">💨 5.6m @ 12s ONSHORE</title>
-    <desc lang="en">5.  6 meters and onshore wind, so perhaps a pleasant stroll along the pier is in order.
-
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (ONSHORE)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
   <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="molheleste-meo">
-    <title lang="en">💨 5.6m @ 12s ONSHORE</title>
-    <desc lang="en">5.  6 meters and onshore wind, so perhaps a pleasant stroll along the pier is in order.
+    <title lang="en">💨 2.2m @ 12s ONSHORE</title>
+    <desc lang="en">Molhe Leste at 2.2m with that wind? More like a washing machine than a wave machine today.
 
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (ONSHORE)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
 
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
+📋 Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="baia-meo">
-    <title lang="en">💨 5.6m @ 12s ONSHORE</title>
-    <desc lang="en">That 5.6m swell with this wind? Today's forecast calls for a whole lot of sand in your face and very little actual riding.
+    <title lang="en">💨 2.2m @ 12s ONSHORE</title>
+    <desc lang="en">Yeah, 2.2 meters with this wind? More like 2.2 meters of frustration, I'll pass.
 
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (ONSHORE)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="cantinho-surfline">
+    <title lang="en">💨 2.2m @ 12s ONSHORE</title>
+    <desc lang="en">With 2.2m of onshore wind-chop, Cantinho da Baia will be a survival exercise today.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="cantinho-meo">
+    <title lang="en">💨 2.2m @ 12s ONSHORE</title>
+    <desc lang="en">With 2.2m of onshore wind-chop, Cantinho da Baia will be a survival exercise today.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (ONSHORE)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="baleal-surfline">
+    <title lang="en">🌊 2.2m @ 12s CROSS</title>
+    <desc lang="en">With that wind and 2.2m swell, today's session will be a good workout for duck diving, mostly.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (CROSS)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="lagide-surfline">
+    <title lang="en">🌊 2.2m @ 12s CROSS</title>
+    <desc lang="en">With that wind against a 2.2m swell, it’ll be mostly paddling and cursing today.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (CROSS)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="lagide-meo">
+    <title lang="en">🌊 2.2m @ 12s CROSS</title>
+    <desc lang="en">With that wind against a 2.2m swell, it’ll be mostly paddling and cursing today.
+
+🌊 Swell: 2.2m @ 12s
+💨 Wind: 38.0km/h WNW (CROSS)
+💨 Gusts: 71.0km/h
+🌊 Wind waves: 6.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="ericeira-surfline">
+    <title lang="en">⚠️ 5.5m @ 12s ONSHORE</title>
+    <desc lang="en">With 5.5 meters of angry Atlantic detonating on shore and a stiff onshore breeze, today's best spent watching someone else get pummeled.
+
+🌊 Swell: 5.5m @ 12s
+💨 Wind: 17.0km/h WNW (ONSHORE)
+💨 Gusts: 46.0km/h
+🌊 Wind waves: 2.1m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="ericeira-meo">
+    <title lang="en">⚠️ 5.5m @ 12s ONSHORE</title>
+    <desc lang="en">With 5.5 meters of angry Atlantic detonating on shore and a stiff onshore breeze, today's best spent watching someone else get pummeled.
+
+🌊 Swell: 5.5m @ 12s
+💨 Wind: 17.0km/h WNW (ONSHORE)
+💨 Gusts: 46.0km/h
+🌊 Wind waves: 2.1m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="supertubos-surfline">
+    <title lang="en">⚠️ 5.0m @ 12s CROSS</title>
+    <desc lang="en">Five meters and a crosswind at Supertubos? More like a Supercloseout-tubos session today.
+
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (CROSS)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="supertubos-meo">
+    <title lang="en">⚠️ 5.0m @ 12s CROSS</title>
+    <desc lang="en">Five meters and a crosswind at Supertubos? More like a Supercloseout-tubos session today.
+
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (CROSS)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="molheleste-surfline">
+    <title lang="en">💨 5.0m @ 12s ONSHORE</title>
+    <desc lang="en">Five meters and onshore? Today's more about survival than riding, good luck with that.
+
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (ONSHORE)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
+
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="molheleste-meo">
+    <title lang="en">💨 5.0m @ 12s ONSHORE</title>
+    <desc lang="en">Five meters and onshore? Today's more about survival than riding, good luck with that.
+
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (ONSHORE)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
+
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="baia-meo">
+    <title lang="en">💨 5.0m @ 12s ONSHORE</title>
+    <desc lang="en">Five meters and onshore wind? Today's viewing will be far more rewarding than riding.
+
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (ONSHORE)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
 
 📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="cantinho-surfline">
-    <title lang="en">💨 5.6m @ 12s ONSHORE</title>
-    <desc lang="en">With 5.6m of swell and onshore wind like that, it's more of a spectator sport today unless you enjoy getting pummeled.
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="cantinho-surfline">
+    <title lang="en">💨 5.0m @ 12s ONSHORE</title>
+    <desc lang="en">With 5.0m of swell and that wind, today's session will likely involve more paddling than riding, and a healthy dose of self-preservation.
 
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (ONSHORE)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
-
-📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="cantinho-meo">
-    <title lang="en">💨 5.6m @ 12s ONSHORE</title>
-    <desc lang="en">With 5.6m of swell and onshore wind like that, it's more of a spectator sport today unless you enjoy getting pummeled.
-
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (ONSHORE)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (ONSHORE)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
 
 📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="baleal-surfline">
-    <title lang="en">⚠️ 5.6m @ 12s CROSS</title>
-    <desc lang="en">With 5.6 meters of angry Atlantic dumping here, today's session leans heavily toward body-surfing the shorebreak, or spectating from the cafe.
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="cantinho-meo">
+    <title lang="en">💨 5.0m @ 12s ONSHORE</title>
+    <desc lang="en">With 5.0m of swell and that wind, today's session will likely involve more paddling than riding, and a healthy dose of self-preservation.
 
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (CROSS)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (ONSHORE)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
+
+📋 Very large swell - experienced surfers only • Onshore wind making it messy • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="baleal-surfline">
+    <title lang="en">⚠️ 5.0m @ 12s CROSS</title>
+    <desc lang="en">Five meters and a crosswind? Today's viewing will be from the beachside cafe, preferably with a bica.
+
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (CROSS)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="lagide-surfline">
-    <title lang="en">⚠️ 5.6m @ 12s CROSS</title>
-    <desc lang="en">That's a 5.6m washing machine best viewed from the cliff, with a strong chance of broken boards and egos.
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="lagide-surfline">
+    <title lang="en">⚠️ 5.0m @ 12s CROSS</title>
+    <desc lang="en">That 5.0m swell and onshore wind suggests today's viewing will be from the cafe.
 
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (CROSS)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (CROSS)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260207180000 +0000" stop="20260208000000 +0000" channel="lagide-meo">
-    <title lang="en">⚠️ 5.6m @ 12s CROSS</title>
-    <desc lang="en">That's a 5.6m washing machine best viewed from the cliff, with a strong chance of broken boards and egos.
+  <programme start="20260208000000 +0000" stop="20260208060000 +0000" channel="lagide-meo">
+    <title lang="en">⚠️ 5.0m @ 12s CROSS</title>
+    <desc lang="en">That 5.0m swell and onshore wind suggests today's viewing will be from the cafe.
 
-🌊 Swell: 5.6m @ 12s
-💨 Wind: 39.0km/h WNW (CROSS)
-💨 Gusts: 76.0km/h
-🌊 Wind waves: 2.7m
+🌊 Swell: 5.0m @ 12s
+💨 Wind: 24.0km/h NW (CROSS)
+💨 Gusts: 49.0km/h
+🌊 Wind waves: 1.9m
 
 📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="ericeira-surfline">
+    <title lang="en">⚠️ 4.5m @ 12s ONSHORE</title>
+    <desc lang="en">Four-and-a-half meters and onshore wind? Today's waves are best viewed from the café.
+
+🌊 Swell: 4.5m @ 12s
+💨 Wind: 12.0km/h WNW (ONSHORE)
+💨 Gusts: 28.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="ericeira-meo">
+    <title lang="en">⚠️ 4.5m @ 12s ONSHORE</title>
+    <desc lang="en">Four-and-a-half meters and onshore wind? Today's waves are best viewed from the café.
+
+🌊 Swell: 4.5m @ 12s
+💨 Wind: 12.0km/h WNW (ONSHORE)
+💨 Gusts: 28.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Very large swell - experienced surfers only • Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="supertubos-surfline">
+    <title lang="en">🌊 4.0m @ 12s CROSS</title>
+    <desc lang="en">At 4 metres and with that wind, today's Supertubos is less tube city and more hold your breath and pray.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (CROSS)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="supertubos-meo">
+    <title lang="en">🌊 4.0m @ 12s CROSS</title>
+    <desc lang="en">At 4 metres and with that wind, today's Supertubos is less tube city and more hold your breath and pray.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (CROSS)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="molheleste-surfline">
+    <title lang="en">🌊 4.0m @ 12s ONSHORE</title>
+    <desc lang="en">Four meters and onshore? Today's session looks like a washing machine full of regret.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="molheleste-meo">
+    <title lang="en">🌊 4.0m @ 12s ONSHORE</title>
+    <desc lang="en">Four meters and onshore? Today's session looks like a washing machine full of regret.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="baia-meo">
+    <title lang="en">🌊 4.0m @ 12s ONSHORE</title>
+    <desc lang="en">With that 4-meter swell and onshore wind, today will be more of a washing machine experience than a proper ride.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="cantinho-surfline">
+    <title lang="en">🌊 4.0m @ 12s ONSHORE</title>
+    <desc lang="en">With that onshore wind and 4-metre swell, today will be a masterclass in survival.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="cantinho-meo">
+    <title lang="en">🌊 4.0m @ 12s ONSHORE</title>
+    <desc lang="en">With that onshore wind and 4-metre swell, today will be a masterclass in survival.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="baleal-surfline">
+    <title lang="en">🌊 4.0m @ 12s CROSS</title>
+    <desc lang="en">With 4.0m swell and that wind, today's ride will be an exercise in futility and possibly self-harm.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (CROSS)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="lagide-surfline">
+    <title lang="en">🌊 4.0m @ 12s CROSS</title>
+    <desc lang="en">With 4 meters and a stiff crosswind, it'll be a washing machine out there; good day for spectating the carnage.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (CROSS)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208060000 +0000" stop="20260208120000 +0000" channel="lagide-meo">
+    <title lang="en">🌊 4.0m @ 12s CROSS</title>
+    <desc lang="en">With 4 meters and a stiff crosswind, it'll be a washing machine out there; good day for spectating the carnage.
+
+🌊 Swell: 4.0m @ 12s
+💨 Wind: 18.0km/h NW (CROSS)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 1.1m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="ericeira-surfline">
+    <title lang="en">🌊 3.9m @ 11s ONSHORE</title>
+    <desc lang="en">Three-point-nine meters and onshore wind? Might be a good day for watching other people get punished by the shorebreak.
+
+🌊 Swell: 3.9m @ 11s
+💨 Wind: 14.0km/h SW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="ericeira-meo">
+    <title lang="en">🌊 3.9m @ 11s ONSHORE</title>
+    <desc lang="en">Three-point-nine meters and onshore wind? Might be a good day for watching other people get punished by the shorebreak.
+
+🌊 Swell: 3.9m @ 11s
+💨 Wind: 14.0km/h SW (ONSHORE)
+💨 Gusts: 31.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="supertubos-surfline">
+    <title lang="en">🌊 3.6m @ 12s ONSHORE</title>
+    <desc lang="en">Those 3.6m peaks will be closing out all the way to Peniche today, good luck getting out.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (ONSHORE)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="supertubos-meo">
+    <title lang="en">🌊 3.6m @ 12s ONSHORE</title>
+    <desc lang="en">Those 3.6m peaks will be closing out all the way to Peniche today, good luck getting out.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (ONSHORE)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="molheleste-surfline">
+    <title lang="en">🌊 3.6m @ 12s CROSS</title>
+    <desc lang="en">That 3.6m swell and cross-wind promises a bit of a beating today; spectators might be more entertained.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (CROSS)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="molheleste-meo">
+    <title lang="en">🌊 3.6m @ 12s CROSS</title>
+    <desc lang="en">That 3.6m swell and cross-wind promises a bit of a beating today; spectators might be more entertained.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (CROSS)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="baia-meo">
+    <title lang="en">🌊 3.6m @ 12s CROSS</title>
+    <desc lang="en">At 3.6m and with that wind, today's Meio da Baia will either be legendary carnage or just carnage.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (CROSS)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="cantinho-surfline">
+    <title lang="en">🌊 3.6m @ 12s CROSS</title>
+    <desc lang="en">With 3.6 meters and a stiff breeze, today's Cantinho session will be more of a washing machine experience than a ride.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (CROSS)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="cantinho-meo">
+    <title lang="en">🌊 3.6m @ 12s CROSS</title>
+    <desc lang="en">With 3.6 meters and a stiff breeze, today's Cantinho session will be more of a washing machine experience than a ride.
+
+🌊 Swell: 3.6m @ 12s
+💨 Wind: 16.0km/h SW (CROSS)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐ 3.6m @ 11s OFFSHORE</title>
+    <desc lang="en">Those 3.6m sets will be interesting with that offshore, might get a few before the closeouts start claiming victims.
+
+🌊 Swell: 3.6m @ 11s
+💨 Wind: 16.0km/h SW (OFFSHORE)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐ 3.6m @ 11s OFFSHORE</title>
+    <desc lang="en">Lagide might offer a few rideable 3.6m faces today, before the inevitable closeout tax.
+
+🌊 Swell: 3.6m @ 11s
+💨 Wind: 16.0km/h SW (OFFSHORE)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208120000 +0000" stop="20260208180000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐ 3.6m @ 11s OFFSHORE</title>
+    <desc lang="en">Lagide might offer a few rideable 3.6m faces today, before the inevitable closeout tax.
+
+🌊 Swell: 3.6m @ 11s
+💨 Wind: 16.0km/h SW (OFFSHORE)
+💨 Gusts: 27.0km/h
+🌊 Wind waves: 0.4m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="ericeira-surfline">
+    <title lang="en">🌊 3.2m @ 11s CROSS</title>
+    <desc lang="en">With 3.2m and onshore wind, it'll be a washing machine out there; good luck with that.
+
+🌊 Swell: 3.2m @ 11s
+💨 Wind: 18.0km/h S (CROSS)
+💨 Gusts: 38.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="ericeira-meo">
+    <title lang="en">🌊 3.2m @ 11s CROSS</title>
+    <desc lang="en">With 3.2m and onshore wind, it'll be a washing machine out there; good luck with that.
+
+🌊 Swell: 3.2m @ 11s
+💨 Wind: 18.0km/h S (CROSS)
+💨 Gusts: 38.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="supertubos-surfline">
+    <title lang="en">🌊 2.9m @ 11s CROSS</title>
+    <desc lang="en">With a 2.9m swell and this wind, Supertubos is likely to be a closeout festival today, perhaps with some amusing wipeouts to observe.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="supertubos-meo">
+    <title lang="en">🌊 2.9m @ 11s CROSS</title>
+    <desc lang="en">With a 2.9m swell and this wind, Supertubos is likely to be a closeout festival today, perhaps with some amusing wipeouts to observe.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="molheleste-surfline">
+    <title lang="en">🌊 2.9m @ 11s CROSS</title>
+    <desc lang="en">With a 2.9m swell and cross-wind, today's Molhe Leste session offers potential for a good beating.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="molheleste-meo">
+    <title lang="en">🌊 2.9m @ 11s CROSS</title>
+    <desc lang="en">With a 2.9m swell and cross-wind, today's Molhe Leste session offers potential for a good beating.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Significant wind chop</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="baia-meo">
+    <title lang="en">⭐⭐ 2.9m @ 11s OFFSHORE</title>
+    <desc lang="en">Yeah, 2.9 meters and offshore winds might produce something rideable out there, assuming you enjoy getting pitched on your head.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="cantinho-surfline">
+    <title lang="en">⭐⭐ 2.9m @ 11s OFFSHORE</title>
+    <desc lang="en">With that offshore, the 2.9m swell might just produce something rideable, or something violently close to it.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="cantinho-meo">
+    <title lang="en">⭐⭐ 2.9m @ 11s OFFSHORE</title>
+    <desc lang="en">With that offshore, the 2.9m swell might just produce something rideable, or something violently close to it.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="baleal-surfline">
+    <title lang="en">⭐⭐ 2.9m @ 11s OFFSHORE</title>
+    <desc lang="en">Nearly 3m with offshore wind; it might be rideable for masochists, or entertaining to watch them try.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="lagide-surfline">
+    <title lang="en">⭐⭐ 2.9m @ 11s OFFSHORE</title>
+    <desc lang="en">Lagide's got 3-meter lumps and offshore wind; just be sure your will is up to date.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Clean conditions with offshore wind</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260208180000 +0000" stop="20260209000000 +0000" channel="lagide-meo">
+    <title lang="en">⭐⭐ 2.9m @ 11s OFFSHORE</title>
+    <desc lang="en">Lagide's got 3-meter lumps and offshore wind; just be sure your will is up to date.
+
+🌊 Swell: 2.9m @ 11s
+💨 Wind: 21.0km/h S (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 1.3m
+
+📋 Clean conditions with offshore wind</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
 </tv>
