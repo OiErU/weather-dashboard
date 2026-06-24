@@ -48,503 +48,23 @@
     <display-name>MEO Lagide</display-name>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/logos/lagide.png?v=2" />
   </channel>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.5m @ 9s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
-
-🌊 Swell: 0.5m @ 9s
-💨 Wind: 6.0km/h NNE (CROSS)
-💨 Gusts: 17.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.5m @ 9s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
-
-🌊 Swell: 0.5m @ 9s
-💨 Wind: 6.0km/h NNE (CROSS)
-💨 Gusts: 17.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="supertubos-surfline">
-    <title lang="en">🌊 0.6m @ 9s OFFSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (OFFSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="supertubos-meo">
-    <title lang="en">🌊 0.6m @ 9s OFFSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (OFFSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="molheleste-surfline">
-    <title lang="en">🌊 0.6m @ 9s CROSS</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (CROSS)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="molheleste-meo">
-    <title lang="en">🌊 0.6m @ 9s CROSS</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (CROSS)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="baia-meo">
-    <title lang="en">🌊 0.6m @ 9s CROSS</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (CROSS)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="cantinho-surfline">
-    <title lang="en">🌊 0.6m @ 9s ONSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (ONSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="cantinho-meo">
-    <title lang="en">🌊 0.6m @ 9s ONSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (ONSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 0.6m @ 9s ONSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (ONSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 0.6m @ 9s ONSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (ONSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623000000 +0000" stop="20260623060000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 0.6m @ 9s ONSHORE</title>
-    <desc lang="en">0.6m swell (AI error)
-
-🌊 Swell: 0.6m @ 9s
-💨 Wind: 11.0km/h N (ONSHORE)
-💨 Gusts: 22.0km/h
-🌊 Wind waves: 0.2m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 4.0km/h N (CROSS)
-💨 Gusts: 11.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 4.0km/h N (CROSS)
-💨 Gusts: 11.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="supertubos-surfline">
-    <title lang="en">🌊 0.7m @ 9s OFFSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (OFFSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="supertubos-meo">
-    <title lang="en">🌊 0.7m @ 9s OFFSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (OFFSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="molheleste-surfline">
-    <title lang="en">🌊 0.7m @ 9s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (CROSS)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="molheleste-meo">
-    <title lang="en">🌊 0.7m @ 9s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (CROSS)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="baia-meo">
-    <title lang="en">🌊 0.7m @ 9s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (CROSS)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="cantinho-surfline">
-    <title lang="en">🌊 0.7m @ 9s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (ONSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="cantinho-meo">
-    <title lang="en">🌊 0.7m @ 9s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 9s
-💨 Wind: 6.0km/h N (ONSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 6.0km/h N (ONSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 6.0km/h N (ONSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623060000 +0000" stop="20260623120000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 6.0km/h N (ONSHORE)
-💨 Gusts: 14.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 1.0km/h NE (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 1.0km/h NE (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="supertubos-surfline">
-    <title lang="en">🌊 0.7m @ 8s OFFSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (OFFSHORE)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="supertubos-meo">
-    <title lang="en">🌊 0.7m @ 8s OFFSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (OFFSHORE)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="molheleste-surfline">
-    <title lang="en">🌊 0.7m @ 8s OFFSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (OFFSHORE)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="molheleste-meo">
-    <title lang="en">🌊 0.7m @ 8s OFFSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (OFFSHORE)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="baia-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (CROSS)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="cantinho-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (CROSS)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="cantinho-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (CROSS)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (CROSS)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (CROSS)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623120000 +0000" stop="20260623180000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 5.0km/h NE (CROSS)
-💨 Gusts: 19.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 10.0km/h W (ONSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 10.0km/h W (ONSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.0m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="supertubos-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (CROSS)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="supertubos-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (CROSS)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="molheleste-surfline">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (ONSHORE)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="molheleste-meo">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (ONSHORE)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="baia-meo">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (ONSHORE)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="cantinho-surfline">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (ONSHORE)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="cantinho-meo">
-    <title lang="en">🌊 0.7m @ 8s ONSHORE</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (ONSHORE)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (CROSS)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (CROSS)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
-  <programme start="20260623180000 +0000" stop="20260624000000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
-
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 11.0km/h WNW (CROSS)
-💨 Gusts: 20.0km/h
-🌊 Wind waves: 0.1m</desc>
-    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
-  </programme>
   <programme start="20260624000000 +0000" stop="20260624060000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
+    <title lang="en">🌊 0.9m @ 8s CROSS</title>
+    <desc lang="en">0.9m swell (AI error)
 
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 3.0km/h SSW (CROSS)
-💨 Gusts: 9.0km/h
+🌊 Swell: 0.9m @ 8s
+💨 Wind: 2.0km/h SSW (CROSS)
+💨 Gusts: 8.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260624000000 +0000" stop="20260624060000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.7m @ 8s CROSS</title>
-    <desc lang="en">0.7m swell (AI error)
+    <title lang="en">🌊 0.9m @ 8s CROSS</title>
+    <desc lang="en">0.9m swell (AI error)
 
-🌊 Swell: 0.7m @ 8s
-💨 Wind: 3.0km/h SSW (CROSS)
-💨 Gusts: 9.0km/h
+🌊 Swell: 0.9m @ 8s
+💨 Wind: 2.0km/h SSW (CROSS)
+💨 Gusts: 8.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
@@ -553,8 +73,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (ONSHORE)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (ONSHORE)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
@@ -563,8 +83,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (ONSHORE)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (ONSHORE)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
@@ -573,8 +93,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
@@ -583,8 +103,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
@@ -593,8 +113,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
@@ -603,8 +123,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
@@ -613,8 +133,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
@@ -623,8 +143,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (OFFSHORE)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
@@ -633,8 +153,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (OFFSHORE)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
@@ -643,8 +163,8 @@
     <desc lang="en">0.7m swell (AI error)
 
 🌊 Swell: 0.7m @ 8s
-💨 Wind: 7.0km/h SSW (OFFSHORE)
-💨 Gusts: 12.0km/h
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
@@ -653,8 +173,8 @@
     <desc lang="en">0.6m swell (AI error)
 
 🌊 Swell: 0.6m @ 8s
-💨 Wind: 4.0km/h S (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 3.0km/h S (CROSS)
+💨 Gusts: 9.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
@@ -663,8 +183,8 @@
     <desc lang="en">0.6m swell (AI error)
 
 🌊 Swell: 0.6m @ 8s
-💨 Wind: 4.0km/h S (CROSS)
-💨 Gusts: 12.0km/h
+💨 Wind: 3.0km/h S (CROSS)
+💨 Gusts: 9.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
@@ -674,7 +194,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (ONSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
@@ -684,7 +204,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (ONSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
@@ -694,7 +214,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (CROSS)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
@@ -704,7 +224,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (CROSS)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
@@ -714,7 +234,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (CROSS)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
@@ -724,7 +244,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (OFFSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
@@ -734,7 +254,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (OFFSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
@@ -744,7 +264,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (OFFSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
@@ -754,7 +274,7 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (OFFSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
@@ -764,28 +284,28 @@
 
 🌊 Swell: 0.6m @ 8s
 💨 Wind: 6.0km/h S (OFFSHORE)
-💨 Gusts: 11.0km/h
+💨 Gusts: 10.0km/h
 🌊 Wind waves: 0.0m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.5m @ 8s ONSHORE</title>
-    <desc lang="en">0.5m swell (AI error)
+    <title lang="en">🌊 0.6m @ 8s CROSS</title>
+    <desc lang="en">0.6m swell (AI error)
 
-🌊 Swell: 0.5m @ 8s
-💨 Wind: 12.0km/h SW (ONSHORE)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m</desc>
+🌊 Swell: 0.6m @ 8s
+💨 Wind: 12.0km/h SW (CROSS)
+💨 Gusts: 26.0km/h
+🌊 Wind waves: 0.2m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.5m @ 8s ONSHORE</title>
-    <desc lang="en">0.5m swell (AI error)
+    <title lang="en">🌊 0.6m @ 8s CROSS</title>
+    <desc lang="en">0.6m swell (AI error)
 
-🌊 Swell: 0.5m @ 8s
-💨 Wind: 12.0km/h SW (ONSHORE)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m</desc>
+🌊 Swell: 0.6m @ 8s
+💨 Wind: 12.0km/h SW (CROSS)
+💨 Gusts: 26.0km/h
+🌊 Wind waves: 0.2m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="supertubos-surfline">
@@ -793,9 +313,9 @@
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (ONSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (ONSHORE)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="supertubos-meo">
@@ -803,29 +323,29 @@
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (ONSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (ONSHORE)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="molheleste-surfline">
-    <title lang="en">🌊 0.5m @ 8s CROSS</title>
+    <title lang="en">🌊 0.5m @ 8s ONSHORE</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (ONSHORE)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="molheleste-meo">
-    <title lang="en">🌊 0.5m @ 8s CROSS</title>
+    <title lang="en">🌊 0.5m @ 8s ONSHORE</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (ONSHORE)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="baia-meo">
@@ -833,9 +353,9 @@
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="cantinho-surfline">
@@ -843,9 +363,9 @@
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="cantinho-meo">
@@ -853,183 +373,751 @@
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (CROSS)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 0.5m @ 8s OFFSHORE</title>
+    <title lang="en">🌊 0.5m @ 8s CROSS</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (OFFSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 0.5m @ 8s OFFSHORE</title>
+    <title lang="en">🌊 0.5m @ 8s CROSS</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (OFFSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260624120000 +0000" stop="20260624180000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 0.5m @ 8s OFFSHORE</title>
+    <title lang="en">🌊 0.5m @ 8s CROSS</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 8s
-💨 Wind: 14.0km/h SW (OFFSHORE)
-💨 Gusts: 24.0km/h
-🌊 Wind waves: 0.2m</desc>
+💨 Wind: 11.0km/h SW (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
   <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="ericeira-surfline">
-    <title lang="en">🌊 0.5m @ 7s ONSHORE</title>
+    <title lang="en">🌊 0.5m @ 8s ONSHORE</title>
     <desc lang="en">0.5m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 13.0km/h WSW (ONSHORE)
-💨 Gusts: 32.0km/h
-🌊 Wind waves: 0.1m
-
-📋 Short period - weaker waves</desc>
+🌊 Swell: 0.5m @ 8s
+💨 Wind: 16.0km/h WSW (ONSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.2m</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
   <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="ericeira-meo">
-    <title lang="en">🌊 0.5m @ 7s ONSHORE</title>
+    <title lang="en">🌊 0.5m @ 8s ONSHORE</title>
+    <desc lang="en">0.5m swell (AI error)
+
+🌊 Swell: 0.5m @ 8s
+💨 Wind: 16.0km/h WSW (ONSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.2m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="supertubos-surfline">
+    <title lang="en">😴 0.4m @ 8s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (ONSHORE)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="supertubos-meo">
+    <title lang="en">😴 0.4m @ 8s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (ONSHORE)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="molheleste-surfline">
+    <title lang="en">😴 0.4m @ 8s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (ONSHORE)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="molheleste-meo">
+    <title lang="en">😴 0.4m @ 8s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (ONSHORE)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="baia-meo">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (CROSS)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="cantinho-surfline">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (CROSS)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="cantinho-meo">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (CROSS)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="baleal-surfline">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (CROSS)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="lagide-surfline">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (CROSS)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="lagide-meo">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 15.0km/h WSW (CROSS)
+💨 Gusts: 34.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="ericeira-surfline">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 5.0km/h SSW (CROSS)
+💨 Gusts: 14.0km/h
+🌊 Wind waves: 0.0m
+
+📋 Short period - weaker waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="ericeira-meo">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 5.0km/h SSW (CROSS)
+💨 Gusts: 14.0km/h
+🌊 Wind waves: 0.0m
+
+📋 Short period - weaker waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="supertubos-surfline">
+    <title lang="en">😴 0.4m @ 8s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (ONSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="supertubos-meo">
+    <title lang="en">😴 0.4m @ 8s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (ONSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="molheleste-surfline">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="molheleste-meo">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="baia-meo">
+    <title lang="en">😴 0.4m @ 8s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (CROSS)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="cantinho-surfline">
+    <title lang="en">😴 0.4m @ 8s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="cantinho-meo">
+    <title lang="en">😴 0.4m @ 8s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="baleal-surfline">
+    <title lang="en">😴 0.4m @ 8s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="lagide-surfline">
+    <title lang="en">😴 0.4m @ 8s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625000000 +0000" stop="20260625060000 +0000" channel="lagide-meo">
+    <title lang="en">😴 0.4m @ 8s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 8s
+💨 Wind: 6.0km/h SSW (OFFSHORE)
+💨 Gusts: 10.0km/h
+🌊 Wind waves: 0.1m
+
+📋 Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="ericeira-surfline">
+    <title lang="en">🌊 0.5m @ 7s CROSS</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 7s
-💨 Wind: 13.0km/h WSW (ONSHORE)
-💨 Gusts: 32.0km/h
-🌊 Wind waves: 0.1m
+💨 Wind: 7.0km/h SSE (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m
 
 📋 Short period - weaker waves</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="supertubos-surfline">
-    <title lang="en">🌊 0.5m @ 7s ONSHORE</title>
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="ericeira-meo">
+    <title lang="en">🌊 0.5m @ 7s CROSS</title>
     <desc lang="en">0.5m swell (AI error)
 
 🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (ONSHORE)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+💨 Wind: 7.0km/h SSE (CROSS)
+💨 Gusts: 19.0km/h
+🌊 Wind waves: 0.3m
 
 📋 Short period - weaker waves</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="supertubos-surfline">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (CROSS)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
+
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="supertubos-meo">
-    <title lang="en">🌊 0.5m @ 7s ONSHORE</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="supertubos-meo">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (ONSHORE)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (CROSS)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="molheleste-surfline">
-    <title lang="en">🌊 0.5m @ 7s ONSHORE</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="molheleste-surfline">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (ONSHORE)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (CROSS)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="molheleste-meo">
-    <title lang="en">🌊 0.5m @ 7s ONSHORE</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="molheleste-meo">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (ONSHORE)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (CROSS)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="baia-meo">
-    <title lang="en">🌊 0.5m @ 7s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="baia-meo">
+    <title lang="en">😴 0.4m @ 7s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (CROSS)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (OFFSHORE)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="cantinho-surfline">
-    <title lang="en">🌊 0.5m @ 7s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="cantinho-surfline">
+    <title lang="en">😴 0.4m @ 7s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (CROSS)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (OFFSHORE)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="cantinho-meo">
-    <title lang="en">🌊 0.5m @ 7s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="cantinho-meo">
+    <title lang="en">😴 0.4m @ 7s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (CROSS)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (OFFSHORE)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="baleal-surfline">
-    <title lang="en">🌊 0.5m @ 7s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="baleal-surfline">
+    <title lang="en">😴 0.4m @ 7s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (CROSS)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (OFFSHORE)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="lagide-surfline">
-    <title lang="en">🌊 0.5m @ 7s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="lagide-surfline">
+    <title lang="en">😴 0.4m @ 7s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (CROSS)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (OFFSHORE)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
-  <programme start="20260624180000 +0000" stop="20260625000000 +0000" channel="lagide-meo">
-    <title lang="en">🌊 0.5m @ 7s CROSS</title>
-    <desc lang="en">0.5m swell (AI error)
+  <programme start="20260625060000 +0000" stop="20260625120000 +0000" channel="lagide-meo">
+    <title lang="en">😴 0.4m @ 7s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
 
-🌊 Swell: 0.5m @ 7s
-💨 Wind: 14.0km/h WSW (CROSS)
-💨 Gusts: 27.0km/h
-🌊 Wind waves: 0.1m
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 10.0km/h SSE (OFFSHORE)
+💨 Gusts: 17.0km/h
+🌊 Wind waves: 0.2m
 
-📋 Short period - weaker waves</desc>
+📋 Short period - weaker waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="ericeira-surfline">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 20.0km/h SSW (CROSS)
+💨 Gusts: 42.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Short period - weaker waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="ericeira-meo">
+    <title lang="en">😴 0.4m @ 7s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 7s
+💨 Wind: 20.0km/h SSW (CROSS)
+💨 Gusts: 42.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Short period - weaker waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="supertubos-surfline">
+    <title lang="en">😴 0.4m @ 18s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (ONSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Onshore wind making it messy • Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="supertubos-meo">
+    <title lang="en">😴 0.4m @ 18s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (ONSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Onshore wind making it messy • Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="molheleste-surfline">
+    <title lang="en">😴 0.4m @ 18s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="molheleste-meo">
+    <title lang="en">😴 0.4m @ 18s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="baia-meo">
+    <title lang="en">😴 0.4m @ 18s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="cantinho-surfline">
+    <title lang="en">😴 0.4m @ 18s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="cantinho-meo">
+    <title lang="en">😴 0.4m @ 18s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (CROSS)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="baleal-surfline">
+    <title lang="en">😴 0.4m @ 18s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="lagide-surfline">
+    <title lang="en">😴 0.4m @ 18s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625120000 +0000" stop="20260625180000 +0000" channel="lagide-meo">
+    <title lang="en">😴 0.4m @ 18s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 18s
+💨 Wind: 21.0km/h SSW (OFFSHORE)
+💨 Gusts: 36.0km/h
+🌊 Wind waves: 0.6m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="ericeira-surfline">
+    <title lang="en">🌊 0.6m @ 11s CROSS</title>
+    <desc lang="en">0.6m swell (AI error)
+
+🌊 Swell: 0.6m @ 11s
+💨 Wind: 22.0km/h SW (CROSS)
+💨 Gusts: 50.0km/h
+🌊 Wind waves: 0.5m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="ericeira-meo">
+    <title lang="en">🌊 0.6m @ 11s CROSS</title>
+    <desc lang="en">0.6m swell (AI error)
+
+🌊 Swell: 0.6m @ 11s
+💨 Wind: 22.0km/h SW (CROSS)
+💨 Gusts: 50.0km/h
+🌊 Wind waves: 0.5m</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/ericeira_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="supertubos-surfline">
+    <title lang="en">😴 0.4m @ 16s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (ONSHORE)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Onshore wind making it messy • Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="supertubos-meo">
+    <title lang="en">😴 0.4m @ 16s ONSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (ONSHORE)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Onshore wind making it messy • Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/supertubos_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="molheleste-surfline">
+    <title lang="en">😴 0.4m @ 16s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (CROSS)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="molheleste-meo">
+    <title lang="en">😴 0.4m @ 16s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (CROSS)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/molheleste_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="baia-meo">
+    <title lang="en">😴 0.4m @ 16s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (CROSS)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="cantinho-surfline">
+    <title lang="en">😴 0.4m @ 16s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (CROSS)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="cantinho-meo">
+    <title lang="en">😴 0.4m @ 16s CROSS</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (CROSS)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/cantinho_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="baleal-surfline">
+    <title lang="en">😴 0.4m @ 16s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (OFFSHORE)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/baleal_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="lagide-surfline">
+    <title lang="en">😴 0.4m @ 16s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (OFFSHORE)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
+    <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
+  </programme>
+  <programme start="20260625180000 +0000" stop="20260626000000 +0000" channel="lagide-meo">
+    <title lang="en">😴 0.4m @ 16s OFFSHORE</title>
+    <desc lang="en">0.4m swell (AI error)
+
+🌊 Swell: 0.4m @ 16s
+💨 Wind: 27.0km/h SSW (OFFSHORE)
+💨 Gusts: 48.0km/h
+🌊 Wind waves: 0.7m
+
+📋 Long period - powerful waves • Essentially flat</desc>
     <icon src="https://raw.githubusercontent.com/OiErU/weather-dashboard/main/posters/lagide_poster.jpg" />
   </programme>
 </tv>
